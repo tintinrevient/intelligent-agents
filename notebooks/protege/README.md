@@ -2,7 +2,7 @@
 
 ### Ontologies:
 
-* **Classes**: Abstract sets of objects, and it comes into classes and sub-classes. (Sub-lass/Class are of 'isPartOf' relation?)
+* **Classes**: Abstract sets of objects, and it comes into classes and sub-classes. (Sub-class/Class are of 'isPartOf' relation?)
 
 * **Object properties**: Relations between classes based on their instances.
 	* **Domains**: e.g., Who, which comes from **Classes**. 
