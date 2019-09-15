@@ -20,7 +20,29 @@
 
 ![vowl](./pix/vowl.png)
 
+### DL Query
+
+Class query:
+```
+Student and studies some Module
+```
+
+Query results:
+```
+Student_1
+```
+
+Individual query:
+```
+first_name value "Shu"
+```
+
+Query results:
+```
+Student_1
+```
 
 ### References
 
 * https://medium.com/@vindulajayawardana/ontology-generation-and-visualization-with-prot%C3%A9g%C3%A9-6df0af9955e0
+* https://protegewiki.stanford.edu/wiki/DLQueryTab
