@@ -22,7 +22,7 @@
 
 ### DL Query
 
-Class query:
+**Class query**:
 ```
 Student and studies some Module
 ```
@@ -32,7 +32,7 @@ Query results:
 Student_1
 ```
 
-Individual query:
+**Individual query**:
 ```
 first_name value "Shu"
 ```
