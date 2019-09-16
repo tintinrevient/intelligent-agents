@@ -5,7 +5,7 @@
 ![infrastructure](./pix/infrastructure.png)
 
 * **DF** (Directory Facilitator): Agent service registration
-* **AMS** (Agent Management Service): Agent registration
+* **AMS** (Agent Management System): Agent registration, incl. agents' lifecycle and AID (Agent Identifier)
 * **GADT** (Global Agent Descriptor Table): Agent registration, incl. agents' status and location
 * **LADT** (Local Agent Descriptor Table)
 * **CT** (Container Table): Container registration, incl. containers' object reference and transport address
