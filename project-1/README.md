@@ -11,7 +11,7 @@ Step 1: Download https://jade.tilab.com/dl.php?file=JADE-bin-4.5.0.zip and extra
 $ jar xvf /path/to/JADE-bin-4.5.0.zip
 ```
 
-Step 2: Create Java project in IntelliJ and click 'File > Project Structure > Libraries' to add jade.java in the classpath:
+Step 2: Create Java project in IntelliJ and click 'File > Project Structure > Libraries' to add jade.jar in the classpath:
 ![libraries](./pix/libraries.png)
 
 Step 3: Click 'Run > Edit Configurations... > Application' and add a new Java application configuration:
