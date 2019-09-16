@@ -23,6 +23,8 @@ It has a close resemblance to MicroService architecture:
 
 ### Tool
 
+The class diagram of JADE tools is as below:
+
 ![class-diagram](./pix/class-diagram.png)
 
 
