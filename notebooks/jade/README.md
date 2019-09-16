@@ -4,6 +4,8 @@
 
 #### Architecture
 
+![infrastructure](./pix/infrastructure.png)
+
 * **DF** (Directory Facilitator): Agent service registration
 * **AMS** (Agent Management Service): Agent registration
 * **GADT** (Global Agent Descriptor Table): Agent registration, incl. agents' status and location
@@ -16,8 +18,6 @@ It has a close resemblance to MicroService architecture:
 * Main Container <-> Eureka Server
 * Container <-> Docker
 * Asynchronous Message-Based Communication <-> RabbitMQ
-
-![infrastructure](./pix/infrastructure.png)
 
 #### Container
 
