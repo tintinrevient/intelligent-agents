@@ -1,8 +1,6 @@
 ## JADE
 
-### Infrastructure
-
-#### Architecture
+### Architecture
 
 ![infrastructure](./pix/infrastructure.png)
 
@@ -19,10 +17,12 @@ It has a close resemblance to MicroService architecture:
 * Container <-> Docker
 * Asynchronous Message-Based Communication <-> RabbitMQ
 
-#### Container
+### Container
 
 ![infrastructure](./pix/container.png)
 
 
 ### References
+
+* https://jade.tilab.com/
 
