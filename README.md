@@ -12,7 +12,7 @@
 ![comparison](./pix/comparison.png)
 
 ### Agent-Oriented MicroService
-![event-driven-architecture](./pix/event-driven-architecture.png)
+![event-driven-architecture](./pix/event-driven-architecture.jpeg)
 
 ### References
 * https://dzone.com/articles/the-potential-of-agent-architectures
