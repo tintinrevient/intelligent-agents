@@ -1,6 +1,6 @@
 ## Assignment 1
 
-1. Given the following classes “person”, “parent”, “happyPerson”, “marriedPerson”, “malePerson” and the relation “hasChild”. Represent the following in DL:
+### 1. Given the following classes “person”, “parent”, “happyPerson”, “marriedPerson”, “malePerson” and the relation “hasChild”. Represent the following in DL:
 
 * Father **->** parent ⊓ malePerson
 
@@ -17,7 +17,7 @@
 * Charlie is a married man **->** Charlie: (marriedPerson ⊓ malePerson)
 
 
-2. The following ontology has been defined in DL:
+### 2. The following ontology has been defined in DL:
 
 * instructor ≡ person ⊓ ∃teaches.(course ⊔ lab)
 * projectCourse ≡ course ⊓ lab
@@ -45,7 +45,7 @@ simulation is a lab, because:
 	* simulation is a course, and simulation is a lab
 
 
-3. Add the following fact to the above ontology: Mary is a person who teaches the programming course. Again apply the tableaux algorithm to answer the following:
+### 3. Add the following fact to the above ontology: Mary is a person who teaches the programming course. Again apply the tableaux algorithm to answer the following:
 
 * Is Mary an instructor?
 * Is programming a project course?
