@@ -108,10 +108,13 @@
 	The answer is as below:
 	
 	* Mary: ¬instructor
+	* Mary: person
+	* (Mary, programming): teaches
+	* programming: course
 	* Mary: ¬(person ⊓ ∃teaches.(course ⊔ lab))
-	* Mary: ¬person ⊔ ∀teaches.(¬course ⊓ ¬labe)
+	* Mary: ¬person ⊔ ∀teaches.(¬course ⊓ ¬lab)
 		* Mary: ¬person -> Mary: person (CLASH)
-		* Mary: ∀teaches.(¬course ⊓ ¬lab) -> (Mary, a): teaches, a: ¬course ⊓ ¬lab (CLASH)
+		* Mary: ∀teaches.(¬course ⊓ ¬lab) -> (Mary, a): teaches, a: ¬course ⊓ ¬lab -> (Mary, programming): teaches -> (Mary, a): teaches, a: course (CLASH)
 	
 
 * #### Is programming a project course?
