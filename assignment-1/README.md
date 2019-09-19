@@ -4,7 +4,7 @@
 
 * Father ≡ parent ⊓ malePerson
 
-* Strange people are parents who have only married or happy kids ≡ parent ⊓ ∀hasChild.(marriedPerson ⊔ happyPerson)
+* Strange people are parents who have only married or happy kids ⊑ parent ⊓ ∀hasChild.(marriedPerson ⊔ happyPerson)
 
 * Retired people are happy people who have at least one happy married child ⊑ happyPerson ⊓ ∃hasChild.(marriedPerson ⊓ happyPerson)
 
