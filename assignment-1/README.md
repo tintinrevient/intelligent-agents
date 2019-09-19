@@ -35,17 +35,14 @@
 	
 	The inference is as below:
 		
-	* john is busyInstructor
-	* john is instructor
-	* john is person
-	* john teaches projectCourse
-	* john teaches course ⊓ lab
-	* john teaches course ⊔ lab
-	* simulation is projectCourse
-	* simulation is course ⊓ lab
-	* (john, a): teaches, a: (course ⊔ lab)
-		* (john, a): teaches, a: course -> a: lab, a: course, a: projectCourse
-		* (john, a): teaches, a: lab -> a: lab, a: course, a: projectCourse
+	* john: busyInstructor -> john: instructor -> john: ∀teaches.projectCourse
+	* john: instructor -> john: person -> john: ∃teaches.(course ⊔ lab)
+	* john: ∀teaches.projectCourse -> (john, a): teaches, a: projectCourse -> (john, a): teaches, a: course ⊓ lab
+	* john: ∃teaches.(course ⊔ lab) ->
+		* (john, a): teaches, a: course (NOT CLASH)
+		* (john, a): teaches, a: lab (NOT CLASH)
+	* simulation: projectCourse -> simulation: course ⊓ lab
+	
 
 * #### Does John teach simulation?
 
