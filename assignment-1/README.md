@@ -12,7 +12,7 @@
 
 * Married men do not have children **->** (marriedPerson ⊓ malePerson) ⊓ ∀hasChild.⊥
 
-* Michael is a father with children named Alice and Bob **->** Michael: (parent ⊓ malePerson), hasChild.{Alice, Bob}
+* Michael is a father with children named Alice and Bob **->** Michael: (parent ⊓ malePerson), hasChild(Michael, {Alice, Bob})
 
 * Charlie is a married man **->** Charlie: (marriedPerson ⊓ malePerson)
 
@@ -49,8 +49,27 @@
 
 ### 3. Add the following fact to the above ontology: Mary is a person who teaches the programming course. Again apply the tableaux algorithm to answer the following:
 
-* Is Mary an instructor?
-* Is programming a project course?
-* Is Mary a busy instructor?
+* #### Is Mary an instructor?
+
+	The prerequisite is as below:
+
+	* A = {Mary: person, teaches(Mary, programming course)}
+	* Q = {Mary: instructor}?
+
+	The inference is as below:
+
+	* Mary: person
+	* teaches(Mary, programming course)
+	* Mary: ¬instructor
+	* programming course: course
+	* teaches(Mary, course)
+	* Mary: instructor
+
+	There is a CLASH, so Mary is an instructor.
+
+
+
+* #### Is programming a project course?
+* #### Is Mary a busy instructor?
 
 
