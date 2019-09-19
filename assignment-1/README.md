@@ -12,7 +12,7 @@
 
 * Married men do not have children ⊑ marriedPerson ⊓ malePerson ⊓ ∃hasChild.person ⊑ ⊥
 
-* Michael is a father with children named Alice and Bob ≡ Michael: (parent ⊓ malePerson), hasChild(Michael, {Alice, Bob})
+* Michael is a father with children named Alice and Bob -> Michael: (parent ⊓ malePerson), (Michael, Alice): hasChild, (Michael, Bob): hasChild
 
 * Charlie is a married man ≡ Charlie: (marriedPerson ⊓ malePerson)
 
@@ -104,3 +104,6 @@
 	There is no CLASH, and it cannot be deduced that Mary is busyInstructor or programming course is a lab, so I cannot say programming course is a projectCourse.
 
 
+### Reference
+
+* https://en.wikipedia.org/wiki/Description_logic
