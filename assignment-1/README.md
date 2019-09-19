@@ -31,7 +31,9 @@
 
 	It is consistent.
 	
-	The inference is as below (CLUE: to expand all inferences):
+	The inference is as below:
+	
+	**CLUE: expand all inferences**
 	
 	* john is busyInstructor
 	* john is instructor
@@ -47,7 +49,9 @@
 
 * #### Does John teach simulation?
 
-	I cannot say it from the defined DL, because (CLUE: negation of the query -> (john, simulation): ¬teaches -> find CLASH -> "john teaches simulation" is TRUE):
+	I cannot say it from the defined DL, because:
+	
+	**CLUE: negation of the query -> (john, simulation): ¬teaches -> find CLASH -> "john teaches simulation" is TRUE**
 
 	* busyInstructor teaches only projectCourse -> john is busyInstructor -> john teaches projectCourse
 	* simulation is just one of projectCourse -> john might teach other projectCourse, but not simulation
@@ -80,24 +84,42 @@
 	* Mary: instructor
 
 	There is a CLASH, so Mary is an instructor.
+	
+	The answer is as below:
+	
+	* Mary: ¬instructor
+	* Mary: ¬(person ⊓ ∃teaches.(course ⊔ lab))
+	* Mary: ¬person ⊔ ∀teaches.(¬course ⊓ ¬labe)
+		* Mary: ¬person -> Mary: person (CLASH)
+		* Mary: ∀teaches.(¬course ⊓ ¬lab) -> (Mary, a): teaches, a: ¬course ⊓ ¬lab (CLASH)
+	
 
 * #### Is programming a project course?
 
 	The prerequisite is as below:
 
-	* A = {Mary: person, teaches(Mary, programming course)}
-	* Q = {programming course: projectCourse}?
+	* A = {Mary: person, (Mary, programming): teaches}
+	* Q = {programming: projectCourse}?
 
 	The inference is as below:
 
 	* Mary: person
-	* teaches(Mary, programming course)
-	* programming course: ¬projectCourse
-	* programming course: course
-	* teaches(Mary, course)
+	* (Mary, programming): teaches
+	* programming: ¬projectCourse
+	* programming: course
+	* (Mary, course): teaches
 	* Mary: instructor
 
 	There is no CLASH, and it cannot be deduced that Mary is busyInstructor or programming course is a lab, so I cannot say programming course is a projectCourse.
+	
+	The answer is as below:
+	
+	* programming: ¬projectCourse
+	* programming: ¬(course ⊓ lab)
+	* programming: ¬course ⊔ ¬lab
+		* programming: ¬course -> programming: course (CLASH)
+		* programming: ¬lab (NO CLASH)
+	
 
 * #### Is Mary a busy instructor?
 
@@ -116,6 +138,14 @@
 	* Mary: instructor
 
 	There is no CLASH, and it cannot be deduced that Mary is busyInstructor or programming course is a lab, so I cannot say programming course is a projectCourse.
+	
+	The answer is as below:
+	
+	* Mary: ¬busyInstructor
+	* Mary: ¬(instructor ⊓ ∀teaches.projectCourse)
+	* Mary: ¬instructor ⊔ ∃teaches.¬projectCourse
+		* Mary: ¬instructor -> Mary: instructor (CLASH)
+		* Mary: ∃teaches.¬projectCourse -> (Mary, programming): teaches -> programming: course (NO CLASH)
 
 
 ### Reference
