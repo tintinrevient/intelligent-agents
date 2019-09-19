@@ -8,9 +8,9 @@
 
 * Retired people are happy people who have at least one happy married child ⊑ happyPerson ⊓ ∃hasChild.(marriedPerson ⊓ happyPerson)
 
-* Brave parents are parents with exactly two children ≡ parent ⊓ 2 hasChild.person
+* Brave parents are parents with exactly two children ⊑ parent ⊓ ≤2 hasChild.person ⊓ ≥2 hasChild.person
 
-* Married men do not have children ≡ (marriedPerson ⊓ malePerson) ⊓ ∀hasChild.⊥
+* Married men do not have children ⊑ marriedPerson ⊓ malePerson ⊓ ∃hasChild.person ⊑ ⊥
 
 * Michael is a father with children named Alice and Bob ≡ Michael: (parent ⊓ malePerson), hasChild(Michael, {Alice, Bob})
 
