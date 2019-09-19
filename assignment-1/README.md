@@ -25,7 +25,7 @@
 * john: busyInstructor
 * simulation: projectCourse
 
- 	#### Apply the tableaux algorithm to answer the following and show your steps:
+ #### Apply the tableaux algorithm to answer the following and show your steps:
 
 * ##### Is this ontology consistent? If not, what has to change to make it consistent?
 
