@@ -2,19 +2,19 @@
 
 ### 1. Given the following classes “person”, “parent”, “happyPerson”, “marriedPerson”, “malePerson” and the relation “hasChild”. Represent the following in DL:
 
-* Father **->** parent ⊓ malePerson
+* Father ≡ parent ⊓ malePerson
 
-* Strange people are parents who have only married or happy kids **->** parent ⊓ (∀hasChild.marriedPerson ⊔ ∀hasChild.happyPerson)
+* Strange people are parents who have only married or happy kids ≡ parent ⊓ (∀hasChild.marriedPerson ⊔ ∀hasChild.happyPerson)
 
-* Retired people are happy people who have at least one happy married child **->** happyPerson ⊓ ∃hasChild.(marriedPerson ⊓ happyPerson)
+* Retired people are happy people who have at least one happy married child ≡ happyPerson ⊓ ∃hasChild.(marriedPerson ⊓ happyPerson)
 
-* Brave parents are parents with exactly two children **->** parent ⊓ 2 hasChild.person
+* Brave parents are parents with exactly two children ≡ parent ⊓ 2 hasChild.person
 
-* Married men do not have children **->** (marriedPerson ⊓ malePerson) ⊓ ∀hasChild.⊥
+* Married men do not have children ≡ (marriedPerson ⊓ malePerson) ⊓ ∀hasChild.⊥
 
-* Michael is a father with children named Alice and Bob **->** Michael: (parent ⊓ malePerson), hasChild(Michael, {Alice, Bob})
+* Michael is a father with children named Alice and Bob ≡ Michael: (parent ⊓ malePerson), hasChild(Michael, {Alice, Bob})
 
-* Charlie is a married man **->** Charlie: (marriedPerson ⊓ malePerson)
+* Charlie is a married man ≡ Charlie: (marriedPerson ⊓ malePerson)
 
 
 ### 2. The following ontology has been defined in DL:
