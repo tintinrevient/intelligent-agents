@@ -43,9 +43,9 @@
 	* john teaches course ⊔ lab
 	* simulation is projectCourse
 	* simulation is course ⊓ lab
-	* (john, a): teaches, a: course ⊔ lab
-	* a: course -> a: lab, a: course, a: projectCourse
-	* a: lab -> a: lab, a: course, a: projectCourse
+	* (john, a): teaches, a: (course ⊔ lab)
+		* (john, a): teaches, a: course -> a: lab, a: course, a: projectCourse
+		* (john, a): teaches, a: lab -> a: lab, a: course, a: projectCourse
 
 * #### Does John teach simulation?
 
