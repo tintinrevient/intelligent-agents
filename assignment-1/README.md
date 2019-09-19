@@ -47,7 +47,7 @@
 
 * #### Does John teach simulation?
 
-	I cannot say it from the defined DL, because:
+	I cannot say it from the defined DL, because (CLUE: negation of the query -> (john, simulation): ¬teaches -> find CLASH -> "john teaches simulation" is TRUE):
 
 	* busyInstructor teaches only projectCourse -> john is busyInstructor -> john teaches projectCourse
 	* simulation is just one of projectCourse -> john might teach other projectCourse, but not simulation
