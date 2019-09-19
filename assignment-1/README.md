@@ -14,7 +14,7 @@
 
 * Michael is a father with children named Alice and Bob -> Michael: (parent ⊓ malePerson), (Michael, Alice): hasChild, (Michael, Bob): hasChild
 
-* Charlie is a married man ≡ Charlie: (marriedPerson ⊓ malePerson)
+* Charlie is a married man -> Charlie: (marriedPerson ⊓ malePerson)
 
 
 ### 2. The following ontology has been defined in DL:
