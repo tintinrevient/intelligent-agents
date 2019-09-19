@@ -30,6 +30,20 @@
 * #### Is this ontology consistent? If not, what has to change to make it consistent?
 
 	It is consistent.
+	
+	The inference is as below (CLUE: to expand all inferences):
+	
+	* john is busyInstructor
+	* john is instructor
+	* john is person
+	* john teaches projectCourse
+	* john teaches course ⊓ lab
+	* john teaches course ⊔ lab
+	* simulation is projectCourse
+	* simulation is course ⊓ lab
+	* (john, a): teaches, a: course ⊔ lab
+	* a: course -> a: lab, a: course, a: projectCourse
+	* a: lab -> a: lab, a: course, a: projectCourse
 
 * #### Does John teach simulation?
 
