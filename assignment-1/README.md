@@ -67,9 +67,40 @@
 
 	There is a CLASH, so Mary is an instructor.
 
-
-
 * #### Is programming a project course?
+
+	The prerequisite is as below:
+
+	* A = {Mary: person, teaches(Mary, programming course)}
+	* Q = {programming course: projectCourse}?
+
+	The inference is as below:
+
+	* Mary: person
+	* teaches(Mary, programming course)
+	* programming course: ¬projectCourse
+	* programming course: course
+	* teaches(Mary, course)
+	* Mary: instructor
+
+	There is no CLASH, and it cannot be deduced that Mary is busyInstructor or programming course is a lab, so I cannot say programming course is a projectCourse.
+
 * #### Is Mary a busy instructor?
+
+	The prerequisite is as below:
+
+	* A = {Mary: person, teaches(Mary, programming course)}
+	* Q = {Mary: busyInstructor}?
+
+	The inference is as below:
+
+	* Mary: person
+	* teaches(Mary, programming course)
+	* Mary: ¬busyInstructor
+	* programming course: course
+	* teaches(Mary, course)
+	* Mary: instructor
+
+	There is no CLASH, and it cannot be deduced that Mary is busyInstructor or programming course is a lab, so I cannot say programming course is a projectCourse.
 
 
