@@ -1,6 +1,6 @@
 ## Assignment 1
 
-#### 1. Given the following classes “person”, “parent”, “happyPerson”, “marriedPerson”, “malePerson” and the relation “hasChild”. Represent the following in DL:
+### 1. Given the following classes “person”, “parent”, “happyPerson”, “marriedPerson”, “malePerson” and the relation “hasChild”. Represent the following in DL:
 
 * Father ≡ parent ⊓ malePerson
 
@@ -17,7 +17,7 @@
 * Charlie is a married man -> Charlie: (marriedPerson ⊓ malePerson)
 
 
-#### 2. The following ontology has been defined in DL:
+### 2. The following ontology has been defined in DL:
 
 * instructor ≡ person ⊓ ∃teaches.(course ⊔ lab)
 * projectCourse ≡ course ⊓ lab
@@ -25,7 +25,7 @@
 * john: busyInstructor
 * simulation: projectCourse
 
-#### Apply the tableaux algorithm to answer the following and show your steps:
+### Apply the tableaux algorithm to answer the following and show your steps:
 
 * #### Is this ontology consistent? If not, what has to change to make it consistent?
 
@@ -85,7 +85,7 @@
 	* simulation: lab (CLASH)
 
 
-#### 3. Add the following fact to the above ontology: Mary is a person who teaches the programming course. Again apply the tableaux algorithm to answer the following:
+### 3. Add the following fact to the above ontology: Mary is a person who teaches the programming course. Again apply the tableaux algorithm to answer the following:
 
 * #### Is Mary an instructor?
 
@@ -170,7 +170,7 @@
 			* Mary: ∃teaches.¬lab (NO CLASH)
 
 
-#### Reference
+### Reference
 
 * **Transformation rules**
 * https://en.wikipedia.org/wiki/Negation_normal_form
