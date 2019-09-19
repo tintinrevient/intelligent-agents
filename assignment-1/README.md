@@ -67,16 +67,16 @@
 
 	The prerequisite is as below:
 
-	* A = {Mary: person, teaches(Mary, programming course)}
+	* A = {Mary: person, (Mary, programming): teaches, programming: course}
 	* Q = {Mary: instructor}?
 
 	The inference is as below:
 
 	* Mary: person
-	* teaches(Mary, programming course)
+	* (Mary, programming): teaches
 	* Mary: ¬instructor
-	* programming course: course
-	* teaches(Mary, course)
+	* programming: course
+	* (Mary, course): teaches
 	* Mary: instructor
 
 	There is a CLASH, so Mary is an instructor.
