@@ -25,9 +25,9 @@
 * john: busyInstructor
 * simulation: projectCourse
 
- #### Apply the tableaux algorithm to answer the following and show your steps:
+#### Apply the tableaux algorithm to answer the following and show your steps:
 
-* ##### Is this ontology consistent? If not, what has to change to make it consistent?
+* #### Is this ontology consistent? If not, what has to change to make it consistent?
 
 	**CLUE: expand all inferences**
 
@@ -44,7 +44,7 @@
 	* simulation: projectCourse -> simulation: course ⊓ lab
 	
 
-* ##### Does John teach simulation?
+* #### Does John teach simulation?
 
 	**CLUE: negation of the query -> (john, simulation): ¬teaches -> find CLASH -> "john teaches simulation" is TRUE**
 
@@ -68,7 +68,7 @@
 	* simulation: lab, simulation: course
 	* (john, a): teaches, a: lab, a: course (NO CLASH)
 
-* ##### Is simuation a lab?
+* #### Is simuation a lab?
 
 	simulation is a lab, because:
 
@@ -87,7 +87,7 @@
 
 #### 3. Add the following fact to the above ontology: Mary is a person who teaches the programming course. Again apply the tableaux algorithm to answer the following:
 
-* ##### Is Mary an instructor?
+* #### Is Mary an instructor?
 
 	The prerequisite is as below:
 
@@ -114,7 +114,7 @@
 		* Mary: ∀teaches.(¬course ⊓ ¬lab) -> (Mary, a): teaches, a: ¬course ⊓ ¬lab (CLASH)
 	
 
-* ##### Is programming a project course?
+* #### Is programming a project course?
 
 	The prerequisite is as below:
 
@@ -141,7 +141,7 @@
 		* programming: ¬lab (NO CLASH)
 	
 
-* ##### Is Mary a busy instructor?
+* #### Is Mary a busy instructor?
 
 	The prerequisite is as below:
 
