@@ -27,18 +27,18 @@
 
  ### Apply the tableaux algorithm to answer the following and show your steps:
 
-* Is this ontology consistent? If not, what has to change to make it consistent?
+* #### Is this ontology consistent? If not, what has to change to make it consistent?
 
 	It is consistent.
 
-* Does John teach simulation?
+* #### Does John teach simulation?
 
 	I cannot say it from the defined DL, because:
 
 	* busyInstructor teaches only projectCourse -> john is busyInstructor -> john teaches projectCourse
 	* simulation is just one of projectCourse -> john might teach other projectCourse, but not simulation
 
-* Is simuation a lab?
+* #### Is simuation a lab?
 
 	simulation is a lab, because:
 
