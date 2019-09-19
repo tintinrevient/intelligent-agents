@@ -2,7 +2,7 @@
 
 1. Given the following classes “person”, “parent”, “happyPerson”, “marriedPerson”, “malePerson” and the relation “hasChild”. Represent the following in DL:
 
-* Father: parent ⊓ malePerson
+* Father -> parent ⊓ malePerson
 * Strange people are parents who have only married or happy kids
 * Retired people are happy people who have at least one happy married child • Brave parents are parents with exactly two children
 * Married men do not have children
