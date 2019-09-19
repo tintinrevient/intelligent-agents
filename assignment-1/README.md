@@ -34,12 +34,14 @@
 * Does John teach simulation?
 
 	I cannot say it from the defined DL, because:
+
 		* busyInstructor teaches only projectCourse -> john is busyInstructor -> john teaches projectCourse
 		* simulation is just one of projectCourse -> john might teach other projectCourse, but not simulation
 
 * Is simuation a lab?
 
 	simulation is a lab, because:
+	
 		* simulation belongs to projectCourse
 		* projectCourse is the intersection of course and lab -> projectCourse is a course, and projectCourse is a lab
 		* simulation is a course, and simulation is a lab
