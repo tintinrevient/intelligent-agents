@@ -131,10 +131,10 @@
 	The inference is as below:
 
 	* Mary: person
-	* teaches(Mary, programming course)
+	* (Mary, programming): teaches
 	* Mary: ¬busyInstructor
-	* programming course: course
-	* teaches(Mary, course)
+	* programming: course
+	* (Mary, course): teaches
 	* Mary: instructor
 
 	There is no CLASH, and it cannot be deduced that Mary is busyInstructor or programming course is a lab, so I cannot say programming course is a projectCourse.
@@ -145,7 +145,9 @@
 	* Mary: ¬(instructor ⊓ ∀teaches.projectCourse)
 	* Mary: ¬instructor ⊔ ∃teaches.¬projectCourse
 		* Mary: ¬instructor -> Mary: instructor (CLASH)
-		* Mary: ∃teaches.¬projectCourse -> (Mary, programming): teaches -> programming: course (NO CLASH)
+		* Mary: ∃teaches.¬projectCourse -> Mary: ∃teaches.¬(course ⊓ lab) -> Mary: ∃teaches.(¬course ⊔ ¬lab)
+			* Mary: ∃teaches.¬course (NO CLASH)
+			* Mary: ∃teaches.¬lab (NO CLASH)
 
 
 ### Reference
