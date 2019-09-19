@@ -153,5 +153,5 @@
 ### Reference
 
 * **Transformation rules**
-* **Negation Normal Form**
+* https://en.wikipedia.org/wiki/Negation_normal_form
 * https://en.wikipedia.org/wiki/Description_logic
