@@ -98,6 +98,7 @@
 
 	* Mary: person
 	* (Mary, programming): teaches
+	* programming: course
 	* Mary: ¬instructor
 	* programming: course
 	* (Mary, course): teaches
@@ -121,13 +122,14 @@
 
 	The prerequisite is as below:
 
-	* A = {Mary: person, (Mary, programming): teaches}
+	* A = {Mary: person, (Mary, programming): teaches, programming: course}
 	* Q = {programming: projectCourse}?
 
 	The inference is as below:
 
 	* Mary: person
 	* (Mary, programming): teaches
+	* programming: course
 	* programming: ¬projectCourse
 	* programming: course
 	* (Mary, course): teaches
@@ -148,13 +150,14 @@
 
 	The prerequisite is as below:
 
-	* A = {Mary: person, teaches(Mary, programming course)}
+	* A = {Mary: person, (Mary, programming): teaches, programming: course}
 	* Q = {Mary: busyInstructor}?
 
 	The inference is as below:
 
 	* Mary: person
 	* (Mary, programming): teaches
+	* programming: course
 	* Mary: ¬busyInstructor
 	* programming: course
 	* (Mary, course): teaches
@@ -164,6 +167,13 @@
 	
 	The answer is as below:
 	
+	* Mary: person
+	* (Mary, programming): teaches
+	* programming: course
+	* Mary: ∃teaches.course
+	* Mary: person ⊓ ∃teaches.course
+	* Mary: instructor
+	* instructor ≡ person ⊓ ∃teaches.(course ⊔ lab)
 	* Mary: ¬busyInstructor
 	* Mary: ¬(instructor ⊓ ∀teaches.projectCourse)
 	* Mary: ¬instructor ⊔ ∃teaches.¬projectCourse
