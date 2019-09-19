@@ -1,4 +1,4 @@
-### Assignment 1
+## Assignment 1
 
 #### 1. Given the following classes “person”, “parent”, “happyPerson”, “marriedPerson”, “malePerson” and the relation “hasChild”. Represent the following in DL:
 
