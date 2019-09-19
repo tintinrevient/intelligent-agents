@@ -29,12 +29,12 @@
 
 * #### Is this ontology consistent? If not, what has to change to make it consistent?
 
+	**CLUE: expand all inferences**
+
 	It is consistent.
 	
 	The inference is as below:
-	
-	**CLUE: expand all inferences**
-	
+		
 	* john is busyInstructor
 	* john is instructor
 	* john is person
@@ -49,10 +49,10 @@
 
 * #### Does John teach simulation?
 
-	I cannot say it from the defined DL, because:
-	
 	**CLUE: negation of the query -> (john, simulation): ¬teaches -> find CLASH -> "john teaches simulation" is TRUE**
 
+	I cannot say it from the defined DL, because:
+	
 	* busyInstructor teaches only projectCourse -> john is busyInstructor -> john teaches projectCourse
 	* simulation is just one of projectCourse -> john might teach other projectCourse, but not simulation
 
@@ -152,4 +152,6 @@
 
 ### Reference
 
+* **Transformation rules**
+* **Negation Normal Form**
 * https://en.wikipedia.org/wiki/Description_logic
