@@ -1,6 +1,6 @@
-## Assignment 1
+### Assignment 1
 
-### 1. Given the following classes “person”, “parent”, “happyPerson”, “marriedPerson”, “malePerson” and the relation “hasChild”. Represent the following in DL:
+#### 1. Given the following classes “person”, “parent”, “happyPerson”, “marriedPerson”, “malePerson” and the relation “hasChild”. Represent the following in DL:
 
 * Father ≡ parent ⊓ malePerson
 
@@ -17,7 +17,7 @@
 * Charlie is a married man -> Charlie: (marriedPerson ⊓ malePerson)
 
 
-### 2. The following ontology has been defined in DL:
+#### 2. The following ontology has been defined in DL:
 
 * instructor ≡ person ⊓ ∃teaches.(course ⊔ lab)
 * projectCourse ≡ course ⊓ lab
@@ -25,9 +25,9 @@
 * john: busyInstructor
 * simulation: projectCourse
 
- ### Apply the tableaux algorithm to answer the following and show your steps:
+ #### Apply the tableaux algorithm to answer the following and show your steps:
 
-* #### Is this ontology consistent? If not, what has to change to make it consistent?
+* ##### Is this ontology consistent? If not, what has to change to make it consistent?
 
 	**CLUE: expand all inferences**
 
@@ -39,12 +39,12 @@
 	* john: instructor -> john: person -> john: ∃teaches.(course ⊔ lab)
 	* john: ∀teaches.projectCourse -> (john, a): teaches, a: projectCourse -> (john, a): teaches, a: course ⊓ lab
 	* john: ∃teaches.(course ⊔ lab) ->
-		* (john, a): teaches, a: course (NOT CLASH)
-		* (john, a): teaches, a: lab (NOT CLASH)
+		* (john, a): teaches, a: course (NO CLASH)
+		* (john, a): teaches, a: lab (NO CLASH)
 	* simulation: projectCourse -> simulation: course ⊓ lab
 	
 
-* #### Does John teach simulation?
+* ##### Does John teach simulation?
 
 	**CLUE: negation of the query -> (john, simulation): ¬teaches -> find CLASH -> "john teaches simulation" is TRUE**
 
@@ -52,19 +52,42 @@
 	
 	* busyInstructor teaches only projectCourse -> john is busyInstructor -> john teaches projectCourse
 	* simulation is just one of projectCourse -> john might teach other projectCourse, but not simulation
+	
+	The answer is as below:
+	
+	* (john, simulation): ¬teaches
+	* john: busyInstructor
+	* john: (instructor ⊓ ∀teaches.projectCourse)
+	* john: instructure
+	* john: ∀teaches.projectCourse
+	* john: ∀teaches.(course ⊓ lab)
+	* (john, course): teaches
+	* (john, lab): teaches
+	* simulation: projectCourse
+	* simulation: (course ⊓ lab)
+	* simulation: lab, simulation: course
+	* (john, a): teaches, a: lab, a: course (NO CLASH)
 
-* #### Is simuation a lab?
+* ##### Is simuation a lab?
 
 	simulation is a lab, because:
 
 	* simulation belongs to projectCourse
 	* projectCourse is the intersection of course and lab -> projectCourse is a course, and projectCourse is a lab
 	* simulation is a course, and simulation is a lab
+	
+	The answer is as below:
+	
+	* simulation: ¬lab
+	* simulation: projectCourse
+	* simulation: (course ⊓ lab)
+	* simulation: course
+	* simulation: lab (CLASH)
 
 
-### 3. Add the following fact to the above ontology: Mary is a person who teaches the programming course. Again apply the tableaux algorithm to answer the following:
+#### 3. Add the following fact to the above ontology: Mary is a person who teaches the programming course. Again apply the tableaux algorithm to answer the following:
 
-* #### Is Mary an instructor?
+* ##### Is Mary an instructor?
 
 	The prerequisite is as below:
 
@@ -91,7 +114,7 @@
 		* Mary: ∀teaches.(¬course ⊓ ¬lab) -> (Mary, a): teaches, a: ¬course ⊓ ¬lab (CLASH)
 	
 
-* #### Is programming a project course?
+* ##### Is programming a project course?
 
 	The prerequisite is as below:
 
@@ -118,7 +141,7 @@
 		* programming: ¬lab (NO CLASH)
 	
 
-* #### Is Mary a busy instructor?
+* ##### Is Mary a busy instructor?
 
 	The prerequisite is as below:
 
@@ -147,7 +170,7 @@
 			* Mary: ∃teaches.¬lab (NO CLASH)
 
 
-### Reference
+#### Reference
 
 * **Transformation rules**
 * https://en.wikipedia.org/wiki/Negation_normal_form
