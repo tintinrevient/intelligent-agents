@@ -10,10 +10,10 @@ The concepts and the relations in-between are shown in the below diagram:
 
 
 Let's go through their DL descriptions in detail:
-* Each course is taught by at least one lecturer:
-* The course is taught on exactly two different days:
-* Each lecturer teaches at most one course every period:
-* Each course is on a set of topics:
+* Each course is taught by at least one lecturer: Course ⊓ ∃taught_by.Lecturer
+* The course is taught on exactly two different days: Course ⊓ ≤2 taught_on.Timeslot ⊓ ≥2 taught_on.Timeslot (Timeslot must be on two different days?)
+* Each lecturer teaches at most one course every period: ?
+* Each course is on a set of topics: Course ⊓ ∃covers.Topic
 * Each course uses exactly one research methodology:
 * A course might be a prerequisite for a course:
 * A course is considered similar to another course if there is an overlap on topics and the same research methodology is used:
