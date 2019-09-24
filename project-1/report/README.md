@@ -30,9 +30,12 @@ Let's go through their DL descriptions in detail:
 
 * A student might prefer (not) to take a course by a certain lecturer, or on a certain day, or on a certain topic: a: Lecturer, b: Student, (b, a): favourite_lecturers, c: Course, (c, a): taught_by, (a, c): enrolled_in
 
-* At any given period, a student can take at least two and at most three courses:
-* A student cannot register for a course more than once:
-* A student can take a course only if she has taken the prerequisite:
+* At any given period, a student can take at least two and at most three courses: Student ⊓ ≥2 enrolled_in.Course ⊓ ≤3 enrolled_in.Course 
+
+* A student cannot register for a course more than once: ?
+
+* A student can take a course only if she has taken the prerequisite: 
+
 *  When a student has an option between two courses that are equally preferable, the student would like to take a course that her friend takes:
   
 
