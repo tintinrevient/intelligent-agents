@@ -18,7 +18,8 @@ Let's go through their DL descriptions in detail:
 * A course might be a prerequisite for a course: Course ⊔ ∃is_prerequisite_of.Course
 * A course is considered similar to another course if there is an overlap on topics and the same research methodology is used: a: Course, b: Course, c: Research_Methodologies, d: Topic, (a, c): uses, (b, c): uses, (a, d): covers, (b, d): covers -> (a, b): is_similar_to, (b, a): is_similar_to (symmetric)
 * Topics are organized in a hierarchy, two topics could be disjoint or have overlaps: Topic ⊔ ∃have.Topic
-* A student might prefer (not) to take a course by a certain lecturer, or on a certain day, or on a certain topic:
+* A course might be a prerequisite for a course: Course ⊔ ∃is_prerequisite_of.Course
+* A student might prefer (not) to take a course by a certain lecturer, or on a certain day, or on a certain topic: Student ⊓ ∃favourite_lecturers.Lecture 
 * At any given period, a student can take at least two and at most three courses:
 * A student cannot register for a course more than once:
 * A student can take a course only if she has taken the prerequisite:
