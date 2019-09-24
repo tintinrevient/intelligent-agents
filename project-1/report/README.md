@@ -6,22 +6,22 @@ The concepts and the relations in-between are shown in the below diagram:
 * The concept's data properties display as rows in the table.
 * The concept's object properties display as arrows between tables.
 
-![class-diagram](../diagram/class-diagram.png)
+![class-diagram](../diagram/class_diagram.png)
 
 
 Let's go through their DL descriptions in detail:
 
 * Each course is taught by at least one lecturer: 
   
-  Course ⊓ ∃taught_by.Lecturer
+  Course ⊓ ∃is_taught_by.Lecturer
 
 * The course is taught on exactly two different days: 
 
-  Course ⊓ ≤2 taught_on.Timeslot ⊓ ≥2 taught_on.Timeslot (Timeslot must be on two different days?)
+  Course ⊓ ∃is_scheduled_on.{d1} ⊓ ∃is_scheduled_on.{d2}, d1: Date, d2: Date
 
 * Each lecturer teaches at most one course every period: 
 
-  a: Course, b: Course
+  ?
 
 * Each course is on a set of topics: 
 
@@ -37,11 +37,11 @@ Let's go through their DL descriptions in detail:
 
 * A course is considered similar to another course if there is an overlap on topics and the same research methodology is used: 
 
-  a: Course, b: Course, c: Research_Methodologies, d: Topic, (a, c): uses, (b, c): uses, (a, d): covers, (b, d): covers -> (a, b): is_similar_to, (b, a): is_similar_to (symmetric)
+  c1: Course, c2: Course, r: Research_Methodologies, t: Topic, (c1, r): uses, (c2, r): uses, (c1, t): covers, (c2, t): covers -> (a, b): is_similar_to, (b, a): is_similar_to (symmetric)
 
 * Topics are organized in a hierarchy, two topics could be disjoint or have overlaps: 
 
-  Topic ⊔ ∃have.Topic
+  Topic ⊔ ∃is_part_of.Topic
 
 * A course might be a prerequisite for a course: 
 
@@ -49,22 +49,22 @@ Let's go through their DL descriptions in detail:
 
 * A student might prefer (not) to take a course by a certain lecturer, or on a certain day, or on a certain topic: 
 
-  a: Lecturer, b: Student, (b, a): favourite_lecturers, c: Course, (c, a): taught_by, (a, c): enrolled_in
+  l: Lecturer, s: Student, (s, l): has_favourite_lecturers, c: Course, (c, l): is_taught_by -> (s, c): is_enrolled_in
 
 * At any given period, a student can take at least two and at most three courses: 
 
-  Student ⊓ ≥2 enrolled_in.Course ⊓ ≤3 enrolled_in.Course 
+  Student ⊓ ≥2 is_enrolled_in.Course ⊓ ≤3 is_enrolled_in.Course (at any given period?)
 
 * A student cannot register for a course more than once: 
 
-  ?
+  Student ⊓ ≥2 is_enrolled_in.{c1}, c1: Course 
 
 * A student can take a course only if she has taken the prerequisite:
 
-  ?
+  Student ⊓ ∀is_enrolled_in.(Course ⊔ ∃is_prerequisite_of.Course)
 
 * When a student has an option between two courses that are equally preferable, the student would like to take a course that her friend takes:
 
-  ?
+  s1: Student, s2: Student, c: Course, (s1, s2): is_friend_of, (s2, s1): is_friend_of, (s1, c): is_enrolled_in -> (s2, c): is_enrolled_in
   
 
