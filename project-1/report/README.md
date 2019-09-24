@@ -17,7 +17,7 @@ Let's go through their DL descriptions in detail:
 * Each course uses exactly one research methodology: Course ⊓ ≤1 uses.Research_Methodologies ⊓ ≥1 uses.Research_Methodologies
 * A course might be a prerequisite for a course: Course ⊔ ∃is_prerequisite_of.Course
 * A course is considered similar to another course if there is an overlap on topics and the same research methodology is used: a: Course, b: Course, c: Research_Methodologies, d: Topic, (a, c): uses, (b, c): uses, (a, d): covers, (b, d): covers -> (a, b): is_similar_to, (b, a): is_similar_to (symmetric)
-* Topics are organized in a hierarchy, two topics could be disjoint or have overlaps:
+* Topics are organized in a hierarchy, two topics could be disjoint or have overlaps: Topic ⊔ ∃have.Topic
 * A student might prefer (not) to take a course by a certain lecturer, or on a certain day, or on a certain topic:
 * At any given period, a student can take at least two and at most three courses:
 * A student cannot register for a course more than once:
