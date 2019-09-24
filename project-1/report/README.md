@@ -15,7 +15,7 @@ Let's go through their DL descriptions in detail:
 * Each lecturer teaches at most one course every period: ?
 * Each course is on a set of topics: Course ⊓ ∃covers.Topic
 * Each course uses exactly one research methodology: Course ⊓ ≤1 uses.Research_Methodologies ⊓ ≥1 uses.Research_Methodologies
-* A course might be a prerequisite for a course:
+* A course might be a prerequisite for a course: Course ⊔ ∃is_prerequisite_of.Course
 * A course is considered similar to another course if there is an overlap on topics and the same research methodology is used:
 * Topics are organized in a hierarchy, two topics could be disjoint or have overlaps:
 * A student might prefer (not) to take a course by a certain lecturer, or on a certain day, or on a certain topic:
