@@ -12,11 +12,12 @@ The concepts and the relations in-between are shown in the below diagram:
 Let's go through their DL descriptions in detail:
 
 * Each course is taught by at least one lecturer: 
+  
   Course ⊓ ∃taught_by.Lecturer
 
-**The course is taught on exactly two different days**: 
+* The course is taught on exactly two different days: 
 
-Course ⊓ ≤2 taught_on.Timeslot ⊓ ≥2 taught_on.Timeslot (Timeslot must be on two different days?)
+  Course ⊓ ≤2 taught_on.Timeslot ⊓ ≥2 taught_on.Timeslot (Timeslot must be on two different days?)
 
 **Each lecturer teaches at most one course every period**: 
 
