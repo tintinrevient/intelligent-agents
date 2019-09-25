@@ -17,7 +17,7 @@ Let's go through their DL descriptions in detail:
 
 * The course is taught on exactly two different days: 
 
-  Course ⊓ ≤2 is_taught_on.Timeslot ⊓ ≥2 is_taught_on.Timeslot
+  Course ⊓ ≤2 is_scheduled_on.Date ⊓ ≥2 s_scheduled_on.Date
 
 * Each lecturer teaches at most one course every period: 
 
