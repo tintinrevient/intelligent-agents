@@ -13,7 +13,7 @@ Let's go through their DL descriptions in detail:
 
 * Each course is taught by at least one lecturer: 
   
-  Course ⊓ ∃is_taught_by.Lecturer
+  Course ⊑ ∃is_taught_by.Lecturer, (Course ⊓ ¬∃is_taught_by.Lecturer) ⊑ ⊥
 
 * The course is taught on exactly two different days: 
 
