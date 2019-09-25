@@ -8,6 +8,12 @@ The concepts and the relations in-between are shown in the below diagram:
 
 ![class-diagram](../diagram/class_diagram.png)
 
+To-do:
+1. describe the relationships and concepts -> Harmen
+2. finish DL descriptions listed below -> Francesco + Thomas
+3. update the diagram's concepts and relationships according to 1. -> Shu
+4. summary of all the questions so far -> All 
+
 
 Let's go through their DL descriptions in detail:
 
@@ -33,9 +39,6 @@ Let's go through their DL descriptions in detail:
 
 
 * Topics are organized in a hierarchy, two topics could be disjoint or have overlaps: 
-
-
-* A course might be a prerequisite for a course: 
 
 
 * A student might prefer (not) to take a course by a certain lecturer, or on a certain day, or on a certain topic: 
