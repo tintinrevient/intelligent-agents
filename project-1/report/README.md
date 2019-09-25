@@ -21,7 +21,7 @@ Let's go through their DL descriptions in detail:
 
 * Each lecturer teaches at most one course every period: 
 
-  (Course ⊓ ≥1 is_taught_by.Lecturer ⊓ ≤1 is_taught_by.Lecturer) ⊓ (Course ⊓ ≥1 is_in.Period ⊓ ≤1 is_in.Period)
+  (Lecturer ⊓ ≥1 teaches.Course ⊓ ≤1 teaches.Course) ⊓ (Course ⊓ ≥1 is_in.Period ⊓ ≤1 is_in.Period)
 
 * Each course is on a set of topics: 
 
