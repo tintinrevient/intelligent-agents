@@ -19,6 +19,7 @@ knowledge representation language is defined by:
 BNF (Backus–Naur Form) grammar of sentences in propositional logic:
 * ⇒ (implies): premise ⇒ conclusion (also known as rules or if-then statements)
 * ⇔ (if and only if): bidirectional (also written as ≡)
+
 ![syntax](./pix/syntax.png)
 
 ### Semantics
