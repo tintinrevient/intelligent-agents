@@ -71,8 +71,9 @@ every sentence of propositional logic is logically equivalent to a conjunction o
 	* **definite clause**: a disjunction of literals of which exactly one is positive.
 	* **goal clause**: a disjunction of literals of which none is positive.
 
-syntax of CNF:
+BNF grammar of CNF:
 * A ∧ B ⇒ C is a definite clause, when it is written as ¬A ∨ ¬B ∨ C
+
 ![cnf](./pix/cnf.png)
 
 (a) a set of horn clauses; (b) the corresponding AND-OR graph.
