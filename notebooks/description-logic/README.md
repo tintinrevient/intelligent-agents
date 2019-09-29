@@ -13,7 +13,7 @@
 constructors are as below:
 * **conjunction**, **disjunction**, **negation** of concepts: Person ⊓ ¬Female, Female ⊔ Male
 * **value restrictions**: ∀hasChild.Male
-* **number restrictions**: (􏰄􏰄≥3 hasChild), (􏰄􏰄≥3 hasChild.Male), (􏰄􏰄≥3 hasChild) ⊓ Male
+* **number restrictions**: (≥3 hasChild), (≥3 hasChild.Male), (≥3 hasChild) ⊓ Male
 
 **sentences**: it expresses knowledge about a domain by relations between concepts and individuals, and assertions of an individual to a concept.
 
