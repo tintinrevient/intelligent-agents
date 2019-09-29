@@ -61,7 +61,7 @@ the new knowledge base is not **logically equivalent** to the old, but it can be
 * AskVars(Knows(John, x)) -> UNIFY(Knows(John, x), Knows(John, Jane)) = {x/Jane}
 
 **generalized Modus Ponens**: 
-* p1, p2, ..., pn, (p1 ∧ p2 ∧ ... ∧ pn ⇒ q) where SUBST(θ, pi) = SUBST(θ, pi), for all i -> SUBST(θ, q)
+* p1', p2', ..., pn', (p1 ∧ p2 ∧ ... ∧ pn ⇒ q) where SUBST(θ, pi') = SUBST(θ, pi), for all i -> SUBST(θ, q)
 * it is a lifted version of Modus Ponens which uses unification to provide a natural and powerful inference rule.
 * **forward chaining** and **backward chaining** algorithms apply this rule to sets of **definite clauses**.
 
