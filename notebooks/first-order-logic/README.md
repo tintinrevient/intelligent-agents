@@ -42,7 +42,7 @@ BNF (Backus–Naur Form) grammar of sentences in first-order logic:
 **theorems**: theorems are entailed by **axioms**
 
 
-### Inference
+### Reduction to propositional inference
 
 **universal instantiation**: any sentence can be inferred by substituting the variable with a **ground term** (constant symbol or function symbol).
 * ∀v α -> SUBST({v/g}, α)
@@ -55,6 +55,8 @@ BNF (Backus–Naur Form) grammar of sentences in first-order logic:
 * existential instantiation can be applied once, and then the existentially quantified sentence can be discarded.
 
 the new knowledge base is not **logically equivalent** to the old, but it can be shown to be **inferentially equivalent** in the sense that it is satisfiable exactly when the original knowledge base is satisfiable.
+
+### First-logic inference rule
 
 **unification**: the UNIFY algorithm takes two sentences and returns a unifier for them if one exists.
 * UNIFY(p, q) = θ where SUBST(θ, p) = SUBST(θ, q)
