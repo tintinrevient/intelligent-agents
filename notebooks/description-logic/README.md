@@ -45,7 +45,7 @@ description logic is a **propositionally closed** language
 			* **range restrictions**: ⊤ ⊑ ∀hasChild.Person
 * **ABox**: **extensional (assertional) knowledge** or **instance knowledge**, sentences of individuals.
 	* **role filling**: hasChild(ANNA, JOHN)
-	* **membership in classes**: Female(ANNA), ((􏰄≥3 hasChild) ⊓ Male)(JOHN)
+	* **membership in classes**: Female(ANNA), ((≥3 hasChild) ⊓ Male)(JOHN)
 	* ABox is **assertions** of roles and concepts, e.g., R(a, b), C(a)
 
 
