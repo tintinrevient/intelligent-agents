@@ -36,7 +36,7 @@ description logic is a **propositionally closed** language
 * **TBox**: **intensional knowledge** or **schema knowledge**, sentences of relations between concepts.
 	*  TBox consists of **terminological axiom**:
 		* **concept definitions** (if and only if): A ≡ D -> A is defined to be equivalent to D, e.g., Woman ≡ Person ⊓ Female
-			* A is **defined concept** or **name symbols**
+			* A is **defined concepts** or **name symbols**
 			* D is **primitive concepts** or **base symbols**
 		* **concept inclusions** (if): C ⊑ D -> C is subsumed by D, e.g., Student ⊑ ∃enrolled.Course
 			* **disjointness of concepts**: Male ⊑ ¬Female
