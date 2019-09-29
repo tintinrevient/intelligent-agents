@@ -24,7 +24,7 @@ semantics of sentences are given by **interpretation**:
 * concept names are interpreted as **subsets** of the domain
 * role names are interpreted as **binary relations** over the domain
 * individual names are interpreted as **elements** of the domain
-* complex concepts are defined by **set expressions**: (􏰄≥3 hasChild.(∀isAlumniOf.GreekUniversity)) -> the set of individuals that have at least three children such that all their degrees are from Greek Universities
+* complex concepts are defined by **set expressions**: (≥3 hasChild.(∀isAlumniOf.GreekUniversity)) -> the set of individuals that have at least three children such that all their degrees are from Greek Universities
 * TBox and ABox sentences are defined by **set theory**
 
 description logic is a **propositionally closed** language
