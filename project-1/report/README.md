@@ -42,7 +42,7 @@ Topics are organized in a hierarchy
 
 two topics could be disjoint or have overlaps
 ```
-Topic ⊑ Agent ⊔ ArtificialIntelligence ⊔ ... ⊔ Graphics
+Topic ⊑ Agent ⊔ ArtificialIntelligence ⊔ IntelligentAgent ⊔ ... ⊔ Graphics
 Agent ⊑ ¬Graphics
 ArtificialIntelligence ⊑ ¬Graphics
 IntelligentAgent ⊑ Agents ⊓ ArtificialIntelligence
