@@ -6,7 +6,10 @@
 
 ### Knowledge Base in DL
 
-* Each course is taught by at least one lecturer
+* TBox: Each course is taught by at least one lecturer
+ ```
+ Course ⊑ ∃IsTaughtBy.Lecturer
+ ```
 * The course is taught on exactly two different days
 * Each lecturer teaches at most one course every period
 * Each course is on a set of topics
