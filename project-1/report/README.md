@@ -1,6 +1,5 @@
 ## Project Report
 
-
 ### Concepts and Relations
 ![class-diagram](../diagram/class-diagram.png)
 
@@ -23,7 +22,7 @@ Lecturer ⊑ ≤1teachesInPeriod1.Course ⊔ ≤1teachesInPeriod2.Course ⊔ ≤
 
 Each course is on a set of topics
 ```
-Course ⊑ ∃covers.Topic
+Course ⊑ ∃coversTopic.Topic
 ```
 
 Each course uses exactly one research methodology
@@ -38,12 +37,11 @@ A course might be a prerequisite for a course
 
 A course is considered similar to another course if there is an overlap on topics and the same research methodology is used
 ```
-
 ```
 
 Topics are organized in a hierarchy
 ```
-
+∀isPartOf.Topic ⊑ Topic
 ```
 
 two topics could be disjoint or have overlaps
@@ -51,11 +49,14 @@ two topics could be disjoint or have overlaps
 Topic ⊑ Agent ⊔ ArtificialIntelligence ⊔ ... ⊔ Graphics
 Agent ⊑ ¬Graphics
 ArtificialIntelligence ⊑ ¬Graphics
-IntelligentAgent ⊑ Agents ⊓ MachineLearning
+IntelligentAgent ⊑ Agents ⊓ ArtificialIntelligence
 ```
 
 A student might prefer (not) to take a course by a certain lecturer, or on a certain day, or on a certain topic
 ```
+∀perfersLecturer.Lecturer ⊑ Student
+∀perfersDay.Day ⊑ Student
+∀perfersTopic.Topic ⊑ Student
 ```
 
 At any given period, a student can take at least two and at most three courses
@@ -75,7 +76,9 @@ When a student has an option between two courses that are equally preferable, th
 ```
 ```
  
-The prerequisite DL
+The prerequisite TBox in DL
 ```
 Person ⊑ Lecturer ⊔ Student
 ```
+
+### Knowledge Base ABox in DL
