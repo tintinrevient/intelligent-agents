@@ -13,7 +13,11 @@ Features of cognitive systems:
 
 Applications of cognitive systems:
 * **Education**: e.g., an assistant that is personalized for each individual student.
-* **Healthcare**: e.g., an assistant to evaluate information about the patient, looking through every medical record in depth, searching for indications that can be the source of their problems
+* **Healthcare**: e.g., an assistant to evaluate information about the patient, looking through every medical record in depth, searching for indications that can be the source of their problems.
+
+#### Hardware
+**Cognitive computer**: it combines artificial intelligence and machine learning algorithms, in an approach which attempts to reproduce the behaviour of the human brain. e.g., a cognitive computer implemented by using neural networks and deep learning is provided by the IBM company's Watson machine. A subsequent development by IBM is the TrueNorth microchip architecture, which is designed to be closer in structure to the human brain than the von Neumann architecture used in conventional computers.
+
 
 ### What IBM Watson can do? (Usage scenarios)
 
@@ -28,6 +32,7 @@ Applications of cognitive systems:
 * https://en.wikipedia.org/wiki/Question_answering
 * https://en.wikipedia.org/wiki/Expert_system
 * https://en.wikipedia.org/wiki/Cognitive_computing
+* https://en.wikipedia.org/wiki/Cognitive_computer
 
 * https://www.ibm.com/watson
 
