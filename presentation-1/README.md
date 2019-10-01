@@ -11,7 +11,7 @@ Features of cognitive systems:
 * **Iterative and stateful**: They may aid in defining a problem by asking questions or finding additional source input if a problem statement is ambiguous or incomplete. They may "remember" previous interactions in a process and return information that is suitable for the specific application at that point in time.
 * **Contextual**: They may understand, identify, and extract contextual elements such as meaning, syntax, time, location, appropriate domain, regulations, user’s profile, process, task and goal. They may draw on multiple sources of information, including both structured and unstructured digital information, as well as sensory inputs (visual, gestural, auditory, or sensor-provided).
 
-Application:
+Applications of cognitive systems:
 * **Education**: e.g., an assistant that is personalized for each individual student.
 * **Healthcare**: e.g., an assistant to evaluate information about the patient, looking through every medical record in depth, searching for indications that can be the source of their problems
 
