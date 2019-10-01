@@ -26,9 +26,8 @@ There are critics who argue that a room-sized computer - like the case of Watson
 
 There are experts who claim that cognitive systems could adopt the biases of their developers
 
-### What IBM Watson can do? (Usage scenarios)
+### Technical Architecture & Implementation
 
-### How IBM Watson can answer questions? (Technical architecture & implementation)
 
 ### Future of IBM Watson?
 
