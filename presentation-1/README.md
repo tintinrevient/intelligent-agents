@@ -20,6 +20,12 @@ Applications of cognitive systems:
 
 **TrueNorth** is a manycore processor network on a chip design, with 4096 cores, each one having 256 programmable simulated neurons for a total of just over a million neurons. In turn, each neuron has 256 programmable "synapses" that convey the signals between them. Hence, the total number of programmable synapses is just over 268 million (228). Memory, computation, and communication are handled in each of the 4096 neurosynaptic cores, TrueNorth circumvents the von-Neumann-architecture bottleneck and is very energy-efficient.
 
+#### Different Voices
+
+There are critics who argue that a room-sized computer - like the case of Watson - is not a viable alternative to a three-pound human brain.
+
+There are experts who claim that cognitive systems could adopt the biases of their developers
+
 ### What IBM Watson can do? (Usage scenarios)
 
 ### How IBM Watson can answer questions? (Technical architecture & implementation)
