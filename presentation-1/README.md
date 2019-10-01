@@ -29,6 +29,18 @@ There are experts who claim that cognitive systems could adopt the biases of the
 ### Technical Architecture & Implementation
 
 #### Expert system
+An expert system is divided into two subsystems: 
+* **inference engine**: it applies the rules to the known facts to deduce new facts.
+* **knowledge base**: it represents facts and rules.
+
+Approaches:
+* if-then rules
+* Prolog: first-order logic
+
+Applications and challenges:
+**Diagnostic applications** in medicine and biology: 
+* they used patients’ symptoms and laboratory test results as inputs to generate a diagnostic outcome.
+* there were significant limitations when using traditional methods such as flow-charts, statistical pattern-matching or probability theory.
 
 #### Question Answering
 
