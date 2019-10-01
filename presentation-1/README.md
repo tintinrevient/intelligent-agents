@@ -28,6 +28,17 @@ There are experts who claim that cognitive systems could adopt the biases of the
 
 ### Technical Architecture & Implementation
 
+#### Expert system
+
+#### Question Answering
+
+### Related Technologies
+* Affective computing
+* Analytics
+* Artificial neural network
+* Semantic Web
+* Social neuroscience
+* Synthetic intelligence
 
 ### Future of IBM Watson?
 
