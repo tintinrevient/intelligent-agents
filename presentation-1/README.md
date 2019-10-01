@@ -18,6 +18,7 @@ Applications of cognitive systems:
 #### Hardware
 **Cognitive computer**: it combines artificial intelligence and machine learning algorithms, in an approach which attempts to reproduce the behaviour of the human brain. e.g., a cognitive computer implemented by using neural networks and deep learning is provided by the IBM company's Watson machine. A subsequent development by IBM is the TrueNorth microchip architecture, which is designed to be closer in structure to the human brain than the von Neumann architecture used in conventional computers.
 
+**TrueNorth** is a manycore processor network on a chip design, with 4096 cores, each one having 256 programmable simulated neurons for a total of just over a million neurons. In turn, each neuron has 256 programmable "synapses" that convey the signals between them. Hence, the total number of programmable synapses is just over 268 million (228). Memory, computation, and communication are handled in each of the 4096 neurosynaptic cores, TrueNorth circumvents the von-Neumann-architecture bottleneck and is very energy-efficient.
 
 ### What IBM Watson can do? (Usage scenarios)
 
