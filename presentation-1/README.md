@@ -40,6 +40,7 @@ There are experts who claim that cognitive systems could adopt the biases of the
 * https://en.wikipedia.org/wiki/Expert_system
 * https://en.wikipedia.org/wiki/Cognitive_computing
 * https://en.wikipedia.org/wiki/Cognitive_computer
+* https://en.wikipedia.org/wiki/Von_Neumann_architecture
 
 * https://www.ibm.com/watson
 
