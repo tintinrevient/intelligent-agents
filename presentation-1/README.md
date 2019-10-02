@@ -51,8 +51,19 @@ Evolutions:
 
 #### Question Answering
 
-* closed-domain question answering
-* open-domain question answering
+**closed-domain question answering**: it deals with questions under a specific domain (for example, medicine or automotive maintenance).
+* domain-specific knowledge frequently formalized in **ontologies**
+* a limited type of questions are accepted, such as questions asking for descriptive rather than procedural information.
+  * **declarative knowledge** (**propositional knowledge**):  "knowing-that", the knowledge of fact, embodying concepts, principles, ideas.
+  * **procedural knowledge**: "knowing-how", the knowledge of how, and especially how best, to perform some task.
+  * **knowledge by acquaintance**: "knowing of", the non-propositional knowledge of something through direct awareness of it.
+
+**open-domain question answering**: it deals with questions about nearly anything.
+
+Approaches:
+* Prolog (logic programming language): first-order logic
+* **automated reasoning**
+
 
 ### Related Technologies
 * Affective computing
