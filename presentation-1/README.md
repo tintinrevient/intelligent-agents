@@ -24,7 +24,7 @@ Applications of cognitive systems:
 
 There are critics who argue that a room-sized computer - like the case of Watson - is not a viable alternative to a three-pound human brain.
 
-There are experts who claim that cognitive systems could adopt the biases of their developers
+There are experts who claim that cognitive systems could adopt the biases of their developers.
 
 ### Technical Architecture & Implementation
 
@@ -42,6 +42,12 @@ Disadvantages:
 * the size of the knowledge base increases
 * verify whether decision rules are consistent with each other
 * prioritize the use of the rules in order to operate more efficiently
+
+Evolutions:
+* **truth maintenance**: when facts are altered, dependent knowledge can be altered accordingly.
+* **hypothetical reasoning**: the knowledge base can be divided up into many possible views, so the inference engine can explore multiple possibilities in parallel.
+* **uncertainty systems**: the first extensions of simply using rules to represent knowledge was also to associate a probability with each rule, such as **fuzzy logic**.
+* **ontology classification**: these types of special purpose inference engines are termed **classifiers**, which are very powerful for **unstructured volatile domains**, and are a key technology for the Internet and the emerging **semantic web**.
 
 #### Question Answering
 
