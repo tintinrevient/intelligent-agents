@@ -35,7 +35,7 @@ An expert system is divided into two subsystems:
 
 Approaches:
 * if-then rules
-* Prolog: first-order logic
+* Prolog (logic programming language): first-order logic
 
 Disadvantages:
 * knowledge acquisition problem
@@ -51,6 +51,8 @@ Evolutions:
 
 #### Question Answering
 
+* closed-domain question answering
+* open-domain question answering
 
 ### Related Technologies
 * Affective computing
