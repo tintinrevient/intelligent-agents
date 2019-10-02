@@ -37,12 +37,14 @@ Approaches:
 * if-then rules
 * Prolog: first-order logic
 
-Applications and challenges:
-**Diagnostic applications** in medicine and biology: 
-* they used patients’ symptoms and laboratory test results as inputs to generate a diagnostic outcome.
-* there were significant limitations when using traditional methods such as flow-charts, statistical pattern-matching or probability theory.
+Disadvantages:
+* knowledge acquisition problem
+* the size of the knowledge base increases
+* verify whether decision rules are consistent with each other
+* prioritize the use of the rules in order to operate more efficiently
 
 #### Question Answering
+
 
 ### Related Technologies
 * Affective computing
