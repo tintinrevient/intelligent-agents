@@ -1,7 +1,7 @@
 ## Project Report
 
 ### Concepts and Relations
-![class-diagram](../diagram/class-diagram.png)
+![class-diagram](diagram/class-diagram.png)
 
 ### Knowledge Base TBox in DL
 
