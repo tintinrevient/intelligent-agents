@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8">
-    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8#"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -14,16 +14,10 @@
     <Prefix name="obda" IRI="https://w3id.org/obda/vocabulary#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#Agents"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Course"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Day"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Intelligent_agents"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Lecturer"/>
@@ -98,19 +92,127 @@
         <DataProperty IRI="#Type"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#A._Volk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adam_Smith"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advanced_machine_learning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Albert_Salah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anna-Lena_Lamprecht"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antoine_Dumont"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#B.M._Harvey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Case_studies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Computational_argumentation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Delphi_method"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dilemmas_of_the_scientist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dong_Nguyen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Experimentation_in_psychology_and_linguistics"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Experiments"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Floris_Bex"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Friday"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#G._Greco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gerard_Vreeswijk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H.M._Huistra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Henry_Prakken"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Intelligent_agents"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Interviews"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jan_Jansen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Josè_Carrillo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Linda_Arden"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Logic_and_Computation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Logic_and_language"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luca_Rossi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M.J._Moortgat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Machine_learning_for_human_vision_and_language"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marijn_Schraagen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mehdi_Dastani"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Methods_in_AI_research"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mlmila_Akdag"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Monday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Multi-agent_learning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Multi-agent_systems"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nathalie_de_Boer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Natural_language_processing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Observation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Onuralp_Ulusoy"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Period_1"/>
@@ -125,10 +227,49 @@
         <NamedIndividual IRI="#Period_4"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Philosophy_of_AI"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Pinar_Yolum"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Program_semantics_and_verification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Qi_Zhou"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R.W.F._Nouwen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R._Iemhoff"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Richard_Starmans"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Samira_Shirzadeh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Social_computing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sound_and_music_technology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T._Deoskar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Theoretical_analysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thijs_van_Ommen"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Thursday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tim_Baarslag"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Tuesday"/>
@@ -136,10 +277,15 @@
     <Declaration>
         <NamedIndividual IRI="#Wednesday"/>
     </Declaration>
-    <SubClassOf>
-        <Class IRI="#Intelligent_agents"/>
-        <Class IRI="#Agents"/>
-    </SubClassOf>
+    <Declaration>
+        <NamedIndividual IRI="#Wendy_Jansen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wishnu_Prasetya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Davide_Dell&apos;Anna"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#Lecturer"/>
         <Class IRI="#Person"/>
@@ -157,24 +303,168 @@
         <Class IRI="#Topic"/>
     </DisjointClasses>
     <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#A._Volk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Adam_Smith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Advanced_machine_learning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Albert_Salah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Anna-Lena_Lamprecht"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Antoine_Dumont"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#B.M._Harvey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Research_Methodology"/>
+        <NamedIndividual IRI="#Case_studies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Computational_argumentation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Research_Methodology"/>
+        <NamedIndividual IRI="#Delphi_method"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Dilemmas_of_the_scientist"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Dong_Nguyen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Experimentation_in_psychology_and_linguistics"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Research_Methodology"/>
         <NamedIndividual IRI="#Experiments"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Floris_Bex"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Day"/>
         <NamedIndividual IRI="#Friday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#G._Greco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Gerard_Vreeswijk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#H.M._Huistra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Henry_Prakken"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Course"/>
         <NamedIndividual IRI="#Intelligent_agents"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Research_Methodology"/>
+        <NamedIndividual IRI="#Interviews"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Jan_Jansen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Josè_Carrillo"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Student"/>
         <NamedIndividual IRI="#Linda_Arden"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Logic_and_Computation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Logic_and_language"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Luca_Rossi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#M.J._Moortgat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Machine_learning_for_human_vision_and_language"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Marijn_Schraagen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Mehdi_Dastani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Methods_in_AI_research"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Mlmila_Akdag"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Day"/>
         <NamedIndividual IRI="#Monday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Multi-agent_learning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Multi-agent_systems"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Nathalie_de_Boer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Natural_language_processing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Research_Methodology"/>
+        <NamedIndividual IRI="#Observation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Onuralp_Ulusoy"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Period"/>
@@ -193,12 +483,64 @@
         <NamedIndividual IRI="#Period_4"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Philosophy_of_AI"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#Pinar_Yolum"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Program_semantics_and_verification"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Qi_Zhou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#R.W.F._Nouwen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#R._Iemhoff"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Richard_Starmans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Samira_Shirzadeh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Social_computing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Sound_and_music_technology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#T._Deoskar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Research_Methodology"/>
+        <NamedIndividual IRI="#Theoretical_analysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Thijs_van_Ommen"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Day"/>
         <NamedIndividual IRI="#Thursday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Tim_Baarslag"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Day"/>
@@ -208,6 +550,75 @@
         <Class IRI="#Day"/>
         <NamedIndividual IRI="#Wednesday"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Wendy_Jansen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Wishnu_Prasetya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Davide_Dell&apos;Anna"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Adam_Smith"/>
+        <NamedIndividual IRI="#Advanced_machine_learning"/>
+        <NamedIndividual IRI="#Antoine_Dumont"/>
+        <NamedIndividual IRI="#B.M._Harvey"/>
+        <NamedIndividual IRI="#Case_studies"/>
+        <NamedIndividual IRI="#Computational_argumentation"/>
+        <NamedIndividual IRI="#Delphi_method"/>
+        <NamedIndividual IRI="#Dilemmas_of_the_scientist"/>
+        <NamedIndividual IRI="#Dong_Nguyen"/>
+        <NamedIndividual IRI="#Experimentation_in_psychology_and_linguistics"/>
+        <NamedIndividual IRI="#Experiments"/>
+        <NamedIndividual IRI="#Floris_Bex"/>
+        <NamedIndividual IRI="#Friday"/>
+        <NamedIndividual IRI="#G._Greco"/>
+        <NamedIndividual IRI="#H.M._Huistra"/>
+        <NamedIndividual IRI="#Intelligent_agents"/>
+        <NamedIndividual IRI="#Interviews"/>
+        <NamedIndividual IRI="#Jan_Jansen"/>
+        <NamedIndividual IRI="#Josè_Carrillo"/>
+        <NamedIndividual IRI="#Linda_Arden"/>
+        <NamedIndividual IRI="#Logic_and_Computation"/>
+        <NamedIndividual IRI="#Logic_and_language"/>
+        <NamedIndividual IRI="#Luca_Rossi"/>
+        <NamedIndividual IRI="#M.J._Moortgat"/>
+        <NamedIndividual IRI="#Machine_learning_for_human_vision_and_language"/>
+        <NamedIndividual IRI="#Marijn_Schraagen"/>
+        <NamedIndividual IRI="#Mehdi_Dastani"/>
+        <NamedIndividual IRI="#Methods_in_AI_research"/>
+        <NamedIndividual IRI="#Monday"/>
+        <NamedIndividual IRI="#Multi-agent_learning"/>
+        <NamedIndividual IRI="#Multi-agent_systems"/>
+        <NamedIndividual IRI="#Nathalie_de_Boer"/>
+        <NamedIndividual IRI="#Natural_language_processing"/>
+        <NamedIndividual IRI="#Observation"/>
+        <NamedIndividual IRI="#Onuralp_Ulusoy"/>
+        <NamedIndividual IRI="#Period_1"/>
+        <NamedIndividual IRI="#Period_2"/>
+        <NamedIndividual IRI="#Period_3"/>
+        <NamedIndividual IRI="#Period_4"/>
+        <NamedIndividual IRI="#Philosophy_of_AI"/>
+        <NamedIndividual IRI="#Pinar_Yolum"/>
+        <NamedIndividual IRI="#Program_semantics_and_verification"/>
+        <NamedIndividual IRI="#Qi_Zhou"/>
+        <NamedIndividual IRI="#R._Iemhoff"/>
+        <NamedIndividual IRI="#Richard_Starmans"/>
+        <NamedIndividual IRI="#Samira_Shirzadeh"/>
+        <NamedIndividual IRI="#Social_computing"/>
+        <NamedIndividual IRI="#Sound_and_music_technology"/>
+        <NamedIndividual IRI="#Theoretical_analysis"/>
+        <NamedIndividual IRI="#Thijs_van_Ommen"/>
+        <NamedIndividual IRI="#Thursday"/>
+        <NamedIndividual IRI="#Tuesday"/>
+        <NamedIndividual IRI="#Wednesday"/>
+        <NamedIndividual IRI="#Wendy_Jansen"/>
+        <NamedIndividual IRI="#Davide_Dell&apos;Anna"/>
+    </DifferentIndividuals>
     <DifferentIndividuals>
         <NamedIndividual IRI="#Friday"/>
         <NamedIndividual IRI="#Monday"/>
@@ -221,6 +632,51 @@
         <NamedIndividual IRI="#Period_3"/>
         <NamedIndividual IRI="#Period_4"/>
     </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Advanced_machine_learning"/>
+        <NamedIndividual IRI="#Samira_Shirzadeh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Advanced_machine_learning"/>
+        <NamedIndividual IRI="#Thijs_van_Ommen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Advanced_machine_learning"/>
+        <NamedIndividual IRI="#Period_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Computational_argumentation"/>
+        <NamedIndividual IRI="#Henry_Prakken"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Computational_argumentation"/>
+        <NamedIndividual IRI="#Period_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Dilemmas_of_the_scientist"/>
+        <NamedIndividual IRI="#H.M._Huistra"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Dilemmas_of_the_scientist"/>
+        <NamedIndividual IRI="#Period_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Experimentation_in_psychology_and_linguistics"/>
+        <NamedIndividual IRI="#R.W.F._Nouwen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Experimentation_in_psychology_and_linguistics"/>
+        <NamedIndividual IRI="#Period_3"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtBy"/>
         <NamedIndividual IRI="#Intelligent_agents"/>
@@ -240,6 +696,166 @@
         <ObjectProperty IRI="#isTaughtOnDay"/>
         <NamedIndividual IRI="#Intelligent_agents"/>
         <NamedIndividual IRI="#Tuesday"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Logic_and_Computation"/>
+        <NamedIndividual IRI="#R._Iemhoff"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Logic_and_Computation"/>
+        <NamedIndividual IRI="#Period_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Logic_and_language"/>
+        <NamedIndividual IRI="#G._Greco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Logic_and_language"/>
+        <NamedIndividual IRI="#M.J._Moortgat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Logic_and_language"/>
+        <NamedIndividual IRI="#Period_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Machine_learning_for_human_vision_and_language"/>
+        <NamedIndividual IRI="#B.M._Harvey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Machine_learning_for_human_vision_and_language"/>
+        <NamedIndividual IRI="#Period_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Methods_in_AI_research"/>
+        <NamedIndividual IRI="#Dong_Nguyen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Methods_in_AI_research"/>
+        <NamedIndividual IRI="#Floris_Bex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Methods_in_AI_research"/>
+        <NamedIndividual IRI="#Marijn_Schraagen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Methods_in_AI_research"/>
+        <NamedIndividual IRI="#Onuralp_Ulusoy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Methods_in_AI_research"/>
+        <NamedIndividual IRI="#Davide_Dell&apos;Anna"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Methods_in_AI_research"/>
+        <NamedIndividual IRI="#Period_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Multi-agent_learning"/>
+        <NamedIndividual IRI="#Gerard_Vreeswijk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Multi-agent_learning"/>
+        <NamedIndividual IRI="#Period_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Multi-agent_systems"/>
+        <NamedIndividual IRI="#Mehdi_Dastani"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Multi-agent_systems"/>
+        <NamedIndividual IRI="#Tim_Baarslag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Multi-agent_systems"/>
+        <NamedIndividual IRI="#Period_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Natural_language_processing"/>
+        <NamedIndividual IRI="#T._Deoskar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Natural_language_processing"/>
+        <NamedIndividual IRI="#Period_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Philosophy_of_AI"/>
+        <NamedIndividual IRI="#Mehdi_Dastani"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Philosophy_of_AI"/>
+        <NamedIndividual IRI="#Richard_Starmans"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Philosophy_of_AI"/>
+        <NamedIndividual IRI="#Period_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Program_semantics_and_verification"/>
+        <NamedIndividual IRI="#Anna-Lena_Lamprecht"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Program_semantics_and_verification"/>
+        <NamedIndividual IRI="#Wishnu_Prasetya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Program_semantics_and_verification"/>
+        <NamedIndividual IRI="#Period_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Social_computing"/>
+        <NamedIndividual IRI="#Albert_Salah"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Social_computing"/>
+        <NamedIndividual IRI="#Dong_Nguyen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Social_computing"/>
+        <NamedIndividual IRI="#Mlmila_Akdag"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Social_computing"/>
+        <NamedIndividual IRI="#Period_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Sound_and_music_technology"/>
+        <NamedIndividual IRI="#A._Volk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Sound_and_music_technology"/>
+        <NamedIndividual IRI="#Period_2"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Type"/>
