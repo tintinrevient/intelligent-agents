@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8">
-    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -14,7 +14,22 @@
     <Prefix name="obda" IRI="https://w3id.org/obda/vocabulary#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <Class IRI="#Artificial_Intelligence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Business"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Business_intelligence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computer_science"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_mining"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Friday"/>
@@ -23,7 +38,13 @@
         <Class IRI="#Lecturer"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Linguistics"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Monday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_language_processing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Period"/>
@@ -32,7 +53,19 @@
         <Class IRI="#Person"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Philosophy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Philosophy_of_AI"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Research_Methodology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_computing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Student"/>
@@ -51,6 +84,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Week"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#testsub"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#containsCourses"/>
@@ -332,6 +368,38 @@
         <NamedIndividual IRI="#Davide_Dell&apos;Anna"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="#Artificial_Intelligence"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Business"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Business_intelligence"/>
+        <Class IRI="#Artificial_Intelligence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Business_intelligence"/>
+        <Class IRI="#Business"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computer_science"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computer_science"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_mining"/>
+        <Class IRI="#Artificial_Intelligence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_mining"/>
+        <Class IRI="#Computer_science"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Friday"/>
         <Class IRI="#Week"/>
     </SubClassOf>
@@ -340,8 +408,44 @@
         <Class IRI="#Person"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Linguistics"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Monday"/>
         <Class IRI="#Week"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_language_processing"/>
+        <Class IRI="#Artificial_Intelligence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_language_processing"/>
+        <Class IRI="#Linguistics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Philosophy"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Philosophy_of_AI"/>
+        <Class IRI="#Artificial_Intelligence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Philosophy_of_AI"/>
+        <Class IRI="#Philosophy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Science"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_computing"/>
+        <Class IRI="#Artificial_Intelligence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_computing"/>
+        <Class IRI="#Computer_science"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Student"/>
