@@ -21,14 +21,14 @@ for triple in g:
 	print(triple)
 ```
 
-### Save RDF in SQLite3 Database
+### Save RDF in SQLite Database
 
 ```
 import rdflib
 from rdflib.graph import ConjunctiveGraph
 from rdflib import Literal
 
-store = rdflib.plugin.register('SQLite', rdflib.store.Store, "rdflib_sqlite.SQLite", "SQLite")
+store = rdflib.plugin.register('SQLite', rdflib.store.Store, 'rdflib_sqlite.SQLite', 'SQLite')
 store = rdflib.plugin.get('SQLite', rdflib.store.Store)('test.ts')
 store.open('test.ts', create=True)
 g = ConjunctiveGraph(store)
