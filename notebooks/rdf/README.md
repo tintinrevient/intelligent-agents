@@ -49,7 +49,7 @@ from rdflib import Namespace
 
 g = ConjunctiveGraph()
 g.parse("data/wine.rdf")
-g.serialize(format="n3")
+bytesobj = g.serialize(format="n3")
 
 results = g.query("""SELECT ?wine WHERE {?wine wine:hasBody wine:Medium. }""", initNs={'wine': Namespace("http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#")})
 
@@ -57,6 +57,6 @@ for triple in results:
 	print(triple)
 
 file = open("data/wine.n3", "wb")
-file.write(g)
+file.write(bytesobj)
 file.close()
 ```
