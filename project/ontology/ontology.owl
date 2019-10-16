@@ -65,7 +65,13 @@
         <Class IRI="#Science"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Skills"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Social_computing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speaking"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Student"/>
@@ -84,9 +90,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Week"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#testsub"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#containsCourses"/>
@@ -446,6 +449,10 @@
     <SubClassOf>
         <Class IRI="#Social_computing"/>
         <Class IRI="#Computer_science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speaking"/>
+        <Class IRI="#Skills"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Student"/>
