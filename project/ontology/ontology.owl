@@ -1204,6 +1204,10 @@
         <Class IRI="#Student"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrerequisite"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#isPartOf"/>
         <Class IRI="#Topic"/>
     </ObjectPropertyDomain>
@@ -1272,6 +1276,10 @@
         <Class IRI="#Student"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPrerequisite"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#isPartOf"/>
         <Class IRI="#Topic"/>
     </ObjectPropertyRange>
@@ -1282,6 +1290,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isTaughtInPeriod"/>
         <Class IRI="#Period"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <Class IRI="#Week"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#prefers"/>
