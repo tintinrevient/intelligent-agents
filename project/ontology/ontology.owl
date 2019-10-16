@@ -101,10 +101,10 @@
         <ObjectProperty IRI="#hasFriend"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectProperty IRI="#hasPrerequisite"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isPrerequisite"/>
+        <ObjectProperty IRI="#isPartOf"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isTaughtBy"/>
@@ -1150,7 +1150,7 @@
         <ObjectProperty IRI="#isTaughtInPeriod"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#isPrerequisite"/>
+        <ObjectProperty IRI="#hasPrerequisite"/>
         <ObjectProperty IRI="#prerequisiteFor"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
