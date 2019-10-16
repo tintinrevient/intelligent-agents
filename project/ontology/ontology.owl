@@ -104,6 +104,9 @@
         <ObjectProperty IRI="#isPartOf"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#isPrerequisite"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#isTaughtBy"/>
     </Declaration>
     <Declaration>
@@ -173,6 +176,9 @@
         <NamedIndividual IRI="#Computational_Argumentation"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Davide_DellAnna"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Delphi_Method"/>
     </Declaration>
     <Declaration>
@@ -212,6 +218,9 @@
         <NamedIndividual IRI="#Henry_Prakken"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#High_Speaking"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Intelligent_Agents"/>
     </Declaration>
     <Declaration>
@@ -233,6 +242,9 @@
         <NamedIndividual IRI="#Logic_And_language"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Low_Speaking"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Luca_Rossi"/>
     </Declaration>
     <Declaration>
@@ -252,6 +264,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Mlmila_Akdag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderate_Speaking"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Monday_Afternoon"/>
@@ -305,10 +320,10 @@
         <NamedIndividual IRI="#Qi_Zhou"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#R_W-F_Nouwen"/>
+        <NamedIndividual IRI="#R_Iemhoff"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#R_Iemhoff"/>
+        <NamedIndividual IRI="#R_W-F_Nouwen"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Richard_Starmans"/>
@@ -368,7 +383,13 @@
         <NamedIndividual IRI="#Wishnu_Prasetya"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Davide_DellAnna"/>
+        <NamedIndividual IRI="#Thijs_Van_Ommen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R_W_F_Nouwen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Logic_And_Language"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Artificial_Intelligence"/>
@@ -507,6 +528,10 @@
         <NamedIndividual IRI="#Computational_Argumentation"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Davide_DellAnna"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Research_Methodology"/>
         <NamedIndividual IRI="#Delphi_Method"/>
     </ClassAssertion>
@@ -559,6 +584,10 @@
         <NamedIndividual IRI="#Henry_Prakken"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Speaking"/>
+        <NamedIndividual IRI="#High_Speaking"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Course"/>
         <NamedIndividual IRI="#Intelligent_Agents"/>
     </ClassAssertion>
@@ -587,6 +616,10 @@
         <NamedIndividual IRI="#Logic_And_Language"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Speaking"/>
+        <NamedIndividual IRI="#Low_Speaking"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Student"/>
         <NamedIndividual IRI="#Luca_Rossi"/>
     </ClassAssertion>
@@ -613,6 +646,10 @@
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#Mlmila_Akdag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaking"/>
+        <NamedIndividual IRI="#Moderate_Speaking"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Monday"/>
@@ -684,11 +721,11 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
-        <NamedIndividual IRI="#R_W_F_Nouwen"/>
+        <NamedIndividual IRI="#R_Iemhoff"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
-        <NamedIndividual IRI="#R_Iemhoff"/>
+        <NamedIndividual IRI="#R_W_F_Nouwen"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
@@ -765,10 +802,6 @@
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#Wishnu_Prasetya"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Lecturer"/>
-        <NamedIndividual IRI="#Davide_DellAnna"/>
     </ClassAssertion>
     <DifferentIndividuals>
         <NamedIndividual IRI="#Period_1"/>
@@ -959,6 +992,11 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtBy"/>
         <NamedIndividual IRI="#Methods_In_AI_Research"/>
+        <NamedIndividual IRI="#Davide_DellAnna"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Methods_In_AI_Research"/>
         <NamedIndividual IRI="#Dong_Nguyen"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -975,11 +1013,6 @@
         <ObjectProperty IRI="#isTaughtBy"/>
         <NamedIndividual IRI="#Methods_In_AI_Research"/>
         <NamedIndividual IRI="#Onuralp_Ulusoy"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isTaughtBy"/>
-        <NamedIndividual IRI="#Methods_In_AI_Research"/>
-        <NamedIndividual IRI="#Davide_DellAnna"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtInPeriod"/>
@@ -1115,6 +1148,10 @@
     <InverseObjectProperties>
         <ObjectProperty IRI="#containsCourses"/>
         <ObjectProperty IRI="#isTaughtInPeriod"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isPrerequisite"/>
+        <ObjectProperty IRI="#prerequisiteFor"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#isTaughtBy"/>
