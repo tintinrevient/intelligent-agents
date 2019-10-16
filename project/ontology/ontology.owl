@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8">
-    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8#"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -30,6 +30,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Data_Mining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exam_Form"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Friday"/>
@@ -92,10 +95,16 @@
         <Class IRI="#Week"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Written_Exam"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#containsCourses"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#coversTopic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExamForm"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasFriend"/>
@@ -239,6 +248,9 @@
         <NamedIndividual IRI="#Logic_And_Computation"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Logic_And_Language"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Logic_And_language"/>
     </Declaration>
     <Declaration>
@@ -326,6 +338,9 @@
         <NamedIndividual IRI="#R_W-F_Nouwen"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#R_W_F_Nouwen"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Richard_Starmans"/>
     </Declaration>
     <Declaration>
@@ -342,6 +357,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Theoretical_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thijs_Van_Ommen"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Thijs_van_Ommen"/>
@@ -381,15 +399,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Wishnu_Prasetya"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Thijs_Van_Ommen"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#R_W_F_Nouwen"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Logic_And_Language"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Artificial_Intelligence"/>
@@ -490,6 +499,10 @@
     <SubClassOf>
         <Class IRI="#Wednesday"/>
         <Class IRI="#Week"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Written_Exam"/>
+        <Class IRI="#Exam_Form"/>
     </SubClassOf>
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
@@ -1200,6 +1213,10 @@
         <Class IRI="#Course"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <Class IRI="#Exam_Form"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasFriend"/>
         <Class IRI="#Student"/>
     </ObjectPropertyDomain>
@@ -1270,6 +1287,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#coversTopic"/>
         <Class IRI="#Topic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <Class IRI="#Course"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasFriend"/>
