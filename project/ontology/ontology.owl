@@ -161,6 +161,18 @@
         <ObjectProperty IRI="#takes"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#takesInPeriod_1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#takesInPeriod_2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#takesInPeriod_3"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#takesInPeriod_4"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#teaches"/>
     </Declaration>
     <Declaration>
@@ -445,16 +457,29 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Course"/>
-        <ObjectMinCardinality cardinality="1">
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#coversTopic"/>
+            <Class IRI="#Topic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#isTaughtBy"/>
             <Class IRI="#Lecturer"/>
-        </ObjectMinCardinality>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Course"/>
         <ObjectExactCardinality cardinality="2">
             <ObjectProperty IRI="#isTaughtOn"/>
             <Class IRI="#Week"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#useMethodology"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
@@ -476,6 +501,27 @@
     <SubClassOf>
         <Class IRI="#Lecturer"/>
         <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lecturer"/>
+        <ObjectUnionOf>
+            <ObjectMaxCardinality cardinality="1">
+                <ObjectProperty IRI="#teachesInPeriod_1"/>
+                <Class IRI="#Course"/>
+            </ObjectMaxCardinality>
+            <ObjectMaxCardinality cardinality="1">
+                <ObjectProperty IRI="#teachesInPeriod_2"/>
+                <Class IRI="#Course"/>
+            </ObjectMaxCardinality>
+            <ObjectMaxCardinality cardinality="1">
+                <ObjectProperty IRI="#teachesInPeriod_3"/>
+                <Class IRI="#Course"/>
+            </ObjectMaxCardinality>
+            <ObjectMaxCardinality cardinality="1">
+                <ObjectProperty IRI="#teachesInPeriod_4"/>
+                <Class IRI="#Course"/>
+            </ObjectMaxCardinality>
+        </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Linguistics"/>
@@ -536,6 +582,43 @@
     <SubClassOf>
         <Class IRI="#Student"/>
         <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <ObjectMinCardinality cardinality="2">
+                    <ObjectProperty IRI="#takesInPeriod_1"/>
+                </ObjectMinCardinality>
+                <ObjectMaxCardinality cardinality="3">
+                    <ObjectProperty IRI="#takesInPeriod_1"/>
+                </ObjectMaxCardinality>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectMinCardinality cardinality="2">
+                    <ObjectProperty IRI="#takesInPeriod_2"/>
+                </ObjectMinCardinality>
+                <ObjectMaxCardinality cardinality="3">
+                    <ObjectProperty IRI="#takesInPeriod_2"/>
+                </ObjectMaxCardinality>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectMinCardinality cardinality="2">
+                    <ObjectProperty IRI="#takesInPeriod_3"/>
+                </ObjectMinCardinality>
+                <ObjectMaxCardinality cardinality="3">
+                    <ObjectProperty IRI="#takesInPeriod_3"/>
+                </ObjectMaxCardinality>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectMinCardinality cardinality="2">
+                    <ObjectProperty IRI="#takesInPeriod_4"/>
+                </ObjectMinCardinality>
+                <ObjectMaxCardinality cardinality="3">
+                    <ObjectProperty IRI="#takesInPeriod_4"/>
+                </ObjectMaxCardinality>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Teaching"/>
@@ -1327,6 +1410,22 @@
         <NamedIndividual IRI="#Intelligent_Agents"/>
         <Literal>Primary_Course</Literal>
     </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#takesInPeriod_1"/>
+        <ObjectProperty IRI="#takes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#takesInPeriod_2"/>
+        <ObjectProperty IRI="#takes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#takesInPeriod_3"/>
+        <ObjectProperty IRI="#takes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#takesInPeriod_4"/>
+        <ObjectProperty IRI="#takes"/>
+    </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#teachesInPeriod_1"/>
         <ObjectProperty IRI="#teaches"/>
