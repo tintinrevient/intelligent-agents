@@ -47,6 +47,9 @@
         <Class IRI="#Exam_Form"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Faculty"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Friday"/>
     </Declaration>
     <Declaration>
@@ -251,6 +254,9 @@
         <NamedIndividual IRI="#Experiments"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Faculty_Of_Humanities"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Floris_Bex"/>
     </Declaration>
     <Declaration>
@@ -372,6 +378,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Program_Semantics_And_Verification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Python"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Qi_Zhou"/>
@@ -737,6 +746,10 @@
         <NamedIndividual IRI="#Experiments"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Faculty"/>
+        <NamedIndividual IRI="#Faculty_Of_Humanities"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#Floris_Bex"/>
     </ClassAssertion>
@@ -923,6 +936,10 @@
     <ClassAssertion>
         <Class IRI="#Course"/>
         <NamedIndividual IRI="#Program_Semantics_And_Verification"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Programming"/>
+        <NamedIndividual IRI="#Python"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Student"/>
