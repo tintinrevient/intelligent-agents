@@ -56,6 +56,9 @@
         <Class IRI="#Linguistics"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Math"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Monday"/>
     </Declaration>
     <Declaration>
@@ -81,6 +84,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Presentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Programming"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Research_Methodology"/>
@@ -538,6 +544,10 @@
         <Class IRI="#Topic"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Math"/>
+        <Class IRI="#Skills"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Monday"/>
         <Class IRI="#Week"/>
     </SubClassOf>
@@ -572,6 +582,10 @@
     <SubClassOf>
         <Class IRI="#Presentation"/>
         <Class IRI="#Exam_Form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Programming"/>
+        <Class IRI="#Skills"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Science"/>
