@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8">
-    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8#"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -189,6 +189,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#useMethodology"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesSkill"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Type"/>
@@ -1568,6 +1571,10 @@
         <ObjectProperty IRI="#useMethodology"/>
         <Class IRI="#Course"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usesSkill"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#containsCourses"/>
         <Class IRI="#Course"/>
@@ -1668,6 +1675,15 @@
         <ObjectProperty IRI="#useMethodology"/>
         <Class IRI="#Research_Methodology"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usesSkill"/>
+        <Class IRI="#Skills"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lecturer</IRI>
+        <Literal>For the future: We can say that a lecture has a speaking skill, or has another skill</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#prerequisiteFor</IRI>
