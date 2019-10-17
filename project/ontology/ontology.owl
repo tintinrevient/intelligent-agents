@@ -17,6 +17,9 @@
         <Class IRI="#Afternoon"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Agents"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Artificial_Intelligence"/>
     </Declaration>
     <Declaration>
@@ -433,6 +436,10 @@
     <SubClassOf>
         <Class IRI="#Afternoon"/>
         <Class IRI="#Day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agents"/>
+        <Class IRI="#Artificial_Intelligence"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Artificial_Intelligence"/>
