@@ -14,6 +14,9 @@
     <Prefix name="obda" IRI="https://w3id.org/obda/vocabulary#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <Class IRI="#Afternoon"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Artificial_Intelligence"/>
     </Declaration>
     <Declaration>
@@ -32,6 +35,12 @@
         <Class IRI="#Data_Mining"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evening"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Exam_Form"/>
     </Declaration>
     <Declaration>
@@ -45,6 +54,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Monday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Morning"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Natural_Language_Processing"/>
@@ -404,6 +416,10 @@
         <NamedIndividual IRI="#Wishnu_Prasetya"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="#Afternoon"/>
+        <Class IRI="#Day"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Artificial_Intelligence"/>
         <Class IRI="#Topic"/>
     </SubClassOf>
@@ -436,6 +452,10 @@
         <Class IRI="#Computer_Science"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Evening"/>
+        <Class IRI="#Day"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Friday"/>
         <Class IRI="#Week"/>
     </SubClassOf>
@@ -450,6 +470,10 @@
     <SubClassOf>
         <Class IRI="#Monday"/>
         <Class IRI="#Week"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Morning"/>
+        <Class IRI="#Day"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Natural_Language_Processing"/>
@@ -572,8 +596,16 @@
         <NamedIndividual IRI="#Floris_Bex"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Afternoon"/>
+        <NamedIndividual IRI="#Friday_Afternoon"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Friday"/>
         <NamedIndividual IRI="#Friday_Afternoon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Evening"/>
+        <NamedIndividual IRI="#Friday_Evening"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Friday"/>
@@ -581,6 +613,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Friday"/>
+        <NamedIndividual IRI="#Friday_Morning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Morning"/>
         <NamedIndividual IRI="#Friday_Morning"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -668,8 +704,16 @@
         <NamedIndividual IRI="#Moderate_Speaking"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Afternoon"/>
+        <NamedIndividual IRI="#Monday_Afternoon"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Monday"/>
         <NamedIndividual IRI="#Monday_Afternoon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Evening"/>
+        <NamedIndividual IRI="#Monday_Evening"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Monday"/>
@@ -677,6 +721,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Monday"/>
+        <NamedIndividual IRI="#Monday_Morning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Morning"/>
         <NamedIndividual IRI="#Monday_Morning"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -772,12 +820,24 @@
         <NamedIndividual IRI="#Thijs_Van_Ommen"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Thursday"/>
+        <Class IRI="#Afternoon"/>
         <NamedIndividual IRI="#Thursday_Afternoon"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Thursday"/>
+        <NamedIndividual IRI="#Thursday_Afternoon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Evening"/>
         <NamedIndividual IRI="#Thursday_Evening"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thursday"/>
+        <NamedIndividual IRI="#Thursday_Evening"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Morning"/>
+        <NamedIndividual IRI="#Thursday_Morning"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Thursday"/>
@@ -788,24 +848,48 @@
         <NamedIndividual IRI="#Tim_Baarslag"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Afternoon"/>
+        <NamedIndividual IRI="#Tuesday_Afternoon"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Tuesday"/>
         <NamedIndividual IRI="#Tuesday_Afternoon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Evening"/>
+        <NamedIndividual IRI="#Tuesday_Evening"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tuesday"/>
         <NamedIndividual IRI="#Tuesday_Evening"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Morning"/>
+        <NamedIndividual IRI="#Tuesday_Morning"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Tuesday"/>
         <NamedIndividual IRI="#Tuesday_Morning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Afternoon"/>
+        <NamedIndividual IRI="#Wednesday_Afternoon"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Wednesday"/>
         <NamedIndividual IRI="#Wednesday_Afternoon"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Evening"/>
+        <NamedIndividual IRI="#Wednesday_Evening"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Wednesday"/>
         <NamedIndividual IRI="#Wednesday_Evening"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Morning"/>
+        <NamedIndividual IRI="#Wednesday_Morning"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Wednesday"/>
