@@ -552,6 +552,18 @@
         <Class IRI="#Written_Exam"/>
         <Class IRI="#Exam_Form"/>
     </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Afternoon"/>
+        <Class IRI="#Evening"/>
+        <Class IRI="#Morning"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Friday"/>
+        <Class IRI="#Monday"/>
+        <Class IRI="#Thursday"/>
+        <Class IRI="#Tuesday"/>
+        <Class IRI="#Wednesday"/>
+    </DisjointClasses>
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#A_Volk"/>
@@ -1487,13 +1499,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#useMethodology"/>
         <Class IRI="#Research_Methodology"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#useMethodology"/>
-        <ObjectMaxCardinality cardinality="1">
-            <ObjectProperty IRI="#useMethodology"/>
-            <Class IRI="#Research_Methodology"/>
-        </ObjectMaxCardinality>
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
