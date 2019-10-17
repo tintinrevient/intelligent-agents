@@ -74,6 +74,12 @@
         <Class IRI="#Philosophy_Of_AI"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Practical_Assignment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Presentation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Research_Methodology"/>
     </Declaration>
     <Declaration>
@@ -90,6 +96,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teaching"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Thursday"/>
@@ -496,6 +505,14 @@
         <Class IRI="#Philosophy"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Practical_Assignment"/>
+        <Class IRI="#Exam_Form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Presentation"/>
+        <Class IRI="#Exam_Form"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Science"/>
         <Class IRI="#Topic"/>
     </SubClassOf>
@@ -514,6 +531,10 @@
     <SubClassOf>
         <Class IRI="#Student"/>
         <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teaching"/>
+        <Class IRI="#Skills"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Thursday"/>
