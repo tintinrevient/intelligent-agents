@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8">
-    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -971,22 +971,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtOn"/>
         <NamedIndividual IRI="#Computational_Argumentation"/>
-        <NamedIndividual IRI="#Friday_Afternoon"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isTaughtOn"/>
-        <NamedIndividual IRI="#Computational_Argumentation"/>
         <NamedIndividual IRI="#Friday_Morning"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtOn"/>
         <NamedIndividual IRI="#Computational_Argumentation"/>
         <NamedIndividual IRI="#Wednesday_Afternoon"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isTaughtOn"/>
-        <NamedIndividual IRI="#Computational_Argumentation"/>
-        <NamedIndividual IRI="#Wednesday_Evening"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtBy"/>
@@ -997,6 +987,11 @@
         <ObjectProperty IRI="#isTaughtInPeriod"/>
         <NamedIndividual IRI="#Dilemmas_Of_The_Scientist"/>
         <NamedIndividual IRI="#Period_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Dilemmas_Of_The_Scientist"/>
+        <NamedIndividual IRI="#Monday_Evening"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtOn"/>
@@ -1017,11 +1012,6 @@
         <ObjectProperty IRI="#isTaughtOn"/>
         <NamedIndividual IRI="#Experimentation_In_Psychology_And_Linguistics"/>
         <NamedIndividual IRI="#Monday_Afternoon"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isTaughtOn"/>
-        <NamedIndividual IRI="#Experimentation_In_Psychology_And_Linguistics"/>
-        <NamedIndividual IRI="#Monday_Evening"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtOn"/>
@@ -1082,11 +1072,6 @@
         <ObjectProperty IRI="#isTaughtInPeriod"/>
         <NamedIndividual IRI="#Logic_And_Language"/>
         <NamedIndividual IRI="#Period_2"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isTaughtOn"/>
-        <NamedIndividual IRI="#Logic_And_Language"/>
-        <NamedIndividual IRI="#Thursday_Afternoon"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtOn"/>
@@ -1201,11 +1186,6 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtOn"/>
         <NamedIndividual IRI="#Multi-agent_Systems"/>
-        <NamedIndividual IRI="#Thursday_Evening"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isTaughtOn"/>
-        <NamedIndividual IRI="#Multi-agent_Systems"/>
         <NamedIndividual IRI="#Tuesday_Morning"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -1226,17 +1206,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtOn"/>
         <NamedIndividual IRI="#Natural_Language_Processing"/>
-        <NamedIndividual IRI="#Friday_Morning"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isTaughtOn"/>
-        <NamedIndividual IRI="#Natural_Language_Processing"/>
         <NamedIndividual IRI="#Wednesday_Afternoon"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isTaughtOn"/>
-        <NamedIndividual IRI="#Natural_Language_Processing"/>
-        <NamedIndividual IRI="#Wednesday_Evening"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtBy"/>
@@ -1257,11 +1227,6 @@
         <ObjectProperty IRI="#isTaughtOn"/>
         <NamedIndividual IRI="#Philosophy_Of_AI"/>
         <NamedIndividual IRI="#Monday_Morning"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isTaughtOn"/>
-        <NamedIndividual IRI="#Philosophy_Of_AI"/>
-        <NamedIndividual IRI="#Tuesday_Evening"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtOn"/>
@@ -1321,11 +1286,6 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtOn"/>
         <NamedIndividual IRI="#Social_Computing"/>
-        <NamedIndividual IRI="#Thursday_Evening"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isTaughtOn"/>
-        <NamedIndividual IRI="#Social_Computing"/>
         <NamedIndividual IRI="#Tuesday_Morning"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -1342,16 +1302,6 @@
         <ObjectProperty IRI="#isTaughtOn"/>
         <NamedIndividual IRI="#Sound_And_Music_Technology"/>
         <NamedIndividual IRI="#Monday_Afternoon"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isTaughtOn"/>
-        <NamedIndividual IRI="#Sound_And_Music_Technology"/>
-        <NamedIndividual IRI="#Monday_Evening"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isTaughtOn"/>
-        <NamedIndividual IRI="#Sound_And_Music_Technology"/>
-        <NamedIndividual IRI="#Thursday_Morning"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtOn"/>
