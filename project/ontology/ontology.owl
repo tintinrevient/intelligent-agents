@@ -275,9 +275,6 @@
         <NamedIndividual IRI="#Logic_And_Language"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Logic_And_language"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Low_Speaking"/>
     </Declaration>
     <Declaration>
@@ -359,9 +356,6 @@
         <NamedIndividual IRI="#R_Iemhoff"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#R_W-F_Nouwen"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#R_W_F_Nouwen"/>
     </Declaration>
     <Declaration>
@@ -384,9 +378,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Thijs_Van_Ommen"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Thijs_van_Ommen"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Thursday_Afternoon"/>
