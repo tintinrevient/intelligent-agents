@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8">
-    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -135,6 +135,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#coversTopic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCourse"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasExamForm"/>
@@ -1157,6 +1160,21 @@
         <NamedIndividual IRI="#Thursday_Morning"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Friday_Afternoon"/>
+        <NamedIndividual IRI="#Machine_Learning_For_Human_Vision_And_Language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Friday_Afternoon"/>
+        <NamedIndividual IRI="#Natural_Language_Processing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Friday_Morning"/>
+        <NamedIndividual IRI="#Computational_Argumentation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtBy"/>
         <NamedIndividual IRI="#Intelligent_Agents"/>
         <NamedIndividual IRI="#Pinar_Yolum"/>
@@ -1280,6 +1298,21 @@
         <ObjectProperty IRI="#isTaughtOn"/>
         <NamedIndividual IRI="#Methods_In_AI_Research"/>
         <NamedIndividual IRI="#Tuesday_Afternoon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Monday_Afternoon"/>
+        <NamedIndividual IRI="#Experimentation_In_Psychology_And_Linguistics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Monday_Evening"/>
+        <NamedIndividual IRI="#Dilemmas_Of_The_Scientist"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Monday_Morning"/>
+        <NamedIndividual IRI="#Logic_And_Computation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtBy"/>
@@ -1446,11 +1479,130 @@
         <NamedIndividual IRI="#Sound_And_Music_Technology"/>
         <NamedIndividual IRI="#Tuesday_Afternoon"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Thursday_Afternoon"/>
+        <NamedIndividual IRI="#Intelligent_Agents"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Thursday_Afternoon"/>
+        <NamedIndividual IRI="#Multi-agent_Systems"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Thursday_Afternoon"/>
+        <NamedIndividual IRI="#Social_Computing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Thursday_Evening"/>
+        <NamedIndividual IRI="#Logic_And_Language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Thursday_Morning"/>
+        <NamedIndividual IRI="#Advanced_Machine_Learning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Thursday_Morning"/>
+        <NamedIndividual IRI="#Experimentation_In_Psychology_And_Linguistics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Thursday_Morning"/>
+        <NamedIndividual IRI="#Methods_In_AI_Research"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Thursday_Morning"/>
+        <NamedIndividual IRI="#Multi-agent_Learning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Tuesday_Afternoon"/>
+        <NamedIndividual IRI="#Advanced_Machine_Learning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Tuesday_Afternoon"/>
+        <NamedIndividual IRI="#Methods_In_AI_Research"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Tuesday_Afternoon"/>
+        <NamedIndividual IRI="#Multi-agent_Learning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Tuesday_Afternoon"/>
+        <NamedIndividual IRI="#Sound_And_Music_Technology"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Tuesday_Morning"/>
+        <NamedIndividual IRI="#Intelligent_Agents"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Tuesday_Morning"/>
+        <NamedIndividual IRI="#Logic_And_Language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Tuesday_Morning"/>
+        <NamedIndividual IRI="#Multi-agent_Systems"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Tuesday_Morning"/>
+        <NamedIndividual IRI="#Social_Computing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Wednesday_Afternoon"/>
+        <NamedIndividual IRI="#Computational_Argumentation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Wednesday_Afternoon"/>
+        <NamedIndividual IRI="#Machine_Learning_For_Human_Vision_And_Language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Wednesday_Afternoon"/>
+        <NamedIndividual IRI="#Natural_Language_Processing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Wednesday_Evening"/>
+        <NamedIndividual IRI="#Dilemmas_Of_The_Scientist"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Wednesday_Morning"/>
+        <NamedIndividual IRI="#Logic_And_Computation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Wednesday_Morning"/>
+        <NamedIndividual IRI="#Philosophy_Of_AI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCourse"/>
+        <NamedIndividual IRI="#Wednesday_Morning"/>
+        <NamedIndividual IRI="#Program_Semantics_And_Verification"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Type"/>
         <NamedIndividual IRI="#Intelligent_Agents"/>
         <Literal>Primary_Course</Literal>
     </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCourse"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#takesInPeriod_1"/>
         <ObjectProperty IRI="#takes"/>
@@ -1538,6 +1690,14 @@
         <Class IRI="#Course"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCourse"/>
+        <Class IRI="#Day"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCourse"/>
+        <Class IRI="#Week"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasExamForm"/>
         <Class IRI="#Course"/>
     </ObjectPropertyDomain>
@@ -1620,6 +1780,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#coversTopic"/>
         <Class IRI="#Topic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCourse"/>
+        <Class IRI="#Course"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasExamForm"/>
