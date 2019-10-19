@@ -14,13 +14,46 @@
     <Prefix name="obda" IRI="https://w3id.org/obda/vocabulary#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <Class IRI="#AI_For_Game_Technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Advanced_Cognitive_And_Social_Psychology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Advanced_Graphics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Advanced_HCI_Qualitative_Research_Methods"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Afternoon"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Agents"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Algorithms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Algorithms_And_Networks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Algorithms_For_Decision_Suppor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Applied_Cognitive_Psychology_II"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Artificial_Intelligence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bio_Inspired_Innovation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bioinformatics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biology"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Business"/>
@@ -29,16 +62,61 @@
         <Class IRI="#Business_Intelligence"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Business_Process_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Climate_Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cognitive_And_Computational_Aspects_Of_Word_Meaning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computer_Animation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Computer_Science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computer_Vision"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Course"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Crowd_Simulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Data_Mining"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Data_Science_And_Society"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital_Ethics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drug_Innovation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enterprise_Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environmental_Biology"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Evening"/>
@@ -47,10 +125,55 @@
         <Class IRI="#Exam_Form"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Experimental_Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experimentation_In_Psychology_And_Linguisitcs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experimentation_In_Psychology_And_Linguistics"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Faculty"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Foundations_Of_Information_Science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foundations_Of_Sound_Patterns"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Friday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game_Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graphics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human_Computer_Interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ICT_Entrepreneurship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interaction_Technology_Innovation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interaction_Techology_Innovation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Introduction_To_Business_Informatics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Introduction_To_HCI"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Lecturer"/>
@@ -59,7 +182,22 @@
         <Class IRI="#Linguistics"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Logic"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Math"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mathematics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Method_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Interaction"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Monday"/>
@@ -68,7 +206,34 @@
         <Class IRI="#Morning"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Multimedia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multimedia_Discourse_Interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multimedia_Retrieval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Language_Generation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Natural_Language_Processing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neuroscience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pattern_Set_Mining"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Period"/>
@@ -83,13 +248,37 @@
         <Class IRI="#Philosophy_Of_AI"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Philosophy_Of_Neuroscience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Philosophy_Of_Science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Philosophy_Of_The_Mind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physics"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Practical_Assignment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Presentation"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Process_Mining"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Programming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reasoning_About_Meaning_In_Linguistic_Communication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requirements_Engineering"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Research_Methodology"/>
@@ -98,10 +287,28 @@
         <Class IRI="#Science"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Simulation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Skills"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Social_Computing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Society"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software_Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software_Ecosystems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sound_And_Music_Technology"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Speaking"/>
@@ -113,10 +320,16 @@
         <Class IRI="#Teaching"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Theoretical_Physics"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Thursday"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Topic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topics_In_Epistemology_And_Philosophy_Of_Science"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tuesday"/>
@@ -452,6 +665,22 @@
         <NamedIndividual IRI="#Wishnu_Prasetya"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="#AI_For_Game_Technology"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Advanced_Cognitive_And_Social_Psychology"/>
+        <Class IRI="#Society"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Advanced_Graphics"/>
+        <Class IRI="#Graphics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Advanced_HCI_Qualitative_Research_Methods"/>
+        <Class IRI="#Human_Computer_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Afternoon"/>
         <Class IRI="#Day"/>
     </SubClassOf>
@@ -460,7 +689,39 @@
         <Class IRI="#Artificial_Intelligence"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Algorithms"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Algorithms_And_Networks"/>
+        <Class IRI="#Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Algorithms_And_Networks"/>
+        <Class IRI="#Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Algorithms_For_Decision_Suppor"/>
+        <Class IRI="#Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Applied_Cognitive_Psychology_II"/>
+        <Class IRI="#Psychology"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Artificial_Intelligence"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bio_Inspired_Innovation"/>
+        <Class IRI="#Biology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bioinformatics"/>
+        <Class IRI="#Biology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biology"/>
         <Class IRI="#Topic"/>
     </SubClassOf>
     <SubClassOf>
@@ -474,6 +735,30 @@
     <SubClassOf>
         <Class IRI="#Business_Intelligence"/>
         <Class IRI="#Business"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Business_Process_Management"/>
+        <Class IRI="#Business"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemistry"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climate_Physics"/>
+        <Class IRI="#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cognitive_And_Computational_Aspects_Of_Word_Meaning"/>
+        <Class IRI="#Linguistics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computation"/>
+        <Class IRI="#Computer_Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computer_Animation"/>
+        <Class IRI="#Game"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Computer_Science"/>
@@ -482,6 +767,14 @@
     <SubClassOf>
         <Class IRI="#Computer_Science"/>
         <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computer_Vision"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computer_Vision"/>
+        <Class IRI="#Graphics"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Course"/>
@@ -511,20 +804,112 @@
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Crowd_Simulation"/>
+        <Class IRI="#Simulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data"/>
+        <Class IRI="#Computer_Science"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Data_Mining"/>
         <Class IRI="#Artificial_Intelligence"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Data_Mining"/>
-        <Class IRI="#Computer_Science"/>
+        <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Science_And_Society"/>
+        <Class IRI="#Society"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital_Ethics"/>
+        <Class IRI="#Psychology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drug_Innovation"/>
+        <Class IRI="#Chemistry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Engineering"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enterprise_Architecture"/>
+        <Class IRI="#Business"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environmental_Biology"/>
+        <Class IRI="#Biology"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Evening"/>
         <Class IRI="#Day"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Experimental_Physics"/>
+        <Class IRI="#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experimentation_In_Psychology_And_Linguisitcs"/>
+        <Class IRI="#Psychology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experimentation_In_Psychology_And_Linguistics"/>
+        <Class IRI="#Linguistics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foundations_Of_Information_Science"/>
+        <Class IRI="#Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foundations_Of_Sound_Patterns"/>
+        <Class IRI="#Linguistics"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Friday"/>
         <Class IRI="#Week"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Game"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Game_Physics"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graphics"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Computer_Interaction"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ICT_Entrepreneurship"/>
+        <Class IRI="#Business"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Information"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interaction_Technology_Innovation"/>
+        <Class IRI="#Human_Computer_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interaction_Techology_Innovation"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Introduction_To_Business_Informatics"/>
+        <Class IRI="#Business"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Introduction_To_HCI"/>
+        <Class IRI="#Human_Computer_Interaction"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lecturer"/>
@@ -556,8 +941,32 @@
         <Class IRI="#Topic"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Logic"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Math"/>
         <Class IRI="#Skills"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mathematics"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Method_Engineering"/>
+        <Class IRI="#Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Interaction"/>
+        <Class IRI="#Human_Computer_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Interaction"/>
+        <Class IRI="#Mobile"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Monday"/>
@@ -568,12 +977,52 @@
         <Class IRI="#Day"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Multimedia"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multimedia_Discourse_Interaction"/>
+        <Class IRI="#Human_Computer_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multimedia_Discourse_Interaction"/>
+        <Class IRI="#Multimedia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multimedia_Retrieval"/>
+        <Class IRI="#Multimedia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_Language_Generation"/>
+        <Class IRI="#Linguistics"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Natural_Language_Processing"/>
         <Class IRI="#Artificial_Intelligence"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Natural_Language_Processing"/>
         <Class IRI="#Linguistics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_Science"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Science"/>
+        <Class IRI="#Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neuroscience"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pattern_Set_Mining"/>
+        <Class IRI="#Game"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Philosophy"/>
@@ -586,6 +1035,22 @@
     <SubClassOf>
         <Class IRI="#Philosophy_Of_AI"/>
         <Class IRI="#Philosophy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Philosophy_Of_Neuroscience"/>
+        <Class IRI="#Philosophy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Philosophy_Of_Science"/>
+        <Class IRI="#Philosophy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Philosophy_Of_The_Mind"/>
+        <Class IRI="#Psychology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physics"/>
+        <Class IRI="#Topic"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Practical_Assignment"/>
@@ -596,11 +1061,31 @@
         <Class IRI="#Exam_Form"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Process_Mining"/>
+        <Class IRI="#Business"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Programming"/>
         <Class IRI="#Skills"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Psychology"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reasoning_About_Meaning_In_Linguistic_Communication"/>
+        <Class IRI="#Linguistics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requirements_Engineering"/>
+        <Class IRI="#Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Science"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Simulation"/>
         <Class IRI="#Topic"/>
     </SubClassOf>
     <SubClassOf>
@@ -608,8 +1093,24 @@
         <Class IRI="#Artificial_Intelligence"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Social_Computing"/>
-        <Class IRI="#Computer_Science"/>
+        <Class IRI="#Society"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software_Architecture"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software_Ecosystems"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sound_And_Music_Technology"/>
+        <Class IRI="#Game"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Speaking"/>
@@ -661,8 +1162,16 @@
         <Class IRI="#Skills"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Theoretical_Physics"/>
+        <Class IRI="#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Thursday"/>
         <Class IRI="#Week"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topics_In_Epistemology_And_Philosophy_Of_Science"/>
+        <Class IRI="#Psychology"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tuesday"/>
@@ -1885,6 +2394,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Lecturer</IRI>
         <Literal>For the future: We can say that a lecture has a speaking skill, or has another skill</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Topic</IRI>
+        <Literal>the topic &quot;programming&quot; can&apos;t be added because it&apos;s already a skill. Looking for a shared and elegant solution</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
