@@ -26,6 +26,9 @@
         <Class IRI="#Advanced_HCI_Qualitative_Research_Methods"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Advanced_Machine_Learning"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Afternoon"/>
     </Declaration>
     <Declaration>
@@ -45,6 +48,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Artificial_Intelligence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behavioural_Sciences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Big_Data"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Bio_Inspired_Innovation"/>
@@ -74,7 +83,19 @@
         <Class IRI="#Cognitive_And_Computational_Aspects_Of_Word_Meaning"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Cognitive_Modeling"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Computation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computation_Thinking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computational_Argumentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computational_Thinking"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Computer_Animation"/>
@@ -105,6 +126,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Digital_Ethics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dilemmas_Of_The_Scientist"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Drug_Innovation"/>
@@ -164,10 +188,16 @@
         <Class IRI="#Information"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Intelligent_Agents"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Interaction_Technology_Innovation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Interaction_Techology_Innovation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Introducing_Natural_Sciences"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Introduction_To_Business_Informatics"/>
@@ -185,6 +215,21 @@
         <Class IRI="#Logic"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Logic_And_Computation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Logic_And_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Machine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Machine_Learning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Machine_Learning_For_Human_Vision_And_Language"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Math"/>
     </Declaration>
     <Declaration>
@@ -192,6 +237,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Method_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Methods_Of_AI_Research"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mobile"/>
@@ -204,6 +252,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Morning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multi_Agent_Learning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multi_Agent_Systems"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Multimedia"/>
@@ -228,6 +282,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Network_Science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neurocognition_Of_Memory_And_Attention"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Neuroscience"/>
@@ -293,7 +350,13 @@
         <Class IRI="#Skills"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Social_And_Affective_Neuroscience"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Social_Computing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_Science"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Society"/>
@@ -666,7 +729,15 @@
     </Declaration>
     <SubClassOf>
         <Class IRI="#AI_For_Game_Technology"/>
+        <Class IRI="#Artificial_Intelligence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AI_For_Game_Technology"/>
         <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Advanced_Cognitive_And_Social_Psychology"/>
+        <Class IRI="#Neuroscience"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Advanced_Cognitive_And_Social_Psychology"/>
@@ -679,6 +750,10 @@
     <SubClassOf>
         <Class IRI="#Advanced_HCI_Qualitative_Research_Methods"/>
         <Class IRI="#Human_Computer_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Advanced_Machine_Learning"/>
+        <Class IRI="#Machine_Learning"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Afternoon"/>
@@ -706,11 +781,23 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Applied_Cognitive_Psychology_II"/>
+        <Class IRI="#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Applied_Cognitive_Psychology_II"/>
         <Class IRI="#Psychology"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Artificial_Intelligence"/>
         <Class IRI="#Topic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Behavioural_Sciences"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Big_Data"/>
+        <Class IRI="#Data"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bio_Inspired_Innovation"/>
@@ -750,11 +837,39 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cognitive_And_Computational_Aspects_Of_Word_Meaning"/>
+        <Class IRI="#Computation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cognitive_And_Computational_Aspects_Of_Word_Meaning"/>
         <Class IRI="#Linguistics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cognitive_And_Computational_Aspects_Of_Word_Meaning"/>
+        <Class IRI="#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cognitive_Modeling"/>
+        <Class IRI="#Neuroscience"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Computation"/>
         <Class IRI="#Computer_Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computation_Thinking"/>
+        <Class IRI="#Artificial_Intelligence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computation_Thinking"/>
+        <Class IRI="#Computation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computational_Argumentation"/>
+        <Class IRI="#Computation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computational_Thinking"/>
+        <Class IRI="#Computation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Computer_Animation"/>
@@ -805,6 +920,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Crowd_Simulation"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crowd_Simulation"/>
         <Class IRI="#Simulation"/>
     </SubClassOf>
     <SubClassOf>
@@ -813,10 +932,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Data_Mining"/>
-        <Class IRI="#Artificial_Intelligence"/>
+        <Class IRI="#Data"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Data_Mining"/>
+        <Class IRI="#Data_Science_And_Society"/>
         <Class IRI="#Data"/>
     </SubClassOf>
     <SubClassOf>
@@ -826,6 +945,10 @@
     <SubClassOf>
         <Class IRI="#Digital_Ethics"/>
         <Class IRI="#Psychology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dilemmas_Of_The_Scientist"/>
+        <Class IRI="#Natural_Science"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Drug_Innovation"/>
@@ -896,12 +1019,20 @@
         <Class IRI="#Topic"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Intelligent_Agents"/>
+        <Class IRI="#Agents"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Interaction_Technology_Innovation"/>
         <Class IRI="#Human_Computer_Interaction"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Interaction_Techology_Innovation"/>
         <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Introducing_Natural_Sciences"/>
+        <Class IRI="#Natural_Science"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Introduction_To_Business_Informatics"/>
@@ -945,6 +1076,30 @@
         <Class IRI="#Topic"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Logic_And_Computation"/>
+        <Class IRI="#Computation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Logic_And_Computation"/>
+        <Class IRI="#Logic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Logic_And_Language"/>
+        <Class IRI="#Logic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Machine"/>
+        <Class IRI="#Artificial_Intelligence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Machine_Learning"/>
+        <Class IRI="#Machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Machine_Learning_For_Human_Vision_And_Language"/>
+        <Class IRI="#Machine_Learning"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Math"/>
         <Class IRI="#Skills"/>
     </SubClassOf>
@@ -955,6 +1110,10 @@
     <SubClassOf>
         <Class IRI="#Method_Engineering"/>
         <Class IRI="#Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Methods_Of_AI_Research"/>
+        <Class IRI="#Artificial_Intelligence"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mobile"/>
@@ -975,6 +1134,14 @@
     <SubClassOf>
         <Class IRI="#Morning"/>
         <Class IRI="#Day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multi_Agent_Learning"/>
+        <Class IRI="#Agents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multi_Agent_Systems"/>
+        <Class IRI="#Agents"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Multimedia"/>
@@ -1006,6 +1173,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Natural_Science"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_Science"/>
         <Class IRI="#Topic"/>
     </SubClassOf>
     <SubClassOf>
@@ -1015,6 +1186,14 @@
     <SubClassOf>
         <Class IRI="#Network_Science"/>
         <Class IRI="#Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neurocognition_Of_Memory_And_Attention"/>
+        <Class IRI="#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neuroscience"/>
+        <Class IRI="#Science"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Neuroscience"/>
@@ -1035,6 +1214,10 @@
     <SubClassOf>
         <Class IRI="#Philosophy_Of_AI"/>
         <Class IRI="#Philosophy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Philosophy_Of_Neuroscience"/>
+        <Class IRI="#Neuroscience"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Philosophy_Of_Neuroscience"/>
@@ -1089,8 +1272,16 @@
         <Class IRI="#Topic"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Social_And_Affective_Neuroscience"/>
+        <Class IRI="#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Social_Computing"/>
-        <Class IRI="#Artificial_Intelligence"/>
+        <Class IRI="#Computation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Science"/>
+        <Class IRI="#Science"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Society"/>
