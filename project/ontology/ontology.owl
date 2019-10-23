@@ -149,6 +149,9 @@
         <Class IRI="#Evening"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Exam"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Exam_Form"/>
     </Declaration>
     <Declaration>
@@ -413,9 +416,6 @@
         <Class IRI="#Week"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Written_Exam"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#containsCourses"/>
     </Declaration>
     <Declaration>
@@ -551,6 +551,9 @@
         <NamedIndividual IRI="#Computational_Argumentation"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#David_Terburg"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Davide_DellAnna"/>
     </Declaration>
     <Declaration>
@@ -561,6 +564,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Dong_Nguyen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Estrella_Montoya"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Experimentation_In_Psychology_And_Linguistics"/>
@@ -627,6 +633,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Interviews"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jack_Van_Honk"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Jan_Jansen"/>
@@ -734,6 +743,9 @@
         <NamedIndividual IRI="#Period_4"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Peter_Bos"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Philosophy_Of_AI"/>
     </Declaration>
     <Declaration>
@@ -759,6 +771,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Samira_Shirzadeh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Social_Computing"/>
@@ -810,6 +825,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Wishnu_Prasetya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Written_Exam"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#AI_For_Game_Technology"/>
@@ -1058,6 +1076,10 @@
     <SubClassOf>
         <Class IRI="#Evening"/>
         <Class IRI="#Day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exam"/>
+        <Class IRI="#Exam_Form"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Experimental_Physics"/>
@@ -1469,10 +1491,6 @@
         <Class IRI="#Wednesday"/>
         <Class IRI="#Week"/>
     </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Written_Exam"/>
-        <Class IRI="#Exam_Form"/>
-    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#Afternoon"/>
         <Class IRI="#Evening"/>
@@ -1531,6 +1549,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#David_Terburg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#Davide_DellAnna"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1544,6 +1566,10 @@
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#Dong_Nguyen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Estrella_Montoya"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Course"/>
@@ -1644,6 +1670,10 @@
     <ClassAssertion>
         <Class IRI="#Research_Methodology"/>
         <NamedIndividual IRI="#Interviews"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Jack_Van_Honk"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Student"/>
@@ -1798,6 +1828,10 @@
         <NamedIndividual IRI="#Period_4"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Peter_Bos"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Course"/>
         <NamedIndividual IRI="#Philosophy_Of_AI"/>
     </ClassAssertion>
@@ -1832,6 +1866,10 @@
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#Samira_Shirzadeh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Course"/>
@@ -1936,6 +1974,10 @@
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#Wishnu_Prasetya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Exam"/>
+        <NamedIndividual IRI="#Written_Exam"/>
     </ClassAssertion>
     <DifferentIndividuals>
         <NamedIndividual IRI="#Period_1"/>
@@ -2792,6 +2834,56 @@
         <ObjectProperty IRI="#hasSpeakingSkills"/>
         <NamedIndividual IRI="#Samira_Shirzadeh"/>
         <NamedIndividual IRI="#Low_Speaking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
+        <NamedIndividual IRI="#Written_Exam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
+        <NamedIndividual IRI="#Faculty_Of_Medicine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
+        <NamedIndividual IRI="#David_Terburg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
+        <NamedIndividual IRI="#Estrella_Montoya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
+        <NamedIndividual IRI="#Jack_Van_Honk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
+        <NamedIndividual IRI="#Peter_Bos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
+        <NamedIndividual IRI="#Period_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
+        <NamedIndividual IRI="#Friday_Evening"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
+        <NamedIndividual IRI="#Thursday_Morning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useMethodology"/>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
+        <NamedIndividual IRI="#Interviews"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isOfferedBy"/>
