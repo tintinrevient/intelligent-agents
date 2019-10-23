@@ -2630,7 +2630,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isOfferedBy"/>
         <NamedIndividual IRI="#Machine_Learning_For_Human_Vision_And_Language"/>
-        <NamedIndividual IRI="#Machine_Learning_For_Human_Vision_And_Language"/>
+        <NamedIndividual IRI="#Faculty_Of_Science"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtBy"/>
