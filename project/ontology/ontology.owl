@@ -452,6 +452,9 @@
         <ObjectProperty IRI="#hasSpeakingSkills"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#isCoveredBy"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#isOfferedBy"/>
     </Declaration>
     <Declaration>
@@ -3149,6 +3152,10 @@
     <InverseObjectProperties>
         <ObjectProperty IRI="#containsCourses"/>
         <ObjectProperty IRI="#isTaughtInPeriod"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#coversTopic"/>
+        <ObjectProperty IRI="#isCoveredBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#hasPrerequisite"/>
