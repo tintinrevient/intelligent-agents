@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8">
-    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -521,6 +521,12 @@
         <DataProperty IRI="#Type"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#A_C_Telea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_P_J_M_Siebes"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#A_Postma"/>
     </Declaration>
     <Declaration>
@@ -557,6 +563,12 @@
         <NamedIndividual IRI="#Computational_Argumentation"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Crowd_Simulation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Datascience_And_Society"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#David_Terburg"/>
     </Declaration>
     <Declaration>
@@ -564,6 +576,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Delphi_Method"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Digital_Ethics"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Dilemmas_Of_The_Scientist"/>
@@ -641,10 +656,16 @@
         <NamedIndividual IRI="#Interviews"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#J_H_Anderson"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#J_J_Bolhuis"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#J_L_Kenemans"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#J_Van_Honk"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Jack_Van_Honk"/>
@@ -684,6 +705,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#M_J_Moortgat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M_J_R_Brinkhuis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M_R_Spruit"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Machine_Learning_For_Human_Vision_And_Language"/>
@@ -731,6 +758,9 @@
         <NamedIndividual IRI="#Multi-agent_Systems"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Multimedia_Retrieval"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Nathalie_De_Boer"/>
     </Declaration>
     <Declaration>
@@ -744,6 +774,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Onuralp_Ulusoy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pattern_Set_Mining"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Period_1"/>
@@ -764,6 +797,9 @@
         <NamedIndividual IRI="#Philosophy_Of_AI"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Philosophy_Of_Neuroscience"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Pinar_Yolum"/>
     </Declaration>
     <Declaration>
@@ -777,6 +813,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#R_Iemhoff"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R_J_Geraerts"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#R_W_F_Nouwen"/>
@@ -1520,6 +1559,14 @@
     </DisjointClasses>
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#A_C_Telea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#A_P_J_M_Siebes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#A_Postma"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1567,6 +1614,14 @@
         <NamedIndividual IRI="#Computational_Argumentation"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Crowd_Simulation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Datascience_And_Society"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#David_Terburg"/>
     </ClassAssertion>
@@ -1577,6 +1632,10 @@
     <ClassAssertion>
         <Class IRI="#Research_Methodology"/>
         <NamedIndividual IRI="#Delphi_Method"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Digital_Ethics"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Course"/>
@@ -1692,11 +1751,19 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#J_H_Anderson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#J_J_Bolhuis"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#J_L_Kenemans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#J_Van_Honk"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
@@ -1749,6 +1816,14 @@
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#M_J_Moortgat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#M_J_R_Brinkhuis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#M_R_Spruit"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Course"/>
@@ -1823,6 +1898,10 @@
         <NamedIndividual IRI="#Multi-agent_Systems"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Multimedia_Retrieval"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Student"/>
         <NamedIndividual IRI="#Nathalie_De_Boer"/>
     </ClassAssertion>
@@ -1841,6 +1920,10 @@
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#Onuralp_Ulusoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Pattern_Set_Mining"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Period"/>
@@ -1867,6 +1950,10 @@
         <NamedIndividual IRI="#Philosophy_Of_AI"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Philosophy_Of_Neuroscience"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#Pinar_Yolum"/>
     </ClassAssertion>
@@ -1885,6 +1972,10 @@
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#R_Iemhoff"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#R_J_Geraerts"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
@@ -2147,6 +2238,56 @@
         <NamedIndividual IRI="#Wednesday_Afternoon"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Crowd_Simulation"/>
+        <NamedIndividual IRI="#R_J_Geraerts"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Crowd_Simulation"/>
+        <NamedIndividual IRI="#Period_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Crowd_Simulation"/>
+        <NamedIndividual IRI="#Thursday_Afternoon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Crowd_Simulation"/>
+        <NamedIndividual IRI="#Tuesday_Morning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Datascience_And_Society"/>
+        <NamedIndividual IRI="#Faculty_Of_Science"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Datascience_And_Society"/>
+        <NamedIndividual IRI="#M_J_R_Brinkhuis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Datascience_And_Society"/>
+        <NamedIndividual IRI="#M_R_Spruit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Datascience_And_Society"/>
+        <NamedIndividual IRI="#Period_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Datascience_And_Society"/>
+        <NamedIndividual IRI="#Thursday_Morning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Datascience_And_Society"/>
+        <NamedIndividual IRI="#Tuesday_Afternoon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
         <NamedIndividual IRI="#Davide_DellAnna"/>
         <NamedIndividual IRI="#High_Communication_Outside_Lecture_Hours"/>
@@ -2170,6 +2311,31 @@
         <ObjectProperty IRI="#hasSpeakingSkills"/>
         <NamedIndividual IRI="#Davide_DellAnna"/>
         <NamedIndividual IRI="#Moderate_Speaking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Digital_Ethics"/>
+        <NamedIndividual IRI="#Faculty_Of_Humanities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Digital_Ethics"/>
+        <NamedIndividual IRI="#J_H_Anderson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Digital_Ethics"/>
+        <NamedIndividual IRI="#Period_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Digital_Ethics"/>
+        <NamedIndividual IRI="#Monday_Afternoon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Digital_Ethics"/>
+        <NamedIndividual IRI="#Thursday_Morning"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isOfferedBy"/>
@@ -2658,6 +2824,31 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Multimedia_Retrieval"/>
+        <NamedIndividual IRI="#Faculty_Of_Beta_Science"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Multimedia_Retrieval"/>
+        <NamedIndividual IRI="#A_C_Telea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Multimedia_Retrieval"/>
+        <NamedIndividual IRI="#Period_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Multimedia_Retrieval"/>
+        <NamedIndividual IRI="#Thursday_Morning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Multimedia_Retrieval"/>
+        <NamedIndividual IRI="#Tuesday_Afternoon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
         <NamedIndividual IRI="#Natural_Language_Processing"/>
         <NamedIndividual IRI="#Faculty_Of_Science"/>
     </ObjectPropertyAssertion>
@@ -2748,6 +2939,31 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Pattern_Set_Mining"/>
+        <NamedIndividual IRI="#Faculty_Of_Beta_Science"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Pattern_Set_Mining"/>
+        <NamedIndividual IRI="#A_P_J_M_Siebes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Pattern_Set_Mining"/>
+        <NamedIndividual IRI="#Period_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Pattern_Set_Mining"/>
+        <NamedIndividual IRI="#Friday_Morning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Pattern_Set_Mining"/>
+        <NamedIndividual IRI="#Wednesday_Afternoon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
         <NamedIndividual IRI="#Philosophy_Of_AI"/>
         <NamedIndividual IRI="#Faculty_Of_Science"/>
     </ObjectPropertyAssertion>
@@ -2774,6 +2990,31 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtOn"/>
         <NamedIndividual IRI="#Philosophy_Of_AI"/>
+        <NamedIndividual IRI="#Wednesday_Morning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Philosophy_Of_Neuroscience"/>
+        <NamedIndividual IRI="#Faculty_Of_Medicine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Philosophy_Of_Neuroscience"/>
+        <NamedIndividual IRI="#J_Van_Honk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Philosophy_Of_Neuroscience"/>
+        <NamedIndividual IRI="#Period_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Philosophy_Of_Neuroscience"/>
+        <NamedIndividual IRI="#Monday_Morning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Philosophy_Of_Neuroscience"/>
         <NamedIndividual IRI="#Wednesday_Morning"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
