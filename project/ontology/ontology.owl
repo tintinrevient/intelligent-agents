@@ -521,6 +521,9 @@
         <DataProperty IRI="#Type"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#A_Postma"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#A_Volk"/>
     </Declaration>
     <Declaration>
@@ -638,6 +641,12 @@
         <NamedIndividual IRI="#Interviews"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#J_J_Bolhuis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#J_L_Kenemans"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Jack_Van_Honk"/>
     </Declaration>
     <Declaration>
@@ -726,6 +735,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Natural_Language_Processing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Observation"/>
@@ -1508,6 +1520,10 @@
     </DisjointClasses>
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#A_Postma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#A_Volk"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1676,6 +1692,14 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#J_J_Bolhuis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#J_L_Kenemans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#Jack_Van_Honk"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1805,6 +1829,10 @@
     <ClassAssertion>
         <Class IRI="#Course"/>
         <NamedIndividual IRI="#Natural_Language_Processing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Research_Methodology"/>
@@ -2652,6 +2680,46 @@
         <ObjectProperty IRI="#isTaughtOn"/>
         <NamedIndividual IRI="#Natural_Language_Processing"/>
         <NamedIndividual IRI="#Wednesday_Afternoon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
+        <NamedIndividual IRI="#Faculty_Of_Medicine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
+        <NamedIndividual IRI="#A_Postma"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
+        <NamedIndividual IRI="#J_J_Bolhuis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
+        <NamedIndividual IRI="#J_L_Kenemans"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
+        <NamedIndividual IRI="#Period_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
+        <NamedIndividual IRI="#Monday_Morning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
+        <NamedIndividual IRI="#Wednesday_Morning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useMethodology"/>
+        <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
+        <NamedIndividual IRI="#Theoretical_Analysis"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
