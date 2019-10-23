@@ -539,7 +539,13 @@
         <NamedIndividual IRI="#B_M_Harvey"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#C_P_Janssen"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Case_Studies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cognitive_Modeling"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Computational_Argumentation"/>
@@ -1508,8 +1514,16 @@
         <NamedIndividual IRI="#B_M_Harvey"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#C_P_Janssen"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Research_Methodology"/>
         <NamedIndividual IRI="#Case_Studies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Cognitive_Modeling"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Course"/>
@@ -2006,6 +2020,36 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Cognitive_Modeling"/>
+        <NamedIndividual IRI="#Faculty_Of_Science"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Cognitive_Modeling"/>
+        <NamedIndividual IRI="#C_P_Janssen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtInPeriod"/>
+        <NamedIndividual IRI="#Cognitive_Modeling"/>
+        <NamedIndividual IRI="#Period_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Cognitive_Modeling"/>
+        <NamedIndividual IRI="#Friday_Morning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtOn"/>
+        <NamedIndividual IRI="#Cognitive_Modeling"/>
+        <NamedIndividual IRI="#Wednesday_Afternoon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useMethodology"/>
+        <NamedIndividual IRI="#Cognitive_Modeling"/>
+        <NamedIndividual IRI="#Case_Studies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
         <NamedIndividual IRI="#Computational_Argumentation"/>
         <NamedIndividual IRI="#Faculty_Of_Science"/>
     </ObjectPropertyAssertion>
@@ -2423,6 +2467,11 @@
         <ObjectProperty IRI="#isOfferedBy"/>
         <NamedIndividual IRI="#Methods_In_AI_Research"/>
         <NamedIndividual IRI="#Faculty_Of_Science"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <NamedIndividual IRI="#Methods_In_AI_Research"/>
+        <NamedIndividual IRI="#C_P_Janssen"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtBy"/>
