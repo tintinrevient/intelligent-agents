@@ -464,6 +464,12 @@
         <ObjectProperty IRI="#isTaughtOn"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#offeredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offersCourse"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#prefers"/>
     </Declaration>
     <Declaration>
@@ -573,9 +579,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Floris_Bex"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Frank_Sinatra"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Friday_Afternoon"/>
@@ -1559,10 +1562,6 @@
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#Floris_Bex"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Lecturer"/>
-        <NamedIndividual IRI="#Frank_Sinatra"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Afternoon"/>
@@ -2939,6 +2938,10 @@
         <ObjectProperty IRI="#teaches"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#offeredBy"/>
+        <ObjectProperty IRI="#offersCourse"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#takenBy"/>
         <ObjectProperty IRI="#takes"/>
     </InverseObjectProperties>
@@ -2959,6 +2962,9 @@
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#isTaughtInPeriod"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#offeredBy"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#teachesInPeriod_1"/>
@@ -3054,6 +3060,14 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isTaughtOn"/>
         <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#offeredBy"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#offersCourse"/>
+        <Class IRI="#Faculty"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#prefers"/>
@@ -3166,6 +3180,14 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isTaughtOn"/>
         <Class IRI="#Week"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#offeredBy"/>
+        <Class IRI="#Faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#offersCourse"/>
+        <Class IRI="#Course"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#prefers"/>
