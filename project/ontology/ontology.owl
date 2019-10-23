@@ -575,6 +575,9 @@
         <NamedIndividual IRI="#Floris_Bex"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Frank_Sinatra"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Friday_Afternoon"/>
     </Declaration>
     <Declaration>
@@ -1556,6 +1559,10 @@
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#Floris_Bex"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lecturer"/>
+        <NamedIndividual IRI="#Frank_Sinatra"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Afternoon"/>
