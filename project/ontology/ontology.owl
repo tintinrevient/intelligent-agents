@@ -485,18 +485,6 @@
         <ObjectProperty IRI="#takes"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#takesInPeriod_1"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#takesInPeriod_2"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#takesInPeriod_3"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#takesInPeriod_4"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#teaches"/>
     </Declaration>
     <Declaration>
@@ -3757,22 +3745,6 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasSpeakingSkills"/>
         <ObjectProperty IRI="#hasSkill"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#takesInPeriod_1"/>
-        <ObjectProperty IRI="#takes"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#takesInPeriod_2"/>
-        <ObjectProperty IRI="#takes"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#takesInPeriod_3"/>
-        <ObjectProperty IRI="#takes"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#takesInPeriod_4"/>
-        <ObjectProperty IRI="#takes"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#containsCourses"/>
