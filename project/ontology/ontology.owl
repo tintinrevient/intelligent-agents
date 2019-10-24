@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8">
-    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8#"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -1221,24 +1221,36 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lecturer"/>
-        <ObjectUnionOf>
+        <ObjectIntersectionOf>
             <ObjectMaxCardinality cardinality="1">
                 <ObjectProperty IRI="#teachesInPeriod_1"/>
-                <Class IRI="#Course"/>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#isTaughtInPeriod"/>
+                    <NamedIndividual IRI="#Period_1"/>
+                </ObjectHasValue>
             </ObjectMaxCardinality>
             <ObjectMaxCardinality cardinality="1">
                 <ObjectProperty IRI="#teachesInPeriod_2"/>
-                <Class IRI="#Course"/>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#isTaughtInPeriod"/>
+                    <NamedIndividual IRI="#Period_2"/>
+                </ObjectHasValue>
             </ObjectMaxCardinality>
             <ObjectMaxCardinality cardinality="1">
                 <ObjectProperty IRI="#teachesInPeriod_3"/>
-                <Class IRI="#Course"/>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#isTaughtInPeriod"/>
+                    <NamedIndividual IRI="#Period_3"/>
+                </ObjectHasValue>
             </ObjectMaxCardinality>
             <ObjectMaxCardinality cardinality="1">
                 <ObjectProperty IRI="#teachesInPeriod_4"/>
-                <Class IRI="#Course"/>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#isTaughtInPeriod"/>
+                    <NamedIndividual IRI="#Period_4"/>
+                </ObjectHasValue>
             </ObjectMaxCardinality>
-        </ObjectUnionOf>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Linguistics"/>
