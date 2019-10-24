@@ -2108,6 +2108,56 @@
         <NamedIndividual IRI="#Period_4"/>
     </DifferentIndividuals>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
+        <NamedIndividual IRI="#A_C_Telea"/>
+        <NamedIndividual IRI="#Low_Communication_Outside_Lecture_Hours"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFreedomWhithinCourses"/>
+        <NamedIndividual IRI="#A_C_Telea"/>
+        <NamedIndividual IRI="#Low_Freedom_Whithin_Courses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuidanceWithSubject"/>
+        <NamedIndividual IRI="#A_C_Telea"/>
+        <NamedIndividual IRI="#Low_Guidance_Whithin_Subject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrganizingSkills"/>
+        <NamedIndividual IRI="#A_C_Telea"/>
+        <NamedIndividual IRI="#Low_Organizing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpeakingSkills"/>
+        <NamedIndividual IRI="#A_C_Telea"/>
+        <NamedIndividual IRI="#High_Speaking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
+        <NamedIndividual IRI="#A_P_J_M_Siebes"/>
+        <NamedIndividual IRI="#Moderate_Communication_Outside_Lecture_Hours"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFreedomWhithinCourses"/>
+        <NamedIndividual IRI="#A_P_J_M_Siebes"/>
+        <NamedIndividual IRI="#Moderate_Freedom_Whithin_Courses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuidanceWithSubject"/>
+        <NamedIndividual IRI="#A_P_J_M_Siebes"/>
+        <NamedIndividual IRI="#Low_Guidance_Whithin_Subject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrganizingSkills"/>
+        <NamedIndividual IRI="#A_P_J_M_Siebes"/>
+        <NamedIndividual IRI="#High_Organizing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpeakingSkills"/>
+        <NamedIndividual IRI="#A_P_J_M_Siebes"/>
+        <NamedIndividual IRI="#Low_Speaking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFriend"/>
         <NamedIndividual IRI="#Adam_Smith"/>
         <NamedIndividual IRI="#Antoine_Dumont"/>
@@ -2148,6 +2198,31 @@
         <NamedIndividual IRI="#Tuesday_Afternoon"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
+        <NamedIndividual IRI="#Anna-Lena_Lamprecht"/>
+        <NamedIndividual IRI="#Moderate_Communication_Outside_Lecture_Hours"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFreedomWhithinCourses"/>
+        <NamedIndividual IRI="#Anna-Lena_Lamprecht"/>
+        <NamedIndividual IRI="#Low_Freedom_Whithin_Courses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuidanceWithSubject"/>
+        <NamedIndividual IRI="#Anna-Lena_Lamprecht"/>
+        <NamedIndividual IRI="#High_Guidance_Whithin_Subject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrganizingSkills"/>
+        <NamedIndividual IRI="#Anna-Lena_Lamprecht"/>
+        <NamedIndividual IRI="#Moderate_Organizing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpeakingSkills"/>
+        <NamedIndividual IRI="#Anna-Lena_Lamprecht"/>
+        <NamedIndividual IRI="#High_Speaking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFriend"/>
         <NamedIndividual IRI="#Antoine_Dumont"/>
         <NamedIndividual IRI="#Adam_Smith"/>
@@ -2180,6 +2255,31 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasSpeakingSkills"/>
         <NamedIndividual IRI="#B_M_Harvey"/>
+        <NamedIndividual IRI="#High_Speaking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
+        <NamedIndividual IRI="#C_P_Janssen"/>
+        <NamedIndividual IRI="#High_Communication_Outside_Lecture_Hours"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFreedomWhithinCourses"/>
+        <NamedIndividual IRI="#C_P_Janssen"/>
+        <NamedIndividual IRI="#Moderate_Freedom_Whithin_Courses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuidanceWithSubject"/>
+        <NamedIndividual IRI="#C_P_Janssen"/>
+        <NamedIndividual IRI="#Low_Guidance_Whithin_Subject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrganizingSkills"/>
+        <NamedIndividual IRI="#C_P_Janssen"/>
+        <NamedIndividual IRI="#High_Organizing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpeakingSkills"/>
+        <NamedIndividual IRI="#C_P_Janssen"/>
         <NamedIndividual IRI="#High_Speaking"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -2503,6 +2603,31 @@
         <NamedIndividual IRI="#High_Speaking"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
+        <NamedIndividual IRI="#Henry_Prakken"/>
+        <NamedIndividual IRI="#Low_Communication_Outside_Lecture_Hours"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFreedomWhithinCourses"/>
+        <NamedIndividual IRI="#Henry_Prakken"/>
+        <NamedIndividual IRI="#Low_Freedom_Whithin_Courses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuidanceWithSubject"/>
+        <NamedIndividual IRI="#Henry_Prakken"/>
+        <NamedIndividual IRI="#Moderate_Guidance_Whithin_Subject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrganizingSkills"/>
+        <NamedIndividual IRI="#Henry_Prakken"/>
+        <NamedIndividual IRI="#High_Organizing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpeakingSkills"/>
+        <NamedIndividual IRI="#Henry_Prakken"/>
+        <NamedIndividual IRI="#Low_Speaking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasOrganizingSkills"/>
         <NamedIndividual IRI="#High_Speaking"/>
         <NamedIndividual IRI="#Moderate_Organizing"/>
@@ -2531,6 +2656,56 @@
         <ObjectProperty IRI="#isTaughtOn"/>
         <NamedIndividual IRI="#Intelligent_Agents"/>
         <NamedIndividual IRI="#Tuesday_Morning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
+        <NamedIndividual IRI="#J_H_Anderson"/>
+        <NamedIndividual IRI="#Moderate_Communication_Outside_Lecture_Hours"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFreedomWhithinCourses"/>
+        <NamedIndividual IRI="#J_H_Anderson"/>
+        <NamedIndividual IRI="#Moderate_Freedom_Whithin_Courses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuidanceWithSubject"/>
+        <NamedIndividual IRI="#J_H_Anderson"/>
+        <NamedIndividual IRI="#Low_Guidance_Whithin_Subject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrganizingSkills"/>
+        <NamedIndividual IRI="#J_H_Anderson"/>
+        <NamedIndividual IRI="#Low_Organizing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpeakingSkills"/>
+        <NamedIndividual IRI="#J_H_Anderson"/>
+        <NamedIndividual IRI="#High_Speaking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
+        <NamedIndividual IRI="#J_Van_Honk"/>
+        <NamedIndividual IRI="#High_Communication_Outside_Lecture_Hours"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFreedomWhithinCourses"/>
+        <NamedIndividual IRI="#J_Van_Honk"/>
+        <NamedIndividual IRI="#Moderate_Freedom_Whithin_Courses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuidanceWithSubject"/>
+        <NamedIndividual IRI="#J_Van_Honk"/>
+        <NamedIndividual IRI="#Moderate_Guidance_Whithin_Subject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrganizingSkills"/>
+        <NamedIndividual IRI="#J_Van_Honk"/>
+        <NamedIndividual IRI="#Low_Organizing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpeakingSkills"/>
+        <NamedIndividual IRI="#J_Van_Honk"/>
+        <NamedIndividual IRI="#Low_Speaking"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFriend"/>
@@ -2626,6 +2801,56 @@
         <ObjectProperty IRI="#hasSpeakingSkills"/>
         <NamedIndividual IRI="#M_J_Moortgat"/>
         <NamedIndividual IRI="#Low_Speaking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
+        <NamedIndividual IRI="#M_J_R_Brinkhuis"/>
+        <NamedIndividual IRI="#High_Communication_Outside_Lecture_Hours"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFreedomWhithinCourses"/>
+        <NamedIndividual IRI="#M_J_R_Brinkhuis"/>
+        <NamedIndividual IRI="#High_Freedom_Whithin_Courses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuidanceWithSubject"/>
+        <NamedIndividual IRI="#M_J_R_Brinkhuis"/>
+        <NamedIndividual IRI="#Low_Guidance_Whithin_Subject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrganizingSkills"/>
+        <NamedIndividual IRI="#M_J_R_Brinkhuis"/>
+        <NamedIndividual IRI="#Moderate_Organizing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpeakingSkills"/>
+        <NamedIndividual IRI="#M_J_R_Brinkhuis"/>
+        <NamedIndividual IRI="#Moderate_Speaking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
+        <NamedIndividual IRI="#M_R_Spruit"/>
+        <NamedIndividual IRI="#High_Communication_Outside_Lecture_Hours"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFreedomWhithinCourses"/>
+        <NamedIndividual IRI="#M_R_Spruit"/>
+        <NamedIndividual IRI="#High_Freedom_Whithin_Courses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuidanceWithSubject"/>
+        <NamedIndividual IRI="#M_R_Spruit"/>
+        <NamedIndividual IRI="#High_Guidance_Whithin_Subject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrganizingSkills"/>
+        <NamedIndividual IRI="#M_R_Spruit"/>
+        <NamedIndividual IRI="#High_Organizing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpeakingSkills"/>
+        <NamedIndividual IRI="#M_R_Spruit"/>
+        <NamedIndividual IRI="#High_Speaking"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isOfferedBy"/>
@@ -3099,6 +3324,56 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
+        <NamedIndividual IRI="#R_J_Geraerts"/>
+        <NamedIndividual IRI="#High_Communication_Outside_Lecture_Hours"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFreedomWhithinCourses"/>
+        <NamedIndividual IRI="#R_J_Geraerts"/>
+        <NamedIndividual IRI="#Low_Freedom_Whithin_Courses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuidanceWithSubject"/>
+        <NamedIndividual IRI="#R_J_Geraerts"/>
+        <NamedIndividual IRI="#Moderate_Guidance_Whithin_Subject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrganizingSkills"/>
+        <NamedIndividual IRI="#R_J_Geraerts"/>
+        <NamedIndividual IRI="#Low_Organizing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpeakingSkills"/>
+        <NamedIndividual IRI="#R_J_Geraerts"/>
+        <NamedIndividual IRI="#High_Speaking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
+        <NamedIndividual IRI="#R_W_F_Nouwen"/>
+        <NamedIndividual IRI="#High_Communication_Outside_Lecture_Hours"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFreedomWhithinCourses"/>
+        <NamedIndividual IRI="#R_W_F_Nouwen"/>
+        <NamedIndividual IRI="#Low_Freedom_Whithin_Courses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuidanceWithSubject"/>
+        <NamedIndividual IRI="#R_W_F_Nouwen"/>
+        <NamedIndividual IRI="#Moderate_Guidance_Whithin_Subject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrganizingSkills"/>
+        <NamedIndividual IRI="#R_W_F_Nouwen"/>
+        <NamedIndividual IRI="#Moderate_Organizing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpeakingSkills"/>
+        <NamedIndividual IRI="#R_W_F_Nouwen"/>
+        <NamedIndividual IRI="#Moderate_Speaking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
         <NamedIndividual IRI="#Richard_Starmans"/>
         <NamedIndividual IRI="#Low_Communication_Outside_Lecture_Hours"/>
     </ObjectPropertyAssertion>
@@ -3283,6 +3558,11 @@
         <NamedIndividual IRI="#Low_Speaking"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#teaches"/>
+        <NamedIndividual IRI="#Thijs_Van_Ommen"/>
+        <NamedIndividual IRI="#Advanced_Machine_Learning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasCourse"/>
         <NamedIndividual IRI="#Thursday_Afternoon"/>
         <NamedIndividual IRI="#Intelligent_Agents"/>
@@ -3396,6 +3676,31 @@
         <ObjectProperty IRI="#hasCourse"/>
         <NamedIndividual IRI="#Wednesday_Morning"/>
         <NamedIndividual IRI="#Program_Semantics_And_Verification"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
+        <NamedIndividual IRI="#Wishnu_Prasetya"/>
+        <NamedIndividual IRI="#Low_Communication_Outside_Lecture_Hours"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFreedomWhithinCourses"/>
+        <NamedIndividual IRI="#Wishnu_Prasetya"/>
+        <NamedIndividual IRI="#High_Freedom_Whithin_Courses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuidanceWithSubject"/>
+        <NamedIndividual IRI="#Wishnu_Prasetya"/>
+        <NamedIndividual IRI="#Low_Guidance_Whithin_Subject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrganizingSkills"/>
+        <NamedIndividual IRI="#Wishnu_Prasetya"/>
+        <NamedIndividual IRI="#Low_Organizing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpeakingSkills"/>
+        <NamedIndividual IRI="#Wishnu_Prasetya"/>
+        <NamedIndividual IRI="#Moderate_Speaking"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Type"/>
