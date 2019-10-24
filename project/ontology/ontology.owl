@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8">
-    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -1223,28 +1223,28 @@
         <Class IRI="#Lecturer"/>
         <ObjectIntersectionOf>
             <ObjectMaxCardinality cardinality="1">
-                <ObjectProperty IRI="#teachesInPeriod_1"/>
+                <ObjectProperty IRI="#teaches"/>
                 <ObjectHasValue>
                     <ObjectProperty IRI="#isTaughtInPeriod"/>
                     <NamedIndividual IRI="#Period_1"/>
                 </ObjectHasValue>
             </ObjectMaxCardinality>
             <ObjectMaxCardinality cardinality="1">
-                <ObjectProperty IRI="#teachesInPeriod_2"/>
+                <ObjectProperty IRI="#teaches"/>
                 <ObjectHasValue>
                     <ObjectProperty IRI="#isTaughtInPeriod"/>
                     <NamedIndividual IRI="#Period_2"/>
                 </ObjectHasValue>
             </ObjectMaxCardinality>
             <ObjectMaxCardinality cardinality="1">
-                <ObjectProperty IRI="#teachesInPeriod_3"/>
+                <ObjectProperty IRI="#teaches"/>
                 <ObjectHasValue>
                     <ObjectProperty IRI="#isTaughtInPeriod"/>
                     <NamedIndividual IRI="#Period_3"/>
                 </ObjectHasValue>
             </ObjectMaxCardinality>
             <ObjectMaxCardinality cardinality="1">
-                <ObjectProperty IRI="#teachesInPeriod_4"/>
+                <ObjectProperty IRI="#teaches"/>
                 <ObjectHasValue>
                     <ObjectProperty IRI="#isTaughtInPeriod"/>
                     <NamedIndividual IRI="#Period_4"/>
@@ -3203,11 +3203,6 @@
         <ObjectProperty IRI="#isOfferedBy"/>
         <NamedIndividual IRI="#Philosophy_Of_AI"/>
         <NamedIndividual IRI="#Faculty_Of_Science"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isTaughtBy"/>
-        <NamedIndividual IRI="#Philosophy_Of_AI"/>
-        <NamedIndividual IRI="#Mehdi_Dastani"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isTaughtBy"/>
