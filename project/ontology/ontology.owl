@@ -4344,9 +4344,19 @@
         <NamedIndividual IRI="#Moderate_Speaking"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Advanced_Machine_Learning"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.82</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#Type"/>
         <NamedIndividual IRI="#Advanced_Machine_Learning"/>
         <Literal>Primary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Cognitive_Modeling"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Type"/>
@@ -4354,9 +4364,234 @@
         <Literal>Primary Course</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Computational_Argumentation"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Computational_Argumentation"/>
+        <Literal>Primary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Crowd_Simulation"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.63</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Crowd_Simulation"/>
+        <Literal>Secondary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Datascience_And_Society"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.95</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Datascience_And_Society"/>
+        <Literal>Secondary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Digital_Ethics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Digital_Ethics"/>
+        <Literal>Secondary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Dilemmas_Of_The_Scientist"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.03</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Dilemmas_Of_The_Scientist"/>
+        <Literal>Mandatory Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Experimentation_In_Psychology_And_Linguistics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Experimentation_In_Psychology_And_Linguistics"/>
+        <Literal>Primary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Intelligent_Agents"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#Type"/>
         <NamedIndividual IRI="#Intelligent_Agents"/>
         <Literal>Primary_Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Logic_And_Computation"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Logic_And_Computation"/>
+        <Literal>Primary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Logic_And_Language"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Logic_And_Language"/>
+        <Literal>Primary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Machine_Learning_For_Human_Vision_And_Language"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Machine_Learning_For_Human_Vision_And_Language"/>
+        <Literal>Primary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Methods_In_AI_Research"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.37</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Methods_In_AI_Research"/>
+        <Literal>Mandatory Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Multi-agent_Learning"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.68</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Multi-agent_Learning"/>
+        <Literal>Primary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Multi-agent_Systems"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.64</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Multi-agent_Systems"/>
+        <Literal>Primary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Multimedia_Retrieval"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Multimedia_Retrieval"/>
+        <Literal>Secondary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Natural_Language_Processing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.37</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Natural_Language_Processing"/>
+        <Literal>Primary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.78</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
+        <Literal>Secondary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Pattern_Set_Mining"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Pattern_Set_Mining"/>
+        <Literal>Secondary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Philosophy_Of_AI"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.05</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Philosophy_Of_AI"/>
+        <Literal>Mandatory Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Philosophy_Of_Neuroscience"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.49</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Philosophy_Of_Neuroscience"/>
+        <Literal>Secondary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Program_Semantics_And_Verification"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Program_Semantics_And_Verification"/>
+        <Literal>Secondary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
+        <Literal>Secondary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Social_Computing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.53</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Social_Computing"/>
+        <Literal>Primary Course</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Sound_And_Music_Technology"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.44</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Sound_And_Music_Technology"/>
+        <Literal>Mandatory Course</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
@@ -4677,6 +4912,26 @@
         <ObjectProperty IRI="#usesSkill"/>
         <Class IRI="#Skills"/>
     </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Difficulty"/>
+        <Class IRI="#Course"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Type"/>
+        <Class IRI="#Course"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Difficulty"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:double"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Lecturer</IRI>
