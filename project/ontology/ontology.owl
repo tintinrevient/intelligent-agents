@@ -2227,6 +2227,46 @@
         <NamedIndividual IRI="#Science_Park"/>
     </DifferentIndividuals>
     <DifferentIndividuals>
+        <NamedIndividual IRI="#High_Communication_Outside_Lecture_Hours"/>
+        <NamedIndividual IRI="#Low_Communication_Outside_Lecture_Hours"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#High_Communication_Outside_Lecture_Hours"/>
+        <NamedIndividual IRI="#Moderate_Communication_Outside_Lecture_Hours"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#High_Freedom_Whithin_Courses"/>
+        <NamedIndividual IRI="#Low_Freedom_Whithin_Courses"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#High_Freedom_Whithin_Courses"/>
+        <NamedIndividual IRI="#Moderate_Freedom_Whithin_Courses"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#High_Guidance_Whithin_Subject"/>
+        <NamedIndividual IRI="#Low_Guidance_Whithin_Subject"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#High_Guidance_Whithin_Subject"/>
+        <NamedIndividual IRI="#Moderate_Guidance_Whithin_Subject"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#High_Organizing"/>
+        <NamedIndividual IRI="#Low_Organizing"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#High_Organizing"/>
+        <NamedIndividual IRI="#Moderate_Organizing"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#High_Speaking"/>
+        <NamedIndividual IRI="#Low_Speaking"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#High_Speaking"/>
+        <NamedIndividual IRI="#Moderate_Speaking"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
         <NamedIndividual IRI="#Lab_Format"/>
         <NamedIndividual IRI="#Lecture_Format"/>
     </DifferentIndividuals>
@@ -2237,6 +2277,26 @@
     <DifferentIndividuals>
         <NamedIndividual IRI="#Lecture_Format"/>
         <NamedIndividual IRI="#Seminar_Format"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Low_Communication_Outside_Lecture_Hours"/>
+        <NamedIndividual IRI="#Moderate_Communication_Outside_Lecture_Hours"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Low_Freedom_Whithin_Courses"/>
+        <NamedIndividual IRI="#Moderate_Freedom_Whithin_Courses"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Low_Guidance_Whithin_Subject"/>
+        <NamedIndividual IRI="#Moderate_Guidance_Whithin_Subject"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Low_Organizing"/>
+        <NamedIndividual IRI="#Moderate_Organizing"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Low_Speaking"/>
+        <NamedIndividual IRI="#Moderate_Speaking"/>
     </DifferentIndividuals>
     <DifferentIndividuals>
         <NamedIndividual IRI="#Monthly_Deadlines"/>
