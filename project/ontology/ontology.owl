@@ -32,9 +32,6 @@
         <Class IRI="#Evening"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Exam"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Exam_Form"/>
     </Declaration>
     <Declaration>
@@ -77,12 +74,6 @@
         <Class IRI="#Person"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Practical_Assignment"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Presentation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Programming"/>
     </Declaration>
     <Declaration>
@@ -114,6 +105,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Week"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consistsOf"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#containsCourses"/>
@@ -243,9 +237,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Advanced_graphics_Topic"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Advanced_machine_learning_Topic"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Agents_Topic"/>
@@ -731,6 +722,9 @@
         <NamedIndividual IRI="#Onuralp_Ulusoy"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Paper"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Pattern_Set_Mining"/>
     </Declaration>
     <Declaration>
@@ -782,6 +776,9 @@
         <NamedIndividual IRI="#Pinar_Yolum"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Presentation"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Process_Mining_Topic"/>
     </Declaration>
     <Declaration>
@@ -795,6 +792,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Programming_Topic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Project"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Psychology_Topic"/>
@@ -965,10 +965,6 @@
         <Class IRI="#Day"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Exam"/>
-        <Class IRI="#Exam_Form"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Freedom_Whithin_Courses"/>
         <Class IRI="#Lecturer_Skills"/>
     </SubClassOf>
@@ -1036,14 +1032,6 @@
     <SubClassOf>
         <Class IRI="#Organizing"/>
         <Class IRI="#Lecturer_Skills"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Practical_Assignment"/>
-        <Class IRI="#Exam_Form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Presentation"/>
-        <Class IRI="#Exam_Form"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Programming"/>
@@ -1205,10 +1193,6 @@
     <ClassAssertion>
         <Class IRI="#Topic"/>
         <NamedIndividual IRI="#Advanced_graphics_Topic"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Topic"/>
-        <NamedIndividual IRI="#Advanced_machine_learning_Topic"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Topic"/>
@@ -1879,6 +1863,10 @@
         <NamedIndividual IRI="#Onuralp_Ulusoy"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Exam_Form"/>
+        <NamedIndividual IRI="#Paper"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Course"/>
         <NamedIndividual IRI="#Pattern_Set_Mining"/>
     </ClassAssertion>
@@ -1947,6 +1935,10 @@
         <NamedIndividual IRI="#Pinar_Yolum"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Exam_Form"/>
+        <NamedIndividual IRI="#Presentation"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Topic"/>
         <NamedIndividual IRI="#Process_Mining_Topic"/>
     </ClassAssertion>
@@ -1965,6 +1957,10 @@
     <ClassAssertion>
         <Class IRI="#Topic"/>
         <NamedIndividual IRI="#Programming_Topic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Exam_Form"/>
+        <NamedIndividual IRI="#Project"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Topic"/>
@@ -2179,7 +2175,7 @@
         <NamedIndividual IRI="#Wishnu_Prasetya"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Exam"/>
+        <Class IRI="#Exam_Form"/>
         <NamedIndividual IRI="#Written_Exam"/>
     </ClassAssertion>
     <DifferentIndividuals>
@@ -2188,6 +2184,11 @@
         <NamedIndividual IRI="#Period_3"/>
         <NamedIndividual IRI="#Period_4"/>
     </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOf"/>
+        <NamedIndividual IRI="#AI_For_Game_Technology_Topic"/>
+        <NamedIndividual IRI="#Artificial_Intelligence_Topic"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isPartOf"/>
         <NamedIndividual IRI="#AI_For_Game_Technology_Topic"/>
@@ -3951,6 +3952,11 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isPartOf"/>
         <NamedIndividual IRI="#Natural_Language_Processing_Topic"/>
+        <NamedIndividual IRI="#Artificial_Intelligence_Topic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOf"/>
+        <NamedIndividual IRI="#Natural_Language_Processing_Topic"/>
         <NamedIndividual IRI="#Linguistics_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -4157,6 +4163,11 @@
         <ObjectProperty IRI="#usesMethodology"/>
         <NamedIndividual IRI="#Philosophy_Of_AI"/>
         <NamedIndividual IRI="#Interviews"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOf"/>
+        <NamedIndividual IRI="#Philosophy_Of_AI_Topic"/>
+        <NamedIndividual IRI="#Artificial_Intelligence_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isPartOf"/>
@@ -4467,11 +4478,6 @@
         <ObjectProperty IRI="#hasDeadlines"/>
         <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
         <NamedIndividual IRI="#No_Deadlines"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasExamForm"/>
-        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
-        <NamedIndividual IRI="#Written_Exam"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
@@ -5131,6 +5137,10 @@
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#consistsOf"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#containsCourses"/>
         <ObjectProperty IRI="#isTaughtInPeriod"/>
     </InverseObjectProperties>
@@ -5139,8 +5149,16 @@
         <ObjectProperty IRI="#isCoveredBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCourse"/>
+        <ObjectProperty IRI="#isTaughtOn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#hasPrerequisite"/>
         <ObjectProperty IRI="#hasPrerequisite"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPrerequisite"/>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#isOfferedBy"/>
@@ -5184,6 +5202,9 @@
     <SymmetricObjectProperty>
         <ObjectProperty IRI="#hasFriend"/>
     </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#consistsOf"/>
+    </TransitiveObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#isPartOf"/>
     </TransitiveObjectProperty>
