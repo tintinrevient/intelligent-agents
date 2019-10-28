@@ -131,6 +131,9 @@
         <ObjectProperty IRI="#hasExamForm"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasFaculty"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasFreedomWhithinCourses"/>
     </Declaration>
     <Declaration>
@@ -5579,6 +5582,10 @@
         <ObjectProperty IRI="#isTaughtOn"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#hasFaculty"/>
+        <ObjectProperty IRI="#isLocatedAt"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#hasPrerequisite"/>
         <ObjectProperty IRI="#isPrerequisiteFor"/>
     </InverseObjectProperties>
@@ -5636,6 +5643,9 @@
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#isPrerequisiteFor"/>
     </TransitiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="#isPartOf"/>
+    </ReflexiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#containsCourses"/>
         <Class IRI="#Period"/>
