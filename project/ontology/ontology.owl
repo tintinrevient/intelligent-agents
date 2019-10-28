@@ -176,9 +176,6 @@
         <ObjectProperty IRI="#offersCourse"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#prefers"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#takenBy"/>
     </Declaration>
     <Declaration>
@@ -2290,6 +2287,16 @@
         <NamedIndividual IRI="#Biweekly_Deadlines"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Advanced_Machine_Learning"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Advanced_Machine_Learning"/>
+        <NamedIndividual IRI="#Written_Exam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
         <NamedIndividual IRI="#Advanced_Machine_Learning"/>
         <NamedIndividual IRI="#Lab_Format"/>
@@ -2525,6 +2532,21 @@
         <NamedIndividual IRI="#Weekly_Deadlines"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Cognitive_Modeling"/>
+        <NamedIndividual IRI="#Presentation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Cognitive_Modeling"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Cognitive_Modeling"/>
+        <NamedIndividual IRI="#Written_Exam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
         <NamedIndividual IRI="#Cognitive_Modeling"/>
         <NamedIndividual IRI="#Lecture_Format"/>
@@ -2578,6 +2600,16 @@
         <ObjectProperty IRI="#hasDeadlines"/>
         <NamedIndividual IRI="#Computational_Argumentation"/>
         <NamedIndividual IRI="#Biweekly_Deadlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Computational_Argumentation"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Computational_Argumentation"/>
+        <NamedIndividual IRI="#Written_Exam"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
@@ -2670,6 +2702,11 @@
         <NamedIndividual IRI="#No_Deadlines"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Crowd_Simulation"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
         <NamedIndividual IRI="#Crowd_Simulation"/>
         <NamedIndividual IRI="#Lecture_Format"/>
@@ -2738,6 +2775,16 @@
         <ObjectProperty IRI="#hasDeadlines"/>
         <NamedIndividual IRI="#Datascience_And_Society"/>
         <NamedIndividual IRI="#Biweekly_Deadlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Datascience_And_Society"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Datascience_And_Society"/>
+        <NamedIndividual IRI="#Written_Exam"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
@@ -2820,6 +2867,16 @@
         <NamedIndividual IRI="#No_Deadlines"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Digital_Ethics"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Digital_Ethics"/>
+        <NamedIndividual IRI="#Written_Exam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
         <NamedIndividual IRI="#Digital_Ethics"/>
         <NamedIndividual IRI="#Lab_Format"/>
@@ -2873,6 +2930,11 @@
         <ObjectProperty IRI="#hasDeadlines"/>
         <NamedIndividual IRI="#Dilemmas_Of_The_Scientist"/>
         <NamedIndividual IRI="#No_Deadlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Dilemmas_Of_The_Scientist"/>
+        <NamedIndividual IRI="#Written_Exam"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
@@ -2973,6 +3035,21 @@
         <ObjectProperty IRI="#hasDeadlines"/>
         <NamedIndividual IRI="#Experimentation_In_Psychology_And_Linguistics"/>
         <NamedIndividual IRI="#No_Deadlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Experimentation_In_Psychology_And_Linguistics"/>
+        <NamedIndividual IRI="#Presentation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Experimentation_In_Psychology_And_Linguistics"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Experimentation_In_Psychology_And_Linguistics"/>
+        <NamedIndividual IRI="#Written_Exam"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
@@ -3170,6 +3247,21 @@
         <NamedIndividual IRI="#Monthly_Deadlines"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Intelligent_Agents"/>
+        <NamedIndividual IRI="#Presentation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Intelligent_Agents"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Intelligent_Agents"/>
+        <NamedIndividual IRI="#Written_Exam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
         <NamedIndividual IRI="#Intelligent_Agents"/>
         <NamedIndividual IRI="#Lab_Format"/>
@@ -3310,6 +3402,21 @@
         <NamedIndividual IRI="#Weekly_Deadlines"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Logic_And_Computation"/>
+        <NamedIndividual IRI="#Presentation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Logic_And_Computation"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Logic_And_Computation"/>
+        <NamedIndividual IRI="#Written_Exam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
         <NamedIndividual IRI="#Logic_And_Computation"/>
         <NamedIndividual IRI="#Lecture_Format"/>
@@ -3363,6 +3470,16 @@
         <ObjectProperty IRI="#hasDeadlines"/>
         <NamedIndividual IRI="#Logic_And_Language"/>
         <NamedIndividual IRI="#Weekly_Deadlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Logic_And_Language"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Logic_And_Language"/>
+        <NamedIndividual IRI="#Written_Exam"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
@@ -3505,6 +3622,16 @@
         <NamedIndividual IRI="#Weekly_Deadlines"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Machine_Learning_For_Human_Vision_And_Language"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Machine_Learning_For_Human_Vision_And_Language"/>
+        <NamedIndividual IRI="#Written_Exam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
         <NamedIndividual IRI="#Machine_Learning_For_Human_Vision_And_Language"/>
         <NamedIndividual IRI="#Lab_Format"/>
@@ -3625,6 +3752,16 @@
         <NamedIndividual IRI="#Monthly_Deadlines"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Methods_In_AI_Research"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Methods_In_AI_Research"/>
+        <NamedIndividual IRI="#Written_Exam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
         <NamedIndividual IRI="#Methods_In_AI_Research"/>
         <NamedIndividual IRI="#Lab_Format"/>
@@ -3735,6 +3872,11 @@
         <NamedIndividual IRI="#Monthly_Deadlines"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Multi-agent_Learning"/>
+        <NamedIndividual IRI="#Written_Exam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
         <NamedIndividual IRI="#Multi-agent_Learning"/>
         <NamedIndividual IRI="#Lecture_Format"/>
@@ -3788,6 +3930,16 @@
         <ObjectProperty IRI="#hasDeadlines"/>
         <NamedIndividual IRI="#Multi-agent_Systems"/>
         <NamedIndividual IRI="#Biweekly_Deadlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Multi-agent_Systems"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Multi-agent_Systems"/>
+        <NamedIndividual IRI="#Written_Exam"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
@@ -3860,6 +4012,16 @@
         <NamedIndividual IRI="#No_Deadlines"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Multimedia_Retrieval"/>
+        <NamedIndividual IRI="#Presentation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Multimedia_Retrieval"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
         <NamedIndividual IRI="#Multimedia_Retrieval"/>
         <NamedIndividual IRI="#Lecture_Format"/>
@@ -3913,6 +4075,16 @@
         <ObjectProperty IRI="#hasDeadlines"/>
         <NamedIndividual IRI="#Natural_Language_Processing"/>
         <NamedIndividual IRI="#No_Deadlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Natural_Language_Processing"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Natural_Language_Processing"/>
+        <NamedIndividual IRI="#Written_Exam"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
@@ -3978,6 +4150,16 @@
         <ObjectProperty IRI="#hasDeadlines"/>
         <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
         <NamedIndividual IRI="#Monthly_Deadlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
+        <NamedIndividual IRI="#Presentation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
+        <NamedIndividual IRI="#Written_Exam"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
@@ -4075,6 +4257,11 @@
         <NamedIndividual IRI="#No_Deadlines"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Pattern_Set_Mining"/>
+        <NamedIndividual IRI="#Written_Exam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
         <NamedIndividual IRI="#Pattern_Set_Mining"/>
         <NamedIndividual IRI="#Lecture_Format"/>
@@ -4123,6 +4310,16 @@
         <ObjectProperty IRI="#hasDeadlines"/>
         <NamedIndividual IRI="#Philosophy_Of_AI"/>
         <NamedIndividual IRI="#Biweekly_Deadlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Philosophy_Of_AI"/>
+        <NamedIndividual IRI="#Presentation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Philosophy_Of_AI"/>
+        <NamedIndividual IRI="#Project"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
@@ -4183,6 +4380,16 @@
         <ObjectProperty IRI="#hasDeadlines"/>
         <NamedIndividual IRI="#Philosophy_Of_Neuroscience"/>
         <NamedIndividual IRI="#Monthly_Deadlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Philosophy_Of_Neuroscience"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Philosophy_Of_Neuroscience"/>
+        <NamedIndividual IRI="#Written_Exam"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
@@ -4278,6 +4485,16 @@
         <ObjectProperty IRI="#hasDeadlines"/>
         <NamedIndividual IRI="#Program_Semantics_And_Verification"/>
         <NamedIndividual IRI="#Biweekly_Deadlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Program_Semantics_And_Verification"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Program_Semantics_And_Verification"/>
+        <NamedIndividual IRI="#Written_Exam"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
@@ -4480,6 +4697,11 @@
         <NamedIndividual IRI="#No_Deadlines"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
+        <NamedIndividual IRI="#Written_Exam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
         <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
         <NamedIndividual IRI="#Lecture_Format"/>
@@ -4543,6 +4765,11 @@
         <ObjectProperty IRI="#hasDeadlines"/>
         <NamedIndividual IRI="#Social_Computing"/>
         <NamedIndividual IRI="#No_Deadlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Social_Computing"/>
+        <NamedIndividual IRI="#Written_Exam"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
@@ -4623,6 +4850,21 @@
         <ObjectProperty IRI="#hasDeadlines"/>
         <NamedIndividual IRI="#Sound_And_Music_Technology"/>
         <NamedIndividual IRI="#No_Deadlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Sound_And_Music_Technology"/>
+        <NamedIndividual IRI="#Presentation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Sound_And_Music_Technology"/>
+        <NamedIndividual IRI="#Project"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExamForm"/>
+        <NamedIndividual IRI="#Sound_And_Music_Technology"/>
+        <NamedIndividual IRI="#Written_Exam"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasInstructionalFormat"/>
@@ -5154,10 +5396,6 @@
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#hasPrerequisite"/>
-        <ObjectProperty IRI="#hasPrerequisite"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#hasPrerequisite"/>
         <ObjectProperty IRI="#isPrerequisiteFor"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
@@ -5296,10 +5534,6 @@
         <Class IRI="#Faculty"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#prefers"/>
-        <Class IRI="#Student"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#takenBy"/>
         <Class IRI="#Course"/>
     </ObjectPropertyDomain>
@@ -5402,26 +5636,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#offersCourse"/>
         <Class IRI="#Course"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#prefers"/>
-        <Class IRI="#Course"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#prefers"/>
-        <Class IRI="#Lecturer"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#prefers"/>
-        <Class IRI="#Period"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#prefers"/>
-        <Class IRI="#Research_Methodology"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#prefers"/>
-        <Class IRI="#Topic"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#takenBy"/>
