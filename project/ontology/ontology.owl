@@ -245,9 +245,6 @@
         <NamedIndividual IRI="#Advanced_Machine_Learning_Topic"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Advanced_graphics_Topic"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Agents_Topic"/>
     </Declaration>
     <Declaration>
@@ -1210,10 +1207,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Topic"/>
-        <NamedIndividual IRI="#Advanced_graphics_Topic"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Topic"/>
         <NamedIndividual IRI="#Agents_Topic"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2444,7 +2437,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Advanced_Machine_Learning"/>
-        <NamedIndividual IRI="#Machine_Learning_Topic"/>
+        <NamedIndividual IRI="#Advanced_Machine_Learning_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -4040,11 +4033,6 @@
         <ObjectProperty IRI="#hasCourse"/>
         <NamedIndividual IRI="#Monday_Evening"/>
         <NamedIndividual IRI="#Dilemmas_Of_The_Scientist"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#coversTopic"/>
-        <NamedIndividual IRI="#Monday_Morning"/>
-        <NamedIndividual IRI="#Programming_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasCourse"/>
@@ -5650,9 +5638,10 @@
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#isPrerequisiteFor"/>
     </TransitiveObjectProperty>
-    <ReflexiveObjectProperty>
-        <ObjectProperty IRI="#isPartOf"/>
-    </ReflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#consistsOf"/>
+        <Class IRI="#Topic"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#containsCourses"/>
         <Class IRI="#Period"/>
@@ -5761,6 +5750,10 @@
         <ObjectProperty IRI="#usesSkill"/>
         <Class IRI="#Course"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#consistsOf"/>
+        <Class IRI="#Topic"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#containsCourses"/>
         <Class IRI="#Course"/>
