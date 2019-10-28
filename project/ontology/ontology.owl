@@ -56,6 +56,9 @@
         <Class IRI="#Lecturer_Skills"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Math"/>
     </Declaration>
     <Declaration>
@@ -153,6 +156,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isCoveredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLocatedAt"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isOfferedBy"/>
@@ -383,7 +389,13 @@
         <NamedIndividual IRI="#Dilemmas_of_the_scientist__Topic"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Domplein"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Dong_Nguyen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drift"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Drug_Innovation_Topic"/>
@@ -825,6 +837,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Samira_Shirzadeh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Science_Park"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Science_Topic"/>
@@ -1388,8 +1403,16 @@
         <NamedIndividual IRI="#Dilemmas_of_the_scientist__Topic"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Domplein"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Lecturer"/>
         <NamedIndividual IRI="#Dong_Nguyen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Drift"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Topic"/>
@@ -2004,6 +2027,10 @@
         <NamedIndividual IRI="#Samira_Shirzadeh"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Science_Park"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Topic"/>
         <NamedIndividual IRI="#Science_Topic"/>
     </ClassAssertion>
@@ -2176,10 +2203,70 @@
         <NamedIndividual IRI="#Written_Exam"/>
     </ClassAssertion>
     <DifferentIndividuals>
+        <NamedIndividual IRI="#Biweekly_Deadlines"/>
+        <NamedIndividual IRI="#Monthly_Deadlines"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Biweekly_Deadlines"/>
+        <NamedIndividual IRI="#No_Deadlines"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Biweekly_Deadlines"/>
+        <NamedIndividual IRI="#Weekly_Deadlines"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Domplein"/>
+        <NamedIndividual IRI="#Drift"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Domplein"/>
+        <NamedIndividual IRI="#Science_Park"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Drift"/>
+        <NamedIndividual IRI="#Science_Park"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Monthly_Deadlines"/>
+        <NamedIndividual IRI="#No_Deadlines"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Monthly_Deadlines"/>
+        <NamedIndividual IRI="#Weekly_Deadlines"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#No_Deadlines"/>
+        <NamedIndividual IRI="#Weekly_Deadlines"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Paper"/>
+        <NamedIndividual IRI="#Presentation"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Paper"/>
+        <NamedIndividual IRI="#Project"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Paper"/>
+        <NamedIndividual IRI="#Written_Exam"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
         <NamedIndividual IRI="#Period_1"/>
         <NamedIndividual IRI="#Period_2"/>
         <NamedIndividual IRI="#Period_3"/>
         <NamedIndividual IRI="#Period_4"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Presentation"/>
+        <NamedIndividual IRI="#Project"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Presentation"/>
+        <NamedIndividual IRI="#Written_Exam"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Project"/>
+        <NamedIndividual IRI="#Written_Exam"/>
     </DifferentIndividuals>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isPartOf"/>
@@ -3095,6 +3182,31 @@
         <ObjectProperty IRI="#isPartOf"/>
         <NamedIndividual IRI="#Experimentation_In_Psychology_And_Linguistics_Topic"/>
         <NamedIndividual IRI="#Psychology_Topic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocatedAt"/>
+        <NamedIndividual IRI="#Faculty_Of_Beta_Science"/>
+        <NamedIndividual IRI="#Science_Park"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocatedAt"/>
+        <NamedIndividual IRI="#Faculty_Of_Humanities"/>
+        <NamedIndividual IRI="#Drift"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocatedAt"/>
+        <NamedIndividual IRI="#Faculty_Of_Medicine"/>
+        <NamedIndividual IRI="#Domplein"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocatedAt"/>
+        <NamedIndividual IRI="#Faculty_Of_Science"/>
+        <NamedIndividual IRI="#Science_Park"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocatedAt"/>
+        <NamedIndividual IRI="#Faculty_Of_Social_Science_And_Behavioural_Sciences"/>
+        <NamedIndividual IRI="#Domplein"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
@@ -5429,6 +5541,9 @@
         <ObjectProperty IRI="#hasSpeakingSkills"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isLocatedAt"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
         <ObjectProperty IRI="#isOfferedBy"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
@@ -5508,6 +5623,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasSpeakingSkills"/>
         <Class IRI="#Lecturer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocatedAt"/>
+        <Class IRI="#Faculty"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isOfferedBy"/>
@@ -5608,6 +5727,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasSpeakingSkills"/>
         <Class IRI="#Speaking"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLocatedAt"/>
+        <Class IRI="#Location"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isOfferedBy"/>
