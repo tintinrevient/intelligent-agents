@@ -2227,6 +2227,18 @@
         <NamedIndividual IRI="#Science_Park"/>
     </DifferentIndividuals>
     <DifferentIndividuals>
+        <NamedIndividual IRI="#Lab_Format"/>
+        <NamedIndividual IRI="#Lecture_Format"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Lab_Format"/>
+        <NamedIndividual IRI="#Seminar_Format"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Lecture_Format"/>
+        <NamedIndividual IRI="#Seminar_Format"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
         <NamedIndividual IRI="#Monthly_Deadlines"/>
         <NamedIndividual IRI="#No_Deadlines"/>
     </DifferentIndividuals>
