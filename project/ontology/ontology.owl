@@ -5802,7 +5802,7 @@
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#Difficulty"/>
-        <Datatype abbreviatedIRI="xsd:double"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
