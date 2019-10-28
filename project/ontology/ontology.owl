@@ -4974,7 +4974,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.37</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Difficulty"/>
+        <DataProperty IRI="#Type"/>
         <NamedIndividual IRI="#Methods_In_AI_Research"/>
         <Literal>Mandatory Course</Literal>
     </DataPropertyAssertion>
@@ -5044,7 +5044,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.05</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Difficulty"/>
+        <DataProperty IRI="#Type"/>
         <NamedIndividual IRI="#Philosophy_Of_AI"/>
         <Literal>Mandatory Course</Literal>
     </DataPropertyAssertion>
@@ -5432,15 +5432,7 @@
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#Difficulty"/>
-        <DatatypeRestriction>
-            <Datatype abbreviatedIRI="xsd:double"/>
-            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
-            </FacetRestriction>
-            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
-            </FacetRestriction>
-        </DatatypeRestriction>
+        <Datatype abbreviatedIRI="xsd:double"/>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
