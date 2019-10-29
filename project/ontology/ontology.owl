@@ -3818,6 +3818,11 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFriend"/>
+        <NamedIndividual IRI="#Jan_Jansen"/>
+        <NamedIndividual IRI="#Luca_Rossi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFriend"/>
         <NamedIndividual IRI="#Linda_Arden"/>
         <NamedIndividual IRI="#Adam_Smith"/>
     </ObjectPropertyAssertion>
