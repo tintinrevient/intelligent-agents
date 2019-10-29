@@ -1034,8 +1034,8 @@
     <SubClassOf>
         <Class IRI="#Course"/>
         <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#isLocatedAt"/>
-            <Class IRI="#Location"/>
+            <ObjectProperty IRI="#isOfferedBy"/>
+            <Class IRI="#Faculty"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
@@ -5341,11 +5341,6 @@
         <ObjectProperty IRI="#teaches"/>
         <NamedIndividual IRI="#Thijs_Van_Ommen"/>
         <NamedIndividual IRI="#Advanced_Machine_Learning"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#coversTopic"/>
-        <NamedIndividual IRI="#Thursday_Afternoon"/>
-        <NamedIndividual IRI="#Game_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasCourse"/>
