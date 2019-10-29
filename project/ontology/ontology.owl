@@ -1082,6 +1082,31 @@
     <SubClassOf>
         <Class IRI="#Lecturer"/>
         <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasCommunicationOutsideLectureHours"/>
+                <Class IRI="#Communication_Outside_Lecture_Hours"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasFreedomWhithinCourses"/>
+                <Class IRI="#Freedom_Whithin_Courses"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasGuidanceWithSubject"/>
+                <Class IRI="#Guidance_Whithin_Subject"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasOrganizingSkills"/>
+                <Class IRI="#Organizing"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasSpeakingSkills"/>
+                <Class IRI="#Speaking"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lecturer"/>
+        <ObjectIntersectionOf>
             <ObjectMaxCardinality cardinality="1">
                 <ObjectProperty IRI="#teaches"/>
                 <ObjectHasValue>
@@ -3526,11 +3551,6 @@
         <ObjectProperty IRI="#hasSpeakingSkills"/>
         <NamedIndividual IRI="#Henry_Prakken"/>
         <NamedIndividual IRI="#Low_Speaking"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasOrganizingSkills"/>
-        <NamedIndividual IRI="#High_Speaking"/>
-        <NamedIndividual IRI="#Moderate_Organizing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isPartOf"/>
