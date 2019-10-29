@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8">
-    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8#"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -974,6 +974,51 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Course"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isTaughtBy"/>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#teaches"/>
+                    <ObjectHasValue>
+                        <ObjectProperty IRI="#isTaughtInPeriod"/>
+                        <NamedIndividual IRI="#Period_1"/>
+                    </ObjectHasValue>
+                </ObjectExactCardinality>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isTaughtBy"/>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#teaches"/>
+                    <ObjectHasValue>
+                        <ObjectProperty IRI="#isTaughtInPeriod"/>
+                        <NamedIndividual IRI="#Period_2"/>
+                    </ObjectHasValue>
+                </ObjectExactCardinality>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isTaughtBy"/>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#teaches"/>
+                    <ObjectHasValue>
+                        <ObjectProperty IRI="#isTaughtInPeriod"/>
+                        <NamedIndividual IRI="#Period_3"/>
+                    </ObjectHasValue>
+                </ObjectExactCardinality>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isTaughtBy"/>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#teaches"/>
+                    <ObjectHasValue>
+                        <ObjectProperty IRI="#isTaughtInPeriod"/>
+                        <NamedIndividual IRI="#Period_4"/>
+                    </ObjectHasValue>
+                </ObjectExactCardinality>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#coversTopic"/>
             <Class IRI="#Topic"/>
@@ -988,14 +1033,35 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Course"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isLocatedAt"/>
+            <Class IRI="#Location"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
         <ObjectExactCardinality cardinality="2">
             <ObjectProperty IRI="#isTaughtOn"/>
             <Class IRI="#Week"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Course"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#usesMethodology"/>
+            <Class IRI="#Research_Methodology"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Evening"/>
         <Class IRI="#Day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faculty"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isLocatedAt"/>
+            <Class IRI="#Location"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Freedom_Whithin_Courses"/>
