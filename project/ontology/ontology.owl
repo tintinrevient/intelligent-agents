@@ -2362,6 +2362,33 @@
         <NamedIndividual IRI="#Written_Exam"/>
     </ClassAssertion>
     <DifferentIndividuals>
+        <NamedIndividual IRI="#Advanced_Machine_Learning"/>
+        <NamedIndividual IRI="#Cognitive_Modeling"/>
+        <NamedIndividual IRI="#Computational_Argumentation"/>
+        <NamedIndividual IRI="#Crowd_Simulation"/>
+        <NamedIndividual IRI="#Datascience_And_Society"/>
+        <NamedIndividual IRI="#Digital_Ethics"/>
+        <NamedIndividual IRI="#Dilemmas_Of_The_Scientist"/>
+        <NamedIndividual IRI="#Experimentation_In_Psychology_And_Linguistics"/>
+        <NamedIndividual IRI="#Intelligent_Agents"/>
+        <NamedIndividual IRI="#Logic_And_Computation"/>
+        <NamedIndividual IRI="#Logic_And_Language"/>
+        <NamedIndividual IRI="#Machine_Learning_For_Human_Vision_And_Language"/>
+        <NamedIndividual IRI="#Methods_In_AI_Research"/>
+        <NamedIndividual IRI="#Multi-agent_Learning"/>
+        <NamedIndividual IRI="#Multi-agent_Systems"/>
+        <NamedIndividual IRI="#Multimedia_Retrieval"/>
+        <NamedIndividual IRI="#Natural_Language_Processing"/>
+        <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
+        <NamedIndividual IRI="#Pattern_Set_Mining"/>
+        <NamedIndividual IRI="#Philosophy_Of_AI"/>
+        <NamedIndividual IRI="#Philosophy_Of_Neuroscience"/>
+        <NamedIndividual IRI="#Program_Semantics_And_Verification"/>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
+        <NamedIndividual IRI="#Social_Computing"/>
+        <NamedIndividual IRI="#Sound_And_Music_Technology"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
         <NamedIndividual IRI="#Biweekly_Deadlines"/>
         <NamedIndividual IRI="#Monthly_Deadlines"/>
     </DifferentIndividuals>
