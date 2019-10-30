@@ -836,9 +836,6 @@
         <NamedIndividual IRI="#Requirements_Engineering_Topic"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Requirements_engineering_Topic"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Richard_Starmans"/>
     </Declaration>
     <Declaration>
@@ -2139,10 +2136,6 @@
     <ClassAssertion>
         <Class IRI="#Topic"/>
         <NamedIndividual IRI="#Requirements_Engineering_Topic"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Topic"/>
-        <NamedIndividual IRI="#Requirements_engineering_Topic"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Lecturer"/>
