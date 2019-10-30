@@ -23,9 +23,6 @@
         <Class IRI="#Course"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Course_Properties"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Day"/>
     </Declaration>
     <Declaration>
@@ -71,9 +68,6 @@
         <Class IRI="#Organizing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#People"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Period"/>
     </Declaration>
     <Declaration>
@@ -108,9 +102,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Tuesday"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#University"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Wednesday"/>
@@ -986,10 +977,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Course"/>
-        <Class IRI="#University"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Course"/>
         <ObjectUnionOf>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#isTaughtBy"/>
@@ -1073,20 +1060,8 @@
         <Class IRI="#Time"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Deadline"/>
-        <Class IRI="#Course_Properties"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Evening"/>
         <Class IRI="#Day"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Exam_Form"/>
-        <Class IRI="#Course_Properties"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Faculty"/>
-        <Class IRI="#University"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Faculty"/>
@@ -1106,10 +1081,6 @@
     <SubClassOf>
         <Class IRI="#Guidance_Whithin_Subject"/>
         <Class IRI="#Lecturer_Skills"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Instructional_Format"/>
-        <Class IRI="#Course_Properties"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lecturer"/>
@@ -1190,24 +1161,8 @@
         <Class IRI="#Lecturer_Skills"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Period"/>
-        <Class IRI="#University"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Person"/>
-        <Class IRI="#People"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Programming_Skills"/>
         <Class IRI="#Skills"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Research_Methodology"/>
-        <Class IRI="#Course_Properties"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Skills"/>
-        <Class IRI="#People"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Speaking"/>
@@ -1295,10 +1250,6 @@
         <Class IRI="#Week"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Topic"/>
-        <Class IRI="#Course_Properties"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Tuesday"/>
         <Class IRI="#Week"/>
     </SubClassOf>
@@ -1323,18 +1274,6 @@
         <Class IRI="#Speaking"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Course"/>
-        <Class IRI="#Faculty"/>
-        <Class IRI="#Period"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Course_Properties"/>
-        <Class IRI="#Location"/>
-        <Class IRI="#People"/>
-        <Class IRI="#Time"/>
-        <Class IRI="#University"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#Friday"/>
         <Class IRI="#Monday"/>
         <Class IRI="#Thursday"/>
@@ -1349,10 +1288,6 @@
         <Class IRI="#Lecturer_Skills"/>
         <Class IRI="#Programming_Skills"/>
         <Class IRI="#Student_Skills"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Person"/>
-        <Class IRI="#Skills"/>
     </DisjointClasses>
     <ClassAssertion>
         <Class IRI="#Topic"/>
