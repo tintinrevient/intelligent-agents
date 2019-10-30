@@ -389,9 +389,6 @@
         <NamedIndividual IRI="#Dilemmas_Of_The_Scientist_Topic"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Dilemmas_of_the_scientist__Topic"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Domplein"/>
     </Declaration>
     <Declaration>
@@ -752,9 +749,6 @@
         <NamedIndividual IRI="#Pattern_Set_Mining_Topic"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Pattern_set_mining_Topic"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Period_1"/>
     </Declaration>
     <Declaration>
@@ -810,9 +804,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Program_Semantics_And_Verification_Topic"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Program_semantics_and_verification_Topic"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Programming_Topic"/>
@@ -1530,10 +1521,6 @@
         <NamedIndividual IRI="#Dilemmas_Of_The_Scientist_Topic"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Topic"/>
-        <NamedIndividual IRI="#Dilemmas_of_the_scientist__Topic"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Location"/>
         <NamedIndividual IRI="#Domplein"/>
     </ClassAssertion>
@@ -2038,10 +2025,6 @@
         <NamedIndividual IRI="#Pattern_Set_Mining_Topic"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Topic"/>
-        <NamedIndividual IRI="#Pattern_set_mining_Topic"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Period"/>
         <NamedIndividual IRI="#Period_1"/>
     </ClassAssertion>
@@ -2116,10 +2099,6 @@
     <ClassAssertion>
         <Class IRI="#Topic"/>
         <NamedIndividual IRI="#Program_Semantics_And_Verification_Topic"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Topic"/>
-        <NamedIndividual IRI="#Program_semantics_and_verification_Topic"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Topic"/>
@@ -2881,7 +2860,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Cognitive_Modeling"/>
-        <NamedIndividual IRI="#Psychology_Topic"/>
+        <NamedIndividual IRI="#Cognitive_Modeling_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -2951,7 +2930,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Computational_Argumentation"/>
-        <NamedIndividual IRI="#Computation_Topic"/>
+        <NamedIndividual IRI="#Computational_Argumentation_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -3046,7 +3025,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Crowd_Simulation"/>
-        <NamedIndividual IRI="#Game_Topic"/>
+        <NamedIndividual IRI="#Crowd_Simulation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
@@ -3126,7 +3105,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Datascience_And_Society"/>
-        <NamedIndividual IRI="#Applied_Data_Science_Topic"/>
+        <NamedIndividual IRI="#Data_Science_And_Society_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -3221,7 +3200,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Digital_Ethics"/>
-        <NamedIndividual IRI="#Psychology_Topic"/>
+        <NamedIndividual IRI="#Digital_Ethics"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -3286,7 +3265,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Dilemmas_Of_The_Scientist"/>
-        <NamedIndividual IRI="#Natural_Science_Topic"/>
+        <NamedIndividual IRI="#Dilemmas_Of_The_Scientist_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -3391,7 +3370,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Experimentation_In_Psychology_And_Linguistics"/>
-        <NamedIndividual IRI="#Psychology_Topic"/>
+        <NamedIndividual IRI="#Experimentation_In_Psychology_And_Linguistics_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -3621,7 +3600,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Intelligent_Agents"/>
-        <NamedIndividual IRI="#Agents_Topic"/>
+        <NamedIndividual IRI="#Intelligent_Agents_Topics"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -3796,7 +3775,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Logic_And_Computation"/>
-        <NamedIndividual IRI="#Logic_Topic"/>
+        <NamedIndividual IRI="#Logic_And_Computation_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -3876,7 +3855,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Logic_And_Language"/>
-        <NamedIndividual IRI="#Logic_Topic"/>
+        <NamedIndividual IRI="#Logic_And_Language_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -4031,7 +4010,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Machine_Learning_For_Human_Vision_And_Language"/>
-        <NamedIndividual IRI="#Machine_Learning_Topic"/>
+        <NamedIndividual IRI="#Machine_Learning_For_Human_Vision_And_Language_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -4171,7 +4150,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Methods_In_AI_Research"/>
-        <NamedIndividual IRI="#Artificial_Intelligence_Topic"/>
+        <NamedIndividual IRI="#Methods_Of_AI_Research_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -4296,7 +4275,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Multi-agent_Learning"/>
-        <NamedIndividual IRI="#Agents_Topic"/>
+        <NamedIndividual IRI="#Multi-agent_Learning_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -4366,7 +4345,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Multi-agent_Systems"/>
-        <NamedIndividual IRI="#Agents_Topic"/>
+        <NamedIndividual IRI="#Multi-agent_Systems"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -4456,7 +4435,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Multimedia_Retrieval"/>
-        <NamedIndividual IRI="#Multimedia_Topic"/>
+        <NamedIndividual IRI="#Multimedia_Retrieval_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -4521,7 +4500,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Natural_Language_Processing"/>
-        <NamedIndividual IRI="#Artificial_Intelligence_Topic"/>
+        <NamedIndividual IRI="#Natural_Language_Processing_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -4596,7 +4575,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention"/>
-        <NamedIndividual IRI="#Neuroscience_Topic"/>
+        <NamedIndividual IRI="#Neurocognition_Of_Memory_And_Attention_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -4701,7 +4680,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Pattern_Set_Mining"/>
-        <NamedIndividual IRI="#Game_Topic"/>
+        <NamedIndividual IRI="#Pattern_Set_Mining_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -4756,7 +4735,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Philosophy_Of_AI"/>
-        <NamedIndividual IRI="#Artificial_Intelligence_Topic"/>
+        <NamedIndividual IRI="#Philosophy_Of_AI_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -4836,7 +4815,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Philosophy_Of_Neuroscience"/>
-        <NamedIndividual IRI="#Neuroscience_Topic"/>
+        <NamedIndividual IRI="#Philosophy_Of_Neuroscience_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -4942,6 +4921,11 @@
         <ObjectProperty IRI="#isPartOf"/>
         <NamedIndividual IRI="#Process_Mining_Topic"/>
         <NamedIndividual IRI="#Business_Topic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#coversTopic"/>
+        <NamedIndividual IRI="#Program_Semantics_And_Verification"/>
+        <NamedIndividual IRI="#Program_Semantics_And_Verification_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -5146,7 +5130,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Social_And_Affective_Neuroscience"/>
-        <NamedIndividual IRI="#Neuroscience_Topic"/>
+        <NamedIndividual IRI="#Social_And_Affective_Neuroscience_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -5216,7 +5200,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Social_Computing"/>
-        <NamedIndividual IRI="#Computation_Topic"/>
+        <NamedIndividual IRI="#Social_Computing_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
@@ -5301,7 +5285,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coversTopic"/>
         <NamedIndividual IRI="#Sound_And_Music_Technology"/>
-        <NamedIndividual IRI="#Sound_And_Media_Topic"/>
+        <NamedIndividual IRI="#Sound_And_Music_Technology_Topic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasDeadlines"/>
