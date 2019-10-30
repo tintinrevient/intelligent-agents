@@ -5909,9 +5909,9 @@
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#isPartOf"/>
     </TransitiveObjectProperty>
-    <TransitiveObjectProperty>
-        <ObjectProperty IRI="#isPrerequisiteFor"/>
-    </TransitiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="#isPartOf"/>
+    </ReflexiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#consistsOf"/>
         <Class IRI="#Topic"/>
