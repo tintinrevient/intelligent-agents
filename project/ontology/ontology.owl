@@ -1025,6 +1025,13 @@
     <SubClassOf>
         <Class IRI="#Course"/>
         <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasDeadlines"/>
+            <Class IRI="#Deadline"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
+        <ObjectMinCardinality cardinality="1">
             <ObjectProperty IRI="#hasExamForm"/>
             <Class IRI="#Exam_Form"/>
         </ObjectMinCardinality>
