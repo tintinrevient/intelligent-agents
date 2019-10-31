@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8">
-    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/thomas/ontologies/2019/9/untitled-ontology-8#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -1021,6 +1021,20 @@
             <ObjectProperty IRI="#isTaughtBy"/>
             <Class IRI="#Lecturer"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasExamForm"/>
+            <Class IRI="#Exam_Form"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasInstructionalFormat"/>
+            <Class IRI="#Instructional_Format"/>
+        </ObjectMinCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Course"/>
@@ -5890,10 +5904,6 @@
         <ObjectProperty IRI="#isPartOf"/>
     </ReflexiveObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#consistsOf"/>
-        <Class IRI="#Topic"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#containsCourses"/>
         <Class IRI="#Period"/>
     </ObjectPropertyDomain>
@@ -5962,10 +5972,6 @@
         <Class IRI="#Course"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isPartOf"/>
-        <Class IRI="#Topic"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#isTaughtBy"/>
         <Class IRI="#Course"/>
     </ObjectPropertyDomain>
@@ -6001,10 +6007,6 @@
         <ObjectProperty IRI="#usesSkill"/>
         <Class IRI="#Course"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#consistsOf"/>
-        <Class IRI="#Topic"/>
-    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#containsCourses"/>
         <Class IRI="#Course"/>
@@ -6068,10 +6070,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isOfferedBy"/>
         <Class IRI="#Faculty"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#isPartOf"/>
-        <Class IRI="#Topic"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isTaughtBy"/>
