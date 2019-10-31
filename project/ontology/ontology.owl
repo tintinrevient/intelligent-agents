@@ -173,6 +173,9 @@
         <ObjectProperty IRI="#isPrerequisiteFor"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#isTaughtAt"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#isTaughtBy"/>
     </Declaration>
     <Declaration>
@@ -5979,6 +5982,10 @@
         <Class IRI="#Course"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTaughtAt"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#isTaughtBy"/>
         <Class IRI="#Course"/>
     </ObjectPropertyDomain>
@@ -6079,6 +6086,10 @@
         <Class IRI="#Faculty"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTaughtAt"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#isTaughtBy"/>
         <Class IRI="#Lecturer"/>
     </ObjectPropertyRange>
@@ -6118,6 +6129,13 @@
         <ObjectProperty IRI="#usesSkill"/>
         <Class IRI="#Skills"/>
     </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isOfferedBy"/>
+            <ObjectProperty IRI="#isLocatedAt"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isTaughtAt"/>
+    </SubObjectPropertyOf>
     <DataPropertyDomain>
         <DataProperty IRI="#Difficulty"/>
         <Class IRI="#Course"/>
