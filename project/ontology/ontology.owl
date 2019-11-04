@@ -173,6 +173,9 @@
         <ObjectProperty IRI="#isPrerequisiteFor"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#isTaughtAt"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#isTaughtBy"/>
     </Declaration>
     <Declaration>
@@ -1021,6 +1024,27 @@
             <ObjectProperty IRI="#isTaughtBy"/>
             <Class IRI="#Lecturer"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasDeadlines"/>
+            <Class IRI="#Deadline"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasExamForm"/>
+            <Class IRI="#Exam_Form"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasInstructionalFormat"/>
+            <Class IRI="#Instructional_Format"/>
+        </ObjectMinCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Course"/>
@@ -5890,10 +5914,6 @@
         <ObjectProperty IRI="#isPartOf"/>
     </ReflexiveObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#consistsOf"/>
-        <Class IRI="#Topic"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#containsCourses"/>
         <Class IRI="#Period"/>
     </ObjectPropertyDomain>
@@ -5962,8 +5982,8 @@
         <Class IRI="#Course"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isPartOf"/>
-        <Class IRI="#Topic"/>
+        <ObjectProperty IRI="#isTaughtAt"/>
+        <Class IRI="#Course"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isTaughtBy"/>
@@ -6001,10 +6021,6 @@
         <ObjectProperty IRI="#usesSkill"/>
         <Class IRI="#Course"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#consistsOf"/>
-        <Class IRI="#Topic"/>
-    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#containsCourses"/>
         <Class IRI="#Course"/>
@@ -6070,8 +6086,8 @@
         <Class IRI="#Faculty"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#isPartOf"/>
-        <Class IRI="#Topic"/>
+        <ObjectProperty IRI="#isTaughtAt"/>
+        <Class IRI="#Location"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isTaughtBy"/>
@@ -6113,6 +6129,13 @@
         <ObjectProperty IRI="#usesSkill"/>
         <Class IRI="#Skills"/>
     </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isOfferedBy"/>
+            <ObjectProperty IRI="#isLocatedAt"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isTaughtAt"/>
+    </SubObjectPropertyOf>
     <DataPropertyDomain>
         <DataProperty IRI="#Difficulty"/>
         <Class IRI="#Course"/>
