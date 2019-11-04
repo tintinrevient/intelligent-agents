@@ -17,9 +17,13 @@ constructors are as below:
 
 **sentences**: it expresses knowledge about a domain by relations between concepts and individuals, and assertions of an individual to a concept.
 
-comparison with FOL:
+Comparison with FOL - Example 1:
 ![mapping-1](./pix/mapping-1.png)
+
+Comparison with FOL - Example 2:
 ![mapping-2](./pix/mapping-2.png)
+
+Comparison with FOL - Example 3:
 ![mapping-3](./pix/mapping-3.png)
 
 ### Semantics
