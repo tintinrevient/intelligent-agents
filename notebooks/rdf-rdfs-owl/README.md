@@ -48,7 +48,9 @@
 ### RDFS
 
 **RDF** is a vocabulary for creating **instances**
+
 **RDFS** is a vocabulary for creating **classes**
+
 * **classes**:
 	* ex:Person rdf:type **rdfs:Class**
 	* ex:Player rdf:type ex:Person
