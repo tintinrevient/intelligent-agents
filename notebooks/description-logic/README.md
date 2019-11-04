@@ -6,8 +6,8 @@
 ### Syntax
 
 **complex concepts** and **roles** are built from below symbols using **constructors**:
-* **concept names**: Person, Male, GreekUniversity
-* **role names**: hasChild, isAlumniOf
+* **concept names**: Person, Male, GreekUniversity (**unary predicates**)
+* **role names**: hasChild, isAlumniOf (**binary predicates**)
 * **individual names**: ANNA, JOHN
 
 constructors are as below:
