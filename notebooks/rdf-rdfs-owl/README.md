@@ -298,7 +298,7 @@ Examples:
 * S = α(common) / α(common) + α(different)
 
 **Wu and Palmer’s metric**
-* S = 2 * N<sub>3</sub> / N<sub>1</sub> + N<sub>2</sub> + 2 * N<sub>3</sub>
+* S = (2 * N<sub>3</sub>) / (N<sub>1</sub> + N<sub>2</sub> + 2 * N<sub>3</sub>)
 <p float="left">
 	<img src="./pix/similarity.png" width="400" />
 </p>
