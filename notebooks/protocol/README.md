@@ -39,6 +39,7 @@ The generated protocols:
 * Benefit of p5 = 0 + 8 + 15 = 23
 * Cost of p5 = cost(a1) + cost(a3) + cost(a5) + cost(a8) = 5 + 1 + 3 + 5 = 14
 * Utility of p5 = 23 - 14 = 9
+
 ![benefit-cost](./pix/benefit-cost.png)
 ![utility](./pix/utility.png)
 
