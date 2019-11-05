@@ -31,7 +31,9 @@ The generated protocols:
 ### Ranking
 
 **Benefit** of protocol: utility of **goals**
+
 **Cost** of protocol: cost of **abilities** the generator agent utilizes
+
 **Utility** = **Benefit** of protocol - **Cost** of protocol
 
 * Benefit of p5 = 0 + 8 + 15 = 23
