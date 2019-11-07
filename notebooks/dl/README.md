@@ -112,4 +112,6 @@ How it works:
 **Expansion rules**:
 ![expansion-rules](./pix/expansion-rules.png)
 
+Example is as below:
+![example](./pix/example.png)
 
