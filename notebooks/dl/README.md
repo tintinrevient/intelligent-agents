@@ -112,6 +112,9 @@ How it works:
 **Expansion rules**:
 ![expansion-rules](./pix/expansion-rules.png)
 
-Example is as below:
-![example](./pix/example.png)
+**Consistency** example is as below:
+![consistency-example](./pix/consistency-example.png)
+
+**Query** example is as below:
+![query-example](./pix/query-example.png)
 
